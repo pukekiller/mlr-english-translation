@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="windows-1251" ?>
 <string_table>
 	<string id="st_upgr_enough_materials">
-		<text>insufficient materials</text>
+		<text>Insufficient materials</text>
 	</string>
 	<string id="st_upgr_required_materials">
 		<text>Necessary materials</text>
