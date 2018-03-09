@@ -1,5 +1,5 @@
 # MLR
-Hello! This is an English translation for a mod by the name of MLR, a mod for the *[S.T.A.L.K.E.R.](https://en.wikipedia.org/wiki/S.T.A.L.K.E.R.)* series. Additional information can be found [here](http://www.moddb.com/mods/call-of-chernobyl/addons/mlr).
+Hello! This is an English translation for a mod by the name of [MLR](http://www.moddb.com/mods/call-of-chernobyl/addons/mlr), a mod for the *[S.T.A.L.K.E.R.](https://en.wikipedia.org/wiki/S.T.A.L.K.E.R.)* series.
 
 A list of all files with their detailed progress can be found below.
 
