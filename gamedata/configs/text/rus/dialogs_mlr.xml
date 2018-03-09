@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="community_army">
+		<text>военных</text>
+	</string>
+	<string id="community_bandit">
+		<text>бандитов</text>
+	</string>
+	<string id="community_csky">
+		<text>«Чистого неба»</text>
+	</string>
+	<string id="community_dolg">
+		<text>«Долга»</text>
+	</string>
+	<string id="community_ecolog">
+		<text>учёных</text>
+	</string>
+	<string id="community_freedom">
+		<text>«Свободы»</text>
+	</string>
+	<string id="community_killer">
+		<text>наёмников</text>
+	</string>
+	<string id="community_monolith">
+		<text>«Монолита»</text>
+	</string>
+	<string id="community_stalker">
+		<text>сталкеров</text>
+	</string>
+	<string id="community_trader">
+		<text>торговцев</text>
+	</string>
+	<string id="community_zombied">
+		<text>зомбированных</text>
+	</string>
+
+	<string id="rep_message_header">
+		<text>Изменение репутации у группировки</text>
+	</string>
+	<string id="rep_message_1">
+		<text>Ваша репутация среди&#032;</text>
+	</string>
+	<string id="rep_message_2">
+		<text>&#032;теперь&#032;</text>
+	</string>
+
+	<string id="message_robbery">
+		<text>Из кармана пропало:</text>
+	</string>
+</string_table>

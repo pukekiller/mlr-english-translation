@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<string_table>
+	<string id="lootmoney_1">
+		<text>Мёртвый сталкер:&#032;</text>
+	</string>
+	<string id="lootmoney_2">
+		<text>Обнаружено денег: %c[255,255,0,0]</text>
+	</string>
+	<string id="lootmoney_3">
+		<text>%c[default] руб.</text>
+	</string>
+	<string id="lootmoney_4">
+		<text>. Его тайник.</text>
+	</string>
+</string_table>

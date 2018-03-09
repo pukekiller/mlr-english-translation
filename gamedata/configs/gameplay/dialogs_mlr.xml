@@ -1,0 +1,6114 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<game_dialogs>
+	<dialog id="friendly_fatty_companion_dialog">
+		<has_info>rookie_pole_task_2_dlg_make_friend</has_info>
+		<precondition>dialogs_axr_companion.is_not_actor_companion</precondition>
+		<precondition>dialogs_axr_companion.is_not_hostage_task_giver</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>axr_phrase_friend_companion_ask_join</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>axr_phrase_friend_companion_answer_join</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="zat_a2_stalker_mechanic_task_1_gauss_ammo">
+		<has_info>zat_a2_stalker_mechanic_task_1_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zat_a2_stalker_mechanic_task_1_gauss_ammo_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>zat_a2_stalker_mechanic_task_1_gauss_ammo_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>zat_a2_stalker_mechanic_task_1_gauss_ammo_2</text>
+				<precondition>dialogs_mlr.has_af_electra_flash</precondition>
+				<action>dialogs_mlr.give_af_electra_flash</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>zat_a2_stalker_mechanic_task_1_gauss_ammo_3</text>
+			</phrase>
+			<phrase id="4">
+				<text>zat_a2_stalker_mechanic_task_1_gauss_ammo_4</text>
+				<action>dialogs_mlr.take_af_electra_flash</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="mar_smart_terrain_base_doctor_heal">
+		<phrase_list>
+			<phrase id="0">
+				<text>mar_smart_terrain_base_doctor_heal_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>mar_smart_terrain_base_doctor_heal_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>mar_smart_terrain_base_doctor_heal_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>mar_smart_terrain_base_doctor_heal_3</text>
+				<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+				<action>dialogs_mlr.take_totaliz_1</action>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="5">
+				<text>mar_smart_terrain_base_doctor_heal_5</text>
+			</phrase>
+			<phrase id="4">
+				<text>mar_smart_terrain_base_doctor_heal_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="zat_b22_stalker_medic_heal">
+		<phrase_list>
+			<phrase id="0">
+				<text>zat_b22_stalker_medic_heal_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>zat_b22_stalker_medic_heal_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>zat_b22_stalker_medic_heal_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>zat_b22_stalker_medic_heal_3</text>
+				<precondition>dialogs.have_money_to_pripyat_guid_jup</precondition>
+				<action>dialogs.sell_money_to_pripyat_guid_jup</action>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="5">
+				<text>zat_b22_stalker_medic_heal_5</text>
+			</phrase>
+			<phrase id="4">
+				<text>zat_b22_stalker_medic_heal_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="jup_a6_stalker_medic_heal">
+		<phrase_list>
+			<phrase id="0">
+				<text>jup_a6_stalker_medic_heal_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>jup_a6_stalker_medic_heal_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>jup_a6_stalker_medic_heal_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>jup_a6_stalker_medic_heal_3</text>
+				<precondition>dialogs.have_money_to_pripyat_guid_jup</precondition>
+				<action>dialogs.sell_money_to_pripyat_guid_jup</action>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="5">
+				<text>jup_a6_stalker_medic_heal_5</text>
+			</phrase>
+			<phrase id="4">
+				<text>jup_a6_stalker_medic_heal_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="esc_2_12_medic_mlr_save_task_mlr_dlg_2">
+		<dont_has_info>esc_2_12_medic_mlr_save_task_mlr_2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>esc_2_12_medic_mlr_save_task_mlr_dlg_2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>esc_2_12_medic_mlr_save_task_mlr_dlg_2_1</text>
+				<give_info>esc_2_12_medic_mlr_save_task_mlr_2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="esc_2_12_medic_mlr_save_task_mlr_dlg_3">
+		<has_info>esc_2_12_medic_mlr_save_task_mlr_2</has_info>
+		<precondition>dialogs_mlr.has_esc_2_12_medic_mlr_medbag</precondition>
+		<dont_has_info>esc_2_12_medic_mlr_save_task_mlr_3</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>esc_2_12_medic_mlr_save_task_mlr_dlg_3_0</text>
+				<next>1</next>
+				<action>dialogs_mlr.take_esc_2_12_medic_mlr_bag</action>
+			</phrase>
+			<phrase id="1">
+				<text>esc_2_12_medic_mlr_save_task_mlr_dlg_3_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>esc_2_12_medic_mlr_save_task_mlr_dlg_3_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>esc_2_12_medic_mlr_save_task_mlr_dlg_3_3</text>
+				<next>4</next>
+				<action>dialogs_mlr.give_medkit_from_esc_2_12_medic_mlr</action>
+			</phrase>
+			<phrase id="4">
+				<text>esc_2_12_medic_mlr_save_task_mlr_dlg_3_4</text>
+				<give_info>esc_2_12_medic_mlr_save_task_mlr_3</give_info>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="esc_2_12_medic_mlr_save_task_mlr_dlg_4">
+		<has_info>esc_2_12_medic_mlr_save_task_mlr_home_here_is</has_info>
+		<dont_has_info>esc_2_12_medic_mlr_save_task_mlr_4</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>esc_2_12_medic_mlr_save_task_mlr_dlg_4_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>esc_2_12_medic_mlr_save_task_mlr_dlg_4_1</text>
+				<give_info>esc_2_12_medic_mlr_save_task_mlr_4</give_info>
+				<action>dialogs_axr_companion.remove_companions_from_squad</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="esc_2_12_medic_mlr_after_wounded">
+		<has_info>esc_2_12_medic_mlr_can_talk</has_info>
+		<dont_has_info>esc_2_12_medic_mlr_after_wounded</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>esc_2_12_medic_mlr_after_wounded_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>esc_2_12_medic_mlr_after_wounded_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>esc_2_12_medic_mlr_after_wounded_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>esc_2_12_medic_mlr_after_wounded_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>esc_2_12_medic_mlr_after_wounded_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>esc_2_12_medic_mlr_after_wounded_5</text>
+				<give_info>esc_2_12_medic_mlr_after_wounded</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="esc_2_12_medic_mlr_heal">
+		<has_info>esc_2_12_medic_mlr_after_wounded</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>esc_2_12_medic_mlr_heal_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>esc_2_12_medic_mlr_heal_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>esc_2_12_medic_mlr_heal_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>esc_2_12_medic_mlr_heal_3</text>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>esc_2_12_medic_mlr_heal_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<!--
+
+	<dialog id="barman_change_music_intro">
+		<dont_has_info>barman_change_music_intro</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_change_music_intro_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_change_music_intro_1</text>
+				<give_info>barman_change_music_intro</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="barman_change_music_turn">
+		<precondition>dialogs_mlr.have_money_to_escape_guid_bar</precondition>
+		<has_info>barman_change_music_intro</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>barman_change_music_turn_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barman_change_music_turn_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<dont_has_info>mlr_barmen_music_default</dont_has_info>
+				<text>barman_change_music_turn_2</text>
+				<disable_info>mlr_barmen_music_ocean</disable_info>
+				<give_info>mlr_barmen_music_default</give_info>
+				<action>dialogs_mlr.sell_money_to_escape_guid_bar</action>
+			</phrase>
+			<phrase id="3">
+				<dont_has_info>mlr_barmen_music_ocean</dont_has_info>
+				<text>barman_change_music_turn_3</text>
+				<disable_info>mlr_barmen_music_default</disable_info>
+				<give_info>mlr_barmen_music_ocean</give_info>
+				<action>dialogs_mlr.sell_money_to_escape_guid_bar</action>
+			</phrase>
+			<phrase id="4">
+				<text>barman_change_music_turn_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	-->
+
+	<dialog id="newbee_monolith_stalker_5_dlg">
+		<has_info>newbee_monolith_stalker_1_dlg</has_info>
+		<has_info>newbee_monolith_stalker_2_dlg</has_info>
+		<has_info>newbee_monolith_stalker_3_dlg</has_info>
+		<has_info>newbee_monolith_stalker_4_dlg</has_info>
+		<dont_has_info>newbee_monolith_stalker_5_dlg</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>newbee_monolith_stalker_5_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>newbee_monolith_stalker_5_dlg_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>newbee_monolith_stalker_5_dlg_2</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="3">
+				<text>newbee_monolith_stalker_5_dlg_3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<text>newbee_monolith_stalker_5_dlg_4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<text>newbee_monolith_stalker_5_dlg_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>newbee_monolith_stalker_5_dlg_6</text>
+				<give_info>newbee_monolith_stalker_5_dlg</give_info>
+				<give_info>main_monolith_mlr_task_3_dlg_final_message_to_rad</give_info>
+				<action>dialogs_mlr.give_main_monolith_mlr_task_3_3</action>
+				<disable_info>main_monolith_mlr_task_3_2_dlg_new_covers</disable_info>
+			</phrase>
+			<phrase id="7">
+				<text>newbee_monolith_stalker_5_dlg_7</text>
+				<give_info>newbee_monolith_stalker_5_dlg</give_info>
+				<give_info>main_monolith_mlr_task_3_dlg_final_message_to_rad</give_info>
+				<action>dialogs_mlr.give_main_monolith_mlr_task_3_3</action>
+				<action>dialogs_mlr.main_monolith_mlr_task_3_2_present</action>
+				<disable_info>main_monolith_mlr_task_3_2_dlg_new_covers</disable_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="newbee_monolith_stalker_1_dlg">
+		<has_info>main_monolith_mlr_task_3_2_dlg_1</has_info>
+		<dont_has_info>newbee_monolith_stalker_1_dlg</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>newbee_monolith_stalker_1_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>newbee_monolith_stalker_1_dlg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>newbee_monolith_stalker_1_dlg_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>newbee_monolith_stalker_1_dlg_3</text>
+				<give_info>newbee_monolith_stalker_1_dlg</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="newbee_monolith_stalker_2_dlg">
+		<has_info>newbee_monolith_stalker_1_dlg</has_info>
+		<has_info>main_monolith_mlr_task_3_2_dlg_1</has_info>
+		<dont_has_info>newbee_monolith_stalker_2_dlg</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>newbee_monolith_stalker_2_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>newbee_monolith_stalker_2_dlg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>newbee_monolith_stalker_2_dlg_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>newbee_monolith_stalker_2_dlg_3</text>
+				<give_info>newbee_monolith_stalker_2_dlg</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="newbee_monolith_stalker_3_dlg">
+		<has_info>newbee_monolith_stalker_2_dlg</has_info>
+		<has_info>main_monolith_mlr_task_3_2_dlg_1</has_info>
+		<dont_has_info>newbee_monolith_stalker_3_dlg</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>newbee_monolith_stalker_3_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>newbee_monolith_stalker_3_dlg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>newbee_monolith_stalker_3_dlg_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>newbee_monolith_stalker_3_dlg_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>newbee_monolith_stalker_3_dlg_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>newbee_monolith_stalker_3_dlg_5</text>
+				<give_info>newbee_monolith_stalker_3_dlg</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="newbee_monolith_stalker_4_dlg">
+		<has_info>newbee_monolith_stalker_3_dlg</has_info>
+		<has_info>main_monolith_mlr_task_3_2_dlg_1</has_info>
+		<dont_has_info>newbee_monolith_stalker_4_dlg</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>newbee_monolith_stalker_4_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>newbee_monolith_stalker_4_dlg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>newbee_monolith_stalker_4_dlg_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>newbee_monolith_stalker_4_dlg_3</text>
+				<give_info>newbee_monolith_stalker_4_dlg</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="zat_b3_stalker_tech_start_new_after_62">
+		<phrase_list>
+			<phrase id="0">
+				<text>zat_b3_stalker_tech_start_new_after_62_0</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="rookie_pole_task_3_dlg_1">
+		<has_info>rookie_pole_task_3_dlg</has_info>
+		<dont_has_info>rookie_pole_task_3_dlg_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>rookie_pole_task_3_dlg_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>rookie_pole_task_3_dlg_1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>rookie_pole_task_3_dlg_1_2</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+				<give_info>rookie_pole_task_3_dlg_1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="rookie_pole_task_3_dlg">
+		<has_info>rookie_pole_task_1_dlg_1</has_info>
+		<dont_has_info>rookie_pole_task_3_dlg</dont_has_info>
+		<dont_has_info>rookie_pole_task_3_dlg_not</dont_has_info>
+		<dont_has_info>rookie_pole_task_2_dlg_close_task_3</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>rookie_pole_task_3_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>rookie_pole_task_3_dlg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>rookie_pole_task_3_dlg_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>rookie_pole_task_3_dlg_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>rookie_pole_task_3_dlg_4</text>
+				<action>dialogs_mlr.give_rookie_pole_task_3</action>
+				<give_info>rookie_pole_task_3_dlg</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>rookie_pole_task_3_dlg_5</text>
+				<give_info>rookie_pole_task_3_dlg_not</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="rookie_pole_task_2_questions">
+		<has_info>rookie_pole_task_2_dlg</has_info>
+		<dont_has_info>boss_controller_pole_dead</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>rookie_pole_task_2_questions_0</text>
+				<next>1</next>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="1">
+				<has_info>rookie_pole_task_2_near_entrance</has_info>
+				<dont_has_info>rookie_pole_task_2_questions_1</dont_has_info>
+				<text>rookie_pole_task_2_questions_1</text>
+				<give_info>rookie_pole_task_2_questions_1</give_info>
+			</phrase>
+			<phrase id="2">
+				<has_info>rookie_pole_task_2_near_main_build</has_info>
+				<dont_has_info>rookie_pole_task_2_questions_2</dont_has_info>
+				<text>rookie_pole_task_2_questions_2</text>
+				<give_info>rookie_pole_task_2_questions_2</give_info>
+			</phrase>
+			<phrase id="3">
+				<has_info>rookie_pole_task_2_near_dead_camp</has_info>
+				<dont_has_info>rookie_pole_task_2_questions_4</dont_has_info>
+				<text>rookie_pole_task_2_questions_3</text>
+				<give_info>rookie_pole_task_2_questions_4</give_info>
+			</phrase>
+			<phrase id="4">
+				<text>rookie_pole_task_2_questions_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="wings_soldier_mon_mlr_3_talk">
+		<has_info>main_monolith_mlr_task_4_dlg_1</has_info>
+		<dont_has_info>wings_soldier_mon_mlr_3_talk</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>wings_soldier_mon_mlr_3_talk_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>wings_soldier_mon_mlr_3_talk_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>wings_soldier_mon_mlr_3_talk_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>wings_soldier_mon_mlr_3_talk_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>wings_soldier_mon_mlr_3_talk_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>wings_soldier_mon_mlr_3_talk_5</text>
+				<give_info>wings_soldier_mon_mlr_3_talk</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="wings_soldier_mon_mlr_2_talk">
+		<has_info>main_monolith_mlr_task_4_dlg_1</has_info>
+		<dont_has_info>wings_soldier_mon_mlr_2_talk</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>wings_soldier_mon_mlr_2_talk_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>wings_soldier_mon_mlr_2_talk_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>wings_soldier_mon_mlr_2_talk_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>wings_soldier_mon_mlr_2_talk_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>wings_soldier_mon_mlr_2_talk_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>wings_soldier_mon_mlr_2_talk_5</text>
+				<give_info>wings_soldier_mon_mlr_2_talk</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="wings_soldier_mon_mlr_1_talk">
+		<has_info>main_monolith_mlr_task_4_dlg_1</has_info>
+		<dont_has_info>wings_soldier_mon_mlr_1_talk</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>wings_soldier_mon_mlr_1_talk_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>wings_soldier_mon_mlr_1_talk_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>wings_soldier_mon_mlr_1_talk_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>wings_soldier_mon_mlr_1_talk_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>wings_soldier_mon_mlr_1_talk_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>wings_soldier_mon_mlr_1_talk_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>wings_soldier_mon_mlr_1_talk_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>wings_soldier_mon_mlr_1_talk_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>wings_soldier_mon_mlr_1_talk_8</text>
+				<give_info>wings_soldier_mon_mlr_1_talk</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="baraholka_trader_task_sapsan_talk">
+		<has_info>baraholka_trader_task_sacharov_talk</has_info>
+		<dont_has_info>baraholka_trader_task_1_fail_1</dont_has_info>
+		<dont_has_info>baraholka_trader_task_1_fail</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>baraholka_trader_task_sapsan_talk_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>baraholka_trader_task_sapsan_talk_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>baraholka_trader_task_sapsan_talk_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>baraholka_trader_task_sapsan_talk_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>baraholka_trader_task_sapsan_talk_4</text>
+				<action>xr_effects.take_container_with_an_artefacts_baraholka</action>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">
+				<text>baraholka_trader_task_sapsan_talk_5</text>
+				<give_info>baraholka_trader_task_1_fail_1</give_info>
+			</phrase>
+			<phrase id="6">
+				<text>baraholka_trader_task_sapsan_talk_6</text>
+				<action>dialogs_mlr.baraholka_trader_task_sapsan_talk</action>
+				<give_info>baraholka_trader_task_1_fail</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="baraholka_trader_task_sacharov_talk">
+		<has_info>baraholka_trader_task_sacharov_talk</has_info>
+		<dont_has_info>baraholka_trader_task_sacharov_talk_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>baraholka_trader_task_sacharov_talk_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>baraholka_trader_task_sacharov_talk_1</text>
+				<give_info>baraholka_trader_task_sacharov_talk_done</give_info>
+				<give_info>baraholka_trader_task_1_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="esc_factory_smart_terrain_10_bandit_trader_first_meet">
+		<dont_has_info>esc_factory_smart_terrain_10_bandit_trader_first_meet</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>esc_factory_smart_terrain_10_bandit_trader_first_meet_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>esc_factory_smart_terrain_10_bandit_trader_first_meet_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>esc_factory_smart_terrain_10_bandit_trader_first_meet_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>esc_factory_smart_terrain_10_bandit_trader_first_meet_3</text>
+				<give_info>esc_factory_smart_terrain_10_bandit_trader_first_meet</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="esc_factory_smart_terrain_10_bandit_mechanic_first_meet">
+		<dont_has_info>esc_factory_smart_terrain_10_bandit_mechanic_first_meet</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_3</text>
+				<next>4</next>
+				<next>5</next>
+				<give_info>esc_factory_smart_terrain_10_bandit_mechanic_first_meet</give_info>
+			</phrase>
+			<phrase id="4">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_9</text>
+			</phrase>
+			<phrase id="5">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_6</text>
+				<give_info>esc_factory_smart_terrain_10_bandit_mechanic_first_meet_angry</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_5_dlg_1">
+		<has_info>main_monolith_mlr_task_4_dlg_3</has_info>
+		<dont_has_info>main_monolith_mlr_task_5_dlg_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_5_dlg_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_5_dlg_1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>main_monolith_mlr_task_5_dlg_1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>main_monolith_mlr_task_5_dlg_1_3</text>
+				<give_info>main_monolith_mlr_task_5_dlg_1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_5_dlg_2">
+		<has_info>main_monolith_mlr_task_5_dlg_1</has_info>
+		<has_info>stalker_defenders_pri_a16_mlr_mon_task_5_nil</has_info>
+		<has_info>jup_b19_freedom_yar_squad_nil</has_info>
+		<has_info>merc_pri_a16_trader_mlr_squad_nil</has_info>
+		<has_info>neutral_killer_sim_mlr_squad_nil</has_info>
+		<dont_has_info>main_monolith_mlr_task_5_dlg_2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_5_dlg_2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_5_dlg_2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>main_monolith_mlr_task_5_dlg_2_2</text>
+				<give_info>main_monolith_mlr_task_5_dlg_2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_5_1_dlg_1">
+		<has_info>main_monolith_mlr_task_5_dlg_2</has_info>
+		<dont_has_info>main_monolith_mlr_task_5_1_dlg_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_5_1_dlg_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_5_1_dlg_1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>main_monolith_mlr_task_5_1_dlg_1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>main_monolith_mlr_task_5_1_dlg_1_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>main_monolith_mlr_task_5_1_dlg_1_4</text>
+				<give_info>main_monolith_mlr_task_5_1_dlg_1</give_info>
+				<give_info>main_monolith_mlr_task_5_1_dlg_1_begin</give_info>
+				<action>dialogs_mlr.give_main_monolith_mlr_task_5_1</action>
+			</phrase>
+			<phrase id="5">
+				<text>main_monolith_mlr_task_5_1_dlg_1_5</text>
+				<give_info>main_monolith_mlr_task_5_1_dlg_1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_5_1_dlg_2">
+		<precondition>dialogs_mlr.has_sar_crystal_pda_mlr</precondition>
+		<precondition>dialogs_mlr.has_sar_crystal_pda_mlr_1</precondition>
+		<precondition>dialogs_mlr.has_sar_crystal_pda_mlr_2</precondition>
+		<precondition>dialogs_mlr.has_sar_crystal_pda_mlr_3</precondition>
+		<precondition>dialogs_mlr.has_sar_crystal_pda_mlr_4</precondition>
+		<precondition>dialogs_mlr.has_sar_crystal_pda_mlr_5</precondition>
+		<has_info>main_monolith_mlr_task_5_dlg_2</has_info>
+		<dont_has_info>main_monolith_mlr_task_5_1_dlg_2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_5_1_dlg_2_0</text>
+				<action>dialogs_mlr.give_sar_crystal_pdas_mlr</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_5_1_dlg_2_1</text>
+				<give_info>main_monolith_mlr_task_5_1_dlg_2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_5_1_dlg_about_leader">
+		<has_info>main_monolith_mlr_task_5_1_dlg_1</has_info>
+		<dont_has_info>main_monolith_mlr_task_5_1_dlg_about_leader</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_5_1_dlg_about_leader_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_5_1_dlg_about_leader_1</text>
+				<give_info>main_monolith_mlr_task_5_1_dlg_about_leader</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="baraholka_trader_two_talk">
+		<dont_has_info>baraholka_trader_talk</dont_has_info>
+		<dont_has_info>baraholka_trader_two_talk</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>baraholka_trader_two_talk_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>baraholka_trader_two_talk_1</text>
+				<give_info>baraholka_trader_two_talk</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="about_gar_talk_to_choper">
+		<dont_has_info>about_gar_talk_to_choper</dont_has_info>
+		<has_info>hunter_trader_meet_info</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>about_gar_talk_to_choper_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>about_gar_talk_to_choper_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>about_gar_talk_to_choper_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>about_gar_talk_to_choper_3</text>
+				<give_info>about_gar_talk_to_choper</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bandit_barman_dar_mlr_start_dlg">
+		<dont_has_info>bandit_barman_dar_mlr_start_dlg</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit_barman_dar_mlr_start_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit_barman_dar_mlr_start_dlg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit_barman_dar_mlr_start_dlg_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit_barman_dar_mlr_start_dlg_3</text>
+				<give_info>bandit_barman_dar_mlr_start_dlg</give_info>
+				<action>dialogs_mlr.give_vodka_from_bandit_barman_dar_mlr</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bandit_barman_dar_mlr_ab_find_number">
+		<has_info>bandit_barman_dar_mlr_about_lottery</has_info>
+		<dont_has_info>bandit_barman_dar_mlr_ab_find_number</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit_barman_dar_mlr_ab_find_number_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit_barman_dar_mlr_ab_find_number_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit_barman_dar_mlr_ab_find_number_2</text>
+				<give_info>bandit_barman_dar_mlr_ab_find_number</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bandit_barman_dar_mlr_find_number">
+		<has_info>bandit_barman_dar_mlr_ab_find_number</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit_barman_dar_mlr_find_number_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit_barman_dar_mlr_find_number_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit_barman_dar_mlr_find_number_2</text>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+				<next>15</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit_barman_dar_mlr_find_number_3</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_no_shot</action>
+				<next>9</next>
+			</phrase>
+			<phrase id="4">
+				<text>bandit_barman_dar_mlr_find_number_4</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_no_shot</action>
+				<next>9</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit_barman_dar_mlr_find_number_5</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_no_shot</action>
+				<next>9</next>
+			</phrase>
+			<phrase id="6">
+				<text>bandit_barman_dar_mlr_find_number_6</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_no_shot</action>
+				<next>9</next>
+			</phrase>
+			<phrase id="7">
+				<text>bandit_barman_dar_mlr_find_number_7</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_no_shot</action>
+				<next>9</next>
+			</phrase>
+			<phrase id="8">
+				<text>bandit_barman_dar_mlr_find_number_8</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_shot_kill</action>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_shot</action>
+			</phrase>
+			<phrase id="9">
+				<text>bandit_barman_dar_mlr_find_number_9</text>
+				<next>10</next>
+				<next>11</next>
+				<next>12</next>
+				<next>15</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="10">
+				<text>bandit_barman_dar_mlr_find_number_10</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_no_shot</action>
+				<next>13</next>
+			</phrase>
+			<phrase id="11">
+				<text>bandit_barman_dar_mlr_find_number_11</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_no_shot</action>
+				<next>13</next>
+			</phrase>
+			<phrase id="12">
+				<text>bandit_barman_dar_mlr_find_number_12</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_no_shot</action>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>bandit_barman_dar_mlr_find_number_13</text>
+				<next>14</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="14">
+				<text>bandit_barman_dar_mlr_find_number_14</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_won</action>
+			</phrase>
+			<phrase id="15">
+				<text>bandit_barman_dar_mlr_find_number_15</text>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_shot</action>
+				<action>dialogs_mlr.bandit_barman_dar_mlr_find_number_won</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_4_dlg_4">
+		<has_info>main_monolith_mlr_task_4_dlg_3</has_info>
+		<dont_has_info>main_monolith_mlr_task_4_dlg_4</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_4_dlg_4_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<has_info>main_monolith_mlr_task_4_dlg_3_actor_not_wings</has_info>
+				<text>main_monolith_mlr_task_4_dlg_4_1</text>
+				<action>dialogs_mlr.give_abakan_from_wings</action>
+				<give_info>main_monolith_mlr_task_4_dlg_4</give_info>
+			</phrase>
+			<phrase id="2">
+				<has_info>main_monolith_mlr_task_4_dlg_3_actor_now_wings</has_info>
+				<text>main_monolith_mlr_task_4_dlg_4_2</text>
+				<action>dialogs_mlr.give_suit_from_wings</action>
+				<give_info>main_monolith_mlr_task_4_dlg_4</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_4_dlg_3">
+		<has_info>heart_of_station_bloodsucker_wave_1_nil</has_info>
+		<has_info>heart_of_station_bloodsucker_wave_2_nil</has_info>
+		<has_info>heart_of_station_bloodsucker_wave_3_nil</has_info>
+		<has_info>main_monolith_mlr_task_4_dlg_1_over</has_info>
+		<dont_has_info>main_monolith_mlr_task_4_dlg_3</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_4_dlg_3_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_4_dlg_3_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>main_monolith_mlr_task_4_dlg_3_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>main_monolith_mlr_task_4_dlg_3_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>main_monolith_mlr_task_4_dlg_3_4</text>
+				<give_info>main_monolith_mlr_task_4_dlg_3</give_info>
+				<give_info>main_monolith_mlr_task_4_dlg_3_actor_now_wings</give_info>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>main_monolith_mlr_task_4_dlg_3_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_4_dlg_2">
+		<has_info>main_monolith_mlr_task_4_dlg_1_in_heart_of_station</has_info>
+		<dont_has_info>main_monolith_mlr_task_4_dlg_2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_4_dlg_2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_4_dlg_2_1</text>
+				<action>dialogs_axr_companion.remove_companions_from_squad</action>
+				<give_info>main_monolith_mlr_task_4_dlg_2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_4_dlg_1">
+		<dont_has_info>main_monolith_mlr_task_4_dlg_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_4_dlg_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_4_dlg_1_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>main_monolith_mlr_task_4_dlg_1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>main_monolith_mlr_task_4_dlg_1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>main_monolith_mlr_task_4_dlg_1_4</text>
+				<next>5</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">
+				<text>main_monolith_mlr_task_4_dlg_1_5</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+				<action>dialogs_mlr.give_main_monolith_mlr_task_4</action>
+				<action>transitions.mon_task_4_to_bun_radar</action>
+				<give_info>main_monolith_mlr_task_4_dlg_1</give_info>
+			</phrase>
+			<phrase id="6">
+				<text>main_monolith_mlr_task_4_dlg_1_6</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_3_dlg_1">
+		<has_info>main_monolith_mlr_task_3_dlg_1_start</has_info>
+		<dont_has_info>main_monolith_mlr_task_3_dlg_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_3_dlg_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_3_dlg_1_1</text>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<dont_has_info>border_freedom_keeper_max_squad_dead</dont_has_info>
+				<text>main_monolith_mlr_task_3_dlg_1_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>main_monolith_mlr_task_3_dlg_1_4</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="5">
+				<text>main_monolith_mlr_task_3_dlg_1_5</text>
+				<action>dialogs_mlr.give_main_monolith_mlr_task_3_1</action>
+				<action>dialogs_mlr.main_monolith_mlr_task_3_give_present</action>
+				<give_info>main_monolith_mlr_task_3_dlg_1</give_info>
+				<give_info>main_monolith_mlr_task_3_1_dlg_1</give_info>
+			</phrase>
+			<phrase id="6">
+				<text>main_monolith_mlr_task_3_dlg_1_6</text>
+				<action>dialogs_mlr.give_main_monolith_mlr_task_3_2</action>
+				<give_info>main_monolith_mlr_task_3_dlg_1</give_info>
+				<give_info>main_monolith_mlr_task_3_2_dlg_1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_2_dlg_1">
+		<has_info>main_monolith_mlr_task_1_dlg_2</has_info>
+		<dont_has_info>main_monolith_mlr_task_2_dlg_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_2_dlg_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_2_dlg_1_1</text>
+				<action>dialogs_mlr.give_main_monolith_mlr_task_2</action>
+				<give_info>main_monolith_mlr_task_2_dlg_1</give_info>
+				<give_info>main_monolith_mlr_task_2_dlg_to_prisoners</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_2_dlg_2">
+		<has_info>main_monolith_mlr_task_2_dlg_talk_to_teacher</has_info>
+		<dont_has_info>main_monolith_mlr_task_2_dlg_2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_2_dlg_2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_2_dlg_2_1</text>
+				<give_info>main_monolith_mlr_task_2_dlg_2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_2_dlg_3">
+		<has_info>main_monolith_mlr_task_2_dlg_2</has_info>
+		<has_info>main_monolith_mlr_task_2_dlg_prisoners_dead</has_info>
+		<dont_has_info>main_monolith_mlr_task_2_dlg_3</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_2_dlg_3_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_2_dlg_3_1</text>
+				<disable_info>main_monolith_mlr_task_2_dlg_to_prisoners</disable_info>
+				<give_info>main_monolith_mlr_task_2_dlg_3</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_1_dlg_1">
+		<has_info>talk_to_teacher_monolith_mlr</has_info>
+		<dont_has_info>main_monolith_mlr_task_1_dlg_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_1_dlg_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_1_dlg_1_1</text>
+				<give_info>main_monolith_mlr_task_1_dlg_wish</give_info>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>main_monolith_mlr_task_1_dlg_1_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>main_monolith_mlr_task_1_dlg_1_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>main_monolith_mlr_task_1_dlg_1_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>main_monolith_mlr_task_1_dlg_1_5</text>
+				<action>xr_effects.staff_out_from_actor_by_monolith_main_task_1</action>
+				<give_info>main_monolith_mlr_task_1_dlg_1</give_info>
+				<give_info>close_blue_box_mlr_mon</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="main_monolith_mlr_task_1_dlg_2">
+		<has_info>monolith_main_task_pseudogiant_die</has_info>
+		<dont_has_info>main_monolith_mlr_task_1_dlg_2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>main_monolith_mlr_task_1_dlg_2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>main_monolith_mlr_task_1_dlg_2_1</text>
+				<give_info>main_monolith_mlr_task_1_dlg_2</give_info>
+				<disable_info>close_blue_box_mlr_mon</disable_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="take_barman_doc_from_factory_pole">
+		<precondition>dialogs_mlr.has_pole_factory_documents</precondition>
+		<dont_has_info>take_barman_doc_from_factory_pole</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>take_barman_doc_from_factory_pole_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>take_barman_doc_from_factory_pole_1</text>
+				<action>dialogs_mlr.take_pole_factory_documents</action>
+				<action>dialogs_mlr.take_money_from_haron_blackbox</action>
+				<give_info>take_barman_doc_from_factory_pole</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="rookie_pole_task_2_dlg">
+		<precondition>xr_conditions.is_night</precondition>
+		<has_info>rookie_pole_task_1_dlg_1</has_info>
+		<dont_has_info>take_barman_doc_from_factory_pole</dont_has_info>
+		<dont_has_info>rookie_pole_task_2_dlg</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>rookie_pole_task_2_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>rookie_pole_task_2_dlg_1</text>
+				<action>dialogs_mlr.give_rookie_pole_task_2</action>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+				<give_info>rookie_pole_task_2_dlg</give_info>
+				<give_info>rookie_pole_task_2_dlg_close_task_3</give_info>
+				<disable_info>rookie_pole_task_1_dlg_no_sleep</disable_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="rookie_pole_task_2_dlg_2">
+		<precondition>dialogs_mlr.has_pole_factory_documents</precondition>
+		<has_info>can_talk_to_fat_stalker</has_info>
+		<dont_has_info>rookie_pole_task_2_dlg_2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>rookie_pole_task_2_dlg_2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>rookie_pole_task_2_dlg_2_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>rookie_pole_task_2_dlg_2_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>rookie_pole_task_2_dlg_2_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>rookie_pole_task_2_dlg_2_4</text>
+				<action>dialogs_mlr.take_pole_factory_documents</action>
+				<give_info>rookie_pole_task_2_dlg_2</give_info>
+				<give_info>rookie_pole_task_2_dlg_make_friend</give_info>
+				<disable_info>rookie_pole_task_2_dlg_close_task_3</disable_info>
+				<action>dialogs_axr_companion.remove_companions_from_squad</action>
+			</phrase>
+			<phrase id="5">
+				<text>rookie_pole_task_2_dlg_2_5</text>
+				<give_info>rookie_pole_task_2_dlg_2</give_info>
+				<disable_info>rookie_pole_task_2_dlg_close_task_3</disable_info>
+				<give_info>rookie_pole_task_2_dlg_docum_on_actor</give_info>
+				<action>dialogs_axr_companion.remove_companions_from_squad</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="rookie_pole_task_1_dlg">
+		<has_info>talk_to_saving_rookie</has_info>
+		<dont_has_info>rookie_pole_task_1_dlg</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>rookie_pole_task_1_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>rookie_pole_task_1_dlg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>rookie_pole_task_1_dlg_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>rookie_pole_task_1_dlg_3</text>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>rookie_pole_task_1_dlg_4</text>
+				<action>dialogs_mlr.give_rookie_pole_task_1</action>
+				<give_info>rookie_pole_task_1_dlg</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>rookie_pole_task_1_dlg_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="rookie_pole_task_1_dlg_1">
+		<precondition>dialogs_mlr.has_wpn_saiga_rookie_pole</precondition>
+		<has_info>rookie_pole_task_1_dlg</has_info>
+		<dont_has_info>rookie_pole_task_1_dlg_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>rookie_pole_task_1_dlg_1_0</text>
+				<action>dialogs_mlr.take_wpn_saiga_rookie_pole</action>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>rookie_pole_task_1_dlg_1_1</text>
+				<give_info>rookie_pole_task_1_dlg_1</give_info>
+				<give_info>rookie_pole_task_1_dlg_no_sleep</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="rookie_pole_task_1_dlg_1_from_factory">
+		<precondition>dialogs_mlr.has_pole_factory_documents</precondition>
+		<has_info>rookie_pole_task_1_dlg_1</has_info>
+		<dont_has_info>rookie_pole_task_2_dlg</dont_has_info>
+		<dont_has_info>rookie_pole_task_1_dlg_1_from_factory</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>rookie_pole_task_1_dlg_1_from_factory_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>rookie_pole_task_1_dlg_1_from_factory_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>rookie_pole_task_1_dlg_1_from_factory_2</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>rookie_pole_task_1_dlg_1_from_factory_3</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="4">
+				<text>rookie_pole_task_1_dlg_1_from_factory_4</text>
+				<action>dialogs_mlr.take_pole_factory_documents</action>
+				<action>dialogs_mlr.take_pole_factory_documents_grab_present</action>
+				<give_info>rookie_pole_task_1_dlg_1_from_factory</give_info>
+				<disable_info>rookie_pole_task_1_dlg_no_sleep</disable_info>
+				<disable_info>rookie_pole_task_1_dlg_1</disable_info>
+			</phrase>
+			<phrase id="5">
+				<text>rookie_pole_task_1_dlg_1_from_factory_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="talk_to_saving_rookie_dlg">
+		<has_info>you_save_rookie_hero</has_info>
+		<dont_has_info>talk_to_saving_rookie</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>talk_to_saving_rookie_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>talk_to_saving_rookie_dlg_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>talk_to_saving_rookie_dlg_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>talk_to_saving_rookie_dlg_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>talk_to_saving_rookie_dlg_4</text>
+				<give_info>talk_to_saving_rookie</give_info>
+				<disable_info>you_save_rookie_hero</disable_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="zat_b7_bandit_boss_sultan_task_3_trader_day">
+		<has_info>zat_b7_bandit_boss_sultan_task_3_begin</has_info>
+		<dont_has_info>zat_b7_bandit_boss_sultan_task_3_trader_day_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zat_b7_bandit_boss_sultan_task_3_trader_day_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>zat_b7_bandit_boss_sultan_task_3_trader_day_1</text>
+				<give_info>zat_b7_bandit_boss_sultan_task_3_trader_day_1</give_info>
+				<action>dialogs_mlr.zat_b7_bandit_boss_sultan_task_3_trader_reward</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="zat_b7_bandit_boss_sultan_task_3_trader_night">
+		<has_info>zat_b7_bandit_boss_sultan_task_3_begin</has_info>
+		<dont_has_info>zat_b7_bandit_boss_sultan_task_3_trader_night_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>zat_b7_bandit_boss_sultan_task_3_trader_night_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>zat_b7_bandit_boss_sultan_task_3_trader_night_1</text>
+				<give_info>zat_b7_bandit_boss_sultan_task_3_trader_night_1</give_info>
+				<action>dialogs_mlr.zat_b7_bandit_boss_sultan_task_3_trader_reward</action>
+				<action>dialogs_mlr.zat_b7_bandit_boss_sultan_task_3_random_af</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="request_to_no_go_nimble_bar">
+		<dont_has_info>request_to_no_go_nimble_bar1</dont_has_info>
+		<precondition>xr_conditions.if_actor_not_powerful</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>request_to_no_go_nimble_bar_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>request_to_no_go_nimble_bar_1</text>
+				<give_info>request_to_no_go_nimble_bar1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="request_to_no_go_nimble_bar_1">
+		<has_info>request_to_no_go_nimble_bar1</has_info>
+		<dont_has_info>request_to_no_go_nimble_bar2</dont_has_info>
+		<precondition>xr_conditions.if_actor_powerful</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>request_to_no_go_nimble_bar_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>request_to_no_go_nimble_bar_1_1</text>
+				<give_info>request_to_no_go_nimble_bar2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="request_to_no_go_nimble_bar_2">
+		<dont_has_info>request_to_no_go_nimble_bar1</dont_has_info>
+		<dont_has_info>request_to_no_go_nimble_bar3</dont_has_info>
+		<precondition>xr_conditions.if_actor_powerful</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>request_to_no_go_nimble_bar_2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>request_to_no_go_nimble_bar_2_1</text>
+				<give_info>request_to_no_go_nimble_bar3</give_info>
+				<give_info>request_to_no_go_nimble_bar2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="guard1_meet_mlr">
+		<phrase_list>
+			<phrase id="0">
+				<text>guard1_meet_mlr_0</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="request_go_to_nimble">
+		<has_info>request_to_no_go_nimble_bar2</has_info>
+		<dont_has_info>actor_meet_nimble_room</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>request_go_to_nimble_0</text>
+				<give_info>actor_meet_nimble_room</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="about_freedom_lider_miklyha">
+		<dont_has_info>about_freedom_lider_miklyha</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>about_freedom_lider_miklyha_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>about_freedom_lider_miklyha_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>about_freedom_lider_miklyha_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>about_freedom_lider_miklyha_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>about_freedom_lider_miklyha_4</text>
+				<give_info>about_freedom_lider_miklyha</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bandit_gar_smart_terrain_5_2_medic_mlr_heal">
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit_gar_smart_terrain_5_2_medic_mlr_heal_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit_gar_smart_terrain_5_2_medic_mlr_heal_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit_gar_smart_terrain_5_2_medic_mlr_heal_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>bandit_gar_smart_terrain_5_2_medic_mlr_heal_3</text>
+				<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_zaton_guid_jup</action>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit_gar_smart_terrain_5_2_medic_mlr_heal_5</text>
+			</phrase>
+			<phrase id="4">
+				<text>bandit_gar_smart_terrain_5_2_medic_mlr_heal_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bandit_main_base_medic_mlr_heal">
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit_main_base_medic_mlr_heal_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit_main_base_medic_mlr_heal_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit_main_base_medic_mlr_heal_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>bandit_main_base_medic_mlr_heal_3</text>
+				<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_military_guid_bar</action>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit_main_base_medic_mlr_heal_5</text>
+			</phrase>
+			<phrase id="4">
+				<text>bandit_main_base_medic_mlr_heal_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="ds_killer_medic_mlr_heal">
+		<phrase_list>
+			<phrase id="0">
+				<text>ds_killer_medic_mlr_heal_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>ds_killer_medic_mlr_heal_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>ds_killer_medic_mlr_heal_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>ds_killer_medic_mlr_heal_3</text>
+				<precondition>dialogs_mlr.have_money_darkscape_guid_military</precondition>
+				<action>dialogs_mlr.sell_money_to_escape_guid_bar</action>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="5">
+				<text>ds_killer_medic_mlr_heal_5</text>
+			</phrase>
+			<phrase id="4">
+				<text>ds_killer_medic_mlr_heal_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="mil_freedom_medic_heal">
+		<phrase_list>
+			<phrase id="0">
+				<text>mil_freedom_medic_heal_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>mil_freedom_medic_heal_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>mil_freedom_medic_heal_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>mil_freedom_medic_heal_3</text>
+				<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_zaton_guid_jup</action>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="5">
+				<text>mil_freedom_medic_heal_5</text>
+			</phrase>
+			<phrase id="4">
+				<text>mil_freedom_medic_heal_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_dasc_traveler_mlr">
+		<dont_has_info>meet_dasc_traveler_mlr_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_dasc_traveler_mlr_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_dasc_traveler_mlr_1</text>
+				<give_info>meet_dasc_traveler_mlr_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_dasc_traveler_mlr_list">
+		<has_info>meet_dasc_traveler_mlr_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_dasc_traveler_mlr_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_dasc_traveler_mlr_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_dasc_traveler_mlr_base">
+		<has_info>meet_dasc_traveler_mlr_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_dasc_traveler_mlr_base_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_dasc_traveler_mlr_base_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_dasc_traveler_mlr_base_2</text>
+				<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_military_guid_bar</action>
+				<action>dialogs.break_dialog</action>
+				<action>dialogs_mlr.rookie_village_guid_daresc</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_dasc_traveler_mlr_base_3</text>
+				<precondition>dialogs_mlr.have_money_to_red_forest_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_red_forest_guid_jup</action>
+				<action>dialogs_mlr.mar_smart_terrain_base</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_dasc_traveler_mlr_base_4</text>
+				<precondition>dialogs_mlr.have_money_to_red_forest_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_red_forest_guid_jup</action>
+				<action>dialogs_mlr.garbage_guid</action>
+			</phrase>
+			<phrase id="5">
+				<text>travel_dasc_traveler_mlr_base_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_ds_killer_guide_main_base">
+		<dont_has_info>meet_ds_killer_guide_main_base_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_ds_killer_guide_main_base_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_ds_killer_guide_main_base_1</text>
+				<give_info>meet_ds_killer_guide_main_base_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_ds_killer_guide_main_base_list">
+		<has_info>meet_ds_killer_guide_main_base_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_ds_killer_guide_main_base_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_ds_killer_guide_main_base_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_ds_killer_guide_main_base">
+		<has_info>meet_ds_killer_guide_main_base_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_ds_killer_guide_main_base_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_ds_killer_guide_main_base_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_ds_killer_guide_main_base_2</text>
+				<precondition>dialogs_mlr.have_money_to_radar_guid_pri</precondition>
+				<action>dialogs_mlr.sell_money_to_radar_guid_pri</action>
+				<action>dialogs_mlr.zat_trash_station</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_ds_killer_guide_main_base_3</text>
+				<precondition>dialogs_mlr.have_money_to_red_forest_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_red_forest_guid_jup</action>
+				<action>dialogs_mlr.red_forest_guid_mon</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_ds_killer_guide_main_base_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_zaton_killer_guide_station">
+		<precondition>dialogs_mlr.check_killer</precondition>
+		<dont_has_info>meet_zaton_killer_guide_station_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_zaton_killer_guide_station_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_zaton_killer_guide_station_1</text>
+				<give_info>meet_zaton_killer_guide_station_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_zaton_killer_guide_station_list">
+		<has_info>meet_zaton_killer_guide_station_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_zaton_killer_guide_station_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_zaton_killer_guide_station_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_zaton_killer_guide_station_base">
+		<has_info>meet_zaton_killer_guide_station_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_zaton_killer_guide_station_base_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_zaton_killer_guide_station_base_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_zaton_killer_guide_station_base_2</text>
+				<precondition>dialogs_mlr.have_money_to_radar_guid_pri</precondition>
+				<action>dialogs_mlr.sell_money_to_radar_guid_pri</action>
+				<action>dialogs_mlr.ds_soviet_store</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_zaton_killer_guide_station_base_3</text>
+				<precondition>dialogs_mlr.have_money_to_red_forest_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_red_forest_guid_jup</action>
+				<action>dialogs_mlr.red_forest_guid_mon</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_zaton_killer_guide_station_base_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="talk_to_inf_trader">
+		<dont_has_info>talk_to_inf_trader1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>talk_to_inf_trader_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>talk_to_inf_trader_1</text>
+				<give_info>talk_to_inf_trader1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="inf_trader_sell_stashes">
+		<has_info>talk_to_inf_trader1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>inf_trader_sell_stashes_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>inf_trader_sell_stashes_1</text>
+				<next>2</next>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>inf_trader_sell_stashes_2</text>
+				<precondition>dialogs_mlr.totaliz_5</precondition>
+				<action>dialogs_mlr.take_totaliz_5</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="3">
+				<text>inf_trader_sell_stashes_3</text>
+			</phrase>
+			<phrase id="4">
+				<text>inf_trader_sell_stashes_4</text>
+				<action>dialogs_mlr.inf_trader_sell_stashes_funct</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="buy_information_from_trader">
+		<has_info>mar_doctor_found</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>buy_information_from_trader_0</text>
+				<next>1</next>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="1">
+				<dont_has_info>buy_information_from_trader1</dont_has_info>
+				<dont_has_info>yan_labx16_switcher_primary_off</dont_has_info>
+				<has_info>mar_doctor_found</has_info>
+				<text>buy_information_from_trader_1</text>
+				<next>6</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="6">
+				<precondition>dialogs_mlr.have_pri_special_trader_mlr_3</precondition>
+				<text>buy_information_from_trader_6</text>
+				<action>dialogs_mlr.give_pri_special_trader_mlr_3</action>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>buy_information_from_trader_11</text>
+				<give_info>buy_information_from_trader1</give_info>
+			</phrase>
+			<phrase id="2">
+				<dont_has_info>buy_information_from_trader2</dont_has_info>
+				<dont_has_info>bar_deactivate_radar_done</dont_has_info>
+				<has_info>yan_labx16_switcher_primary_off</has_info>
+				<text>buy_information_from_trader_2</text>
+				<give_info>buy_information_from_trader2</give_info>
+				<next>7</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="7">
+				<precondition>dialogs_mlr.have_mil_to_yant_on_heli</precondition>
+				<text>buy_information_from_trader_7</text>
+				<action>dialogs_mlr.give_mil_to_yant_on_heli</action>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>buy_information_from_trader_12</text>
+				<give_info>buy_information_from_trader2</give_info>
+			</phrase>
+			<phrase id="3">
+				<dont_has_info>buy_information_from_trader3</dont_has_info>
+				<dont_has_info>warlab_deactivate_generators_done</dont_has_info>
+				<has_info>bar_deactivate_radar_done</has_info>
+				<text>buy_information_from_trader_3</text>
+				<give_info>buy_information_from_trader3</give_info>
+				<next>8</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="8">
+				<precondition>dialogs_mlr.have_information_about_stash_barmen</precondition>
+				<text>buy_information_from_trader_8</text>
+				<action>dialogs_mlr.give_information_about_stash_barmen</action>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>buy_information_from_trader_13</text>
+				<give_info>buy_information_from_trader3</give_info>
+			</phrase>
+			<phrase id="4">
+				<dont_has_info>buy_information_from_trader4</dont_has_info>
+				<has_info>warlab_deactivate_generators_done</has_info>
+				<text>buy_information_from_trader_4</text>
+				<give_info>buy_information_from_trader4</give_info>
+				<next>9</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="9">
+				<precondition>dialogs_mlr.have_pri_special_trader_mlr_11</precondition>
+				<text>buy_information_from_trader_9</text>
+				<action>dialogs_mlr.give_pri_special_trader_mlr_11</action>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>buy_information_from_trader_14</text>
+				<give_info>buy_information_from_trader4</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>buy_information_from_trader_5</text>
+			</phrase>
+			<phrase id="10">
+				<text>buy_information_from_trader_10</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="inf_trader_buy_transitions">
+		<has_info>talk_to_inf_trader1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>inf_trader_buy_transitions_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>inf_trader_buy_transitions_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="2">
+				<dont_has_info>inf_trader_buy_transitions1</dont_has_info>
+				<text>inf_trader_buy_transitions_2</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>inf_trader_buy_transitions_9</text>
+				<next>11</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="11">
+				<precondition>dialogs_mlr.inf_trader_buy_transitions1</precondition>
+				<text>inf_trader_buy_transitions_11</text>
+				<action>dialogs_mlr.inf_trader_buy_transitions11</action>
+				<action>transitions.open_mil_space_restrictor_to_radar_1</action>
+				<give_info>inf_trader_buy_transitions1</give_info>
+			</phrase>
+			<phrase id="3">
+				<dont_has_info>inf_trader_buy_transitions2</dont_has_info>
+				<text>inf_trader_buy_transitions_3</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>inf_trader_buy_transitions_12</text>
+				<next>13</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="13">
+				<precondition>dialogs_mlr.inf_trader_buy_transitions2</precondition>
+				<text>inf_trader_buy_transitions_13</text>
+				<action>dialogs_mlr.inf_trader_buy_transitions22</action>
+				<action>transitions.open_rad_space_restrictor_to_bunker</action>
+				<give_info>inf_trader_buy_transitions2</give_info>
+			</phrase>
+			<phrase id="4">
+				<dont_has_info>inf_trader_buy_transitions3</dont_has_info>
+				<text>inf_trader_buy_transitions_4</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>inf_trader_buy_transitions_14</text>
+				<next>15</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="15">
+				<precondition>dialogs_mlr.inf_trader_buy_transitions3</precondition>
+				<text>inf_trader_buy_transitions_15</text>
+				<action>dialogs_mlr.inf_trader_buy_transitions33</action>
+				<action>transitions.open_rad_space_restrictor_to_pripyat_01</action>
+				<give_info>inf_trader_buy_transitions3</give_info>
+			</phrase>
+			<phrase id="5">
+				<dont_has_info>inf_trader_buy_transitions4</dont_has_info>
+				<text>inf_trader_buy_transitions_5</text>
+				<next>16</next>
+			</phrase>
+			<phrase id="16">
+				<text>inf_trader_buy_transitions_16</text>
+				<next>17</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="17">
+				<precondition>dialogs_mlr.inf_trader_buy_transitions4</precondition>
+				<text>inf_trader_buy_transitions_17</text>
+				<action>dialogs_mlr.inf_trader_buy_transitions44</action>
+				<action>transitions.open_pri_space_restrictor_to_cop_pripyat</action>
+				<give_info>inf_trader_buy_transitions4</give_info>
+			</phrase>
+			<phrase id="6">
+				<dont_has_info>inf_trader_buy_transitions5</dont_has_info>
+				<text>inf_trader_buy_transitions_6</text>
+				<next>18</next>
+			</phrase>
+			<phrase id="18">
+				<text>inf_trader_buy_transitions_18</text>
+				<next>19</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="19">
+				<precondition>dialogs_mlr.inf_trader_buy_transitions5</precondition>
+				<text>inf_trader_buy_transitions_19</text>
+				<action>dialogs_mlr.inf_trader_buy_transitions55</action>
+				<action>transitions.open_pri_space_restrictor_to_stancia</action>
+				<give_info>inf_trader_buy_transitions5</give_info>
+			</phrase>
+			<phrase id="7">
+				<dont_has_info>inf_trader_buy_transitions6</dont_has_info>
+				<text>inf_trader_buy_transitions_7</text>
+				<next>20</next>
+			</phrase>
+			<phrase id="20">
+				<text>inf_trader_buy_transitions_20</text>
+				<next>21</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="21">
+				<precondition>dialogs_mlr.inf_trader_buy_transitions6</precondition>
+				<text>inf_trader_buy_transitions_21</text>
+				<action>dialogs_mlr.inf_trader_buy_transitions66</action>
+				<action>transitions.open_aes_space_restrictor_to_aes2</action>
+				<give_info>inf_trader_buy_transitions6</give_info>
+			</phrase>
+			<phrase id="10">
+				<text>inf_trader_buy_transitions_10</text>
+			</phrase>
+			<phrase id="8">
+				<text>inf_trader_buy_transitions_8</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="noah_start_dialog">
+		<dont_has_info>noah_start_dialog1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>noah_start_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>noah_start_dialog_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>noah_start_dialog_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>noah_start_dialog_3</text>
+				<give_info>noah_start_dialog1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="noah_start_dialog1">
+		<has_info>noah_start_dialog1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>noah_start_dialog1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>noah_start_dialog1_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<dont_has_info>noah_start_dialog2</dont_has_info>
+				<text>noah_start_dialog1_2</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>noah_start_dialog1_7</text>
+				<next>8</next>
+				<next>9</next>
+			</phrase>
+			<phrase id="8">
+				<text>noah_start_dialog1_8</text>
+				<give_info>noah_start_dialog2</give_info>
+			</phrase>
+			<phrase id="9">
+				<text>noah_start_dialog1_9</text>
+				<give_info>noah_start_dialog2</give_info>
+				<give_info>zat_b18_actor_enemy</give_info>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="3">
+				<dont_has_info>noah_start_dialog3</dont_has_info>
+				<text>noah_start_dialog1_3</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>noah_start_dialog1_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>noah_start_dialog1_11</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>noah_start_dialog1_12</text>
+				<next>13</next>
+			</phrase>
+			<phrase id="13">
+				<text>noah_start_dialog1_13</text>
+				<give_info>noah_start_dialog3</give_info>
+			</phrase>
+			<phrase id="4">
+				<dont_has_info>noah_start_dialog4</dont_has_info>
+				<text>noah_start_dialog1_4</text>
+				<next>14</next>
+			</phrase>
+			<phrase id="14">
+				<text>noah_start_dialog1_14</text>
+				<give_info>noah_start_dialog4</give_info>
+			</phrase>
+			<phrase id="5">
+				<text>noah_start_dialog1_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_3_start">
+		<has_info>fanat_kmb_2_give1</has_info>
+		<dont_has_info>fanat_kmb_3_give</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_3_start_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_3_start_1</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+				<action>dialogs_mlr.give_task_fanat_kmb_3</action>
+				<give_info>fanat_kmb_3_give</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_3_start1">
+		<has_info>fanat_kmb_3_give</has_info>
+		<has_info>esc_5_9_atp_kmb_death</has_info>
+		<dont_has_info>fanat_kmb_3_give1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_3_start1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_3_start1_1</text>
+				<give_info>fanat_kmb_3_give1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_3_start2">
+		<has_info>fanat_kmb_3_give1</has_info>
+		<has_info>visit_esc_5_9_atp_kmb</has_info>
+		<dont_has_info>fanat_kmb_3_give2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_3_start2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_3_start2_1</text>
+				<action>dialogs_axr_companion.remove_companions_from_squad</action>
+				<action>dialogs.become_friend</action>
+				<action>transitions.open_kmb_fanat_way_mlr</action>
+				<give_info>fanat_kmb_3_give2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_2_start">
+		<has_info>fanat_kmb_1_give4</has_info>
+		<dont_has_info>fanat_kmb_2_give</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_2_start_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_2_start_1</text>
+				<action>dialogs_mlr.give_task_fanat_kmb_2</action>
+				<give_info>fanat_kmb_2_give</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_2_start1">
+		<has_info>fanat_kmb_2_give</has_info>
+		<has_info>fanat_kmb_2_open</has_info>
+		<dont_has_info>fanat_kmb_2_give1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_2_start1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_2_start1_1</text>
+				<give_info>fanat_kmb_2_give1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_1_start">
+		<dont_has_info>fanat_kmb_1_cancel</dont_has_info>
+		<dont_has_info>fanat_kmb_1_give</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_1_start_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_1_start_1</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>fanat_kmb_1_start_2</text>
+				<give_info>fanat_kmb_1_cancel</give_info>
+			</phrase>
+			<phrase id="3">
+				<text>fanat_kmb_1_start_3</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+				<action>dialogs_mlr.give_task_fanat_kmb_1</action>
+				<give_info>fanat_kmb_1_give</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_1_start1">
+		<has_info>esc_2_14_boars_kmb_death</has_info>
+		<has_info>fanat_kmb_1_give</has_info>
+		<dont_has_info>fanat_kmb_1_give1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_1_start1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_1_start1_1</text>
+				<give_info>fanat_kmb_1_give1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_1_start2">
+		<has_info>visit_esc_1_11_kmb_restr</has_info>
+		<has_info>fanat_kmb_1_give1</has_info>
+		<dont_has_info>fanat_kmb_1_give2</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_1_start2_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_1_start2_1</text>
+				<action>dialogs_mlr.give_det_adva_from_fanat</action>
+				<action>dialogs_mlr.give_antirad_from_fanat</action>
+				<action>dialogs_mlr.spawn_1_11_af_medusa_kmb</action>
+				<action>dialogs_axr_companion.remove_companions_from_squad</action>
+				<give_info>fanat_kmb_1_give2</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_1_start3">
+		<precondition>dialogs_mlr.has_1_11_af_medusa_kmb</precondition>
+		<has_info>fanat_kmb_1_give2</has_info>
+		<dont_has_info>fanat_kmb_1_give3</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_1_start3_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_1_start3_1</text>
+				<action>dialogs_axr_companion.become_actor_companion</action>
+				<give_info>fanat_kmb_1_give3</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="fanat_kmb_1_start4">
+		<has_info>visit_esc_2_12_village_kmb_restr</has_info>
+		<has_info>fanat_kmb_1_give3</has_info>
+		<dont_has_info>fanat_kmb_1_give4</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>fanat_kmb_1_start4_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>fanat_kmb_1_start4_1</text>
+				<action>dialogs_axr_companion.remove_companions_from_squad</action>
+				<give_info>fanat_kmb_1_give4</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="zat_b3_stalker_tech_start_mlr">
+		<phrase_list>
+			<phrase id="0">
+				<text>zat_b3_stalker_tech_start_mlr_0</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="agr_1_6_medic_army_mlr_hello">
+		<phrase_list>
+			<phrase id="0">
+				<text>agr_1_6_medic_army_mlr_hello_0</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="agr_1_6_medic_army_mlr_heal">
+		<phrase_list>
+			<phrase id="0">
+				<text>agr_1_6_medic_army_mlr_heal_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>agr_1_6_medic_army_mlr_heal_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+			</phrase>
+			<phrase id="2">
+				<text>agr_1_6_medic_army_mlr_heal_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>agr_1_6_medic_army_mlr_heal_3</text>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>agr_1_6_medic_army_mlr_heal_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="find_blackbox_mlr_reward_killer">
+		<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>find_blackbox_mlr_reward_killer_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>find_blackbox_mlr_reward_killer_1</text>
+				<action>dialogs_mlr.take_blackbox_mlr</action>
+				<action>dialogs_mlr.take_money_from_lidership_blackbox</action>
+				<action>dialogs_mlr.goodwill_for_blackbox_killer_reward</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="find_blackbox_mlr_reward_freedom">
+		<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>find_blackbox_mlr_reward_freedom_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>find_blackbox_mlr_reward_freedom_1</text>
+				<action>dialogs_mlr.take_blackbox_mlr</action>
+				<action>dialogs_mlr.take_money_from_lidership_blackbox</action>
+				<action>dialogs_mlr.goodwill_for_blackbox_freedom_reward</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="find_blackbox_mlr_reward_csky">
+		<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>find_blackbox_mlr_reward_csky_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>find_blackbox_mlr_reward_csky_1</text>
+				<action>dialogs_mlr.take_blackbox_mlr</action>
+				<action>dialogs_mlr.take_money_from_lidership_blackbox</action>
+				<action>dialogs_mlr.goodwill_for_blackbox_csky_reward</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="find_blackbox_mlr_reward_haron">
+		<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>find_blackbox_mlr_reward_haron_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>find_blackbox_mlr_reward_haron_1</text>
+				<action>dialogs_mlr.take_blackbox_mlr</action>
+				<action>dialogs_mlr.take_money_from_haron_blackbox</action>
+				<action>dialogs_mlr.goodwill_for_blackbox_monolith_reward</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="find_blackbox_mlr_reward_owl">
+		<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>find_blackbox_mlr_reward_owl_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>find_blackbox_mlr_reward_owl_1</text>
+				<action>dialogs_mlr.take_blackbox_mlr</action>
+				<action>dialogs_mlr.take_money_from_owl_blackbox</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="find_blackbox_mlr_reward_army">
+		<precondition>dialogs_mlr.have_blackbox_mlr</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>find_blackbox_mlr_reward_army_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>find_blackbox_mlr_reward_army_1</text>
+				<action>dialogs_mlr.take_blackbox_mlr</action>
+				<action>dialogs_mlr.take_money_from_army_blackbox</action>
+				<action>dialogs_mlr.reward_for_blackbox_army</action>
+				<action>dialogs_mlr.goodwill_for_blackbox_army_reward</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_barah_night">
+		<dont_has_info>information_about_stash_barah_night1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_barah_night_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_barah_night_1</text>
+				<give_info>information_about_stash_barah_night1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_barah_night1">
+		<precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+		<has_info>information_about_stash_barah_night1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_barah_night1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_barah_night1_1</text>
+				<action>dialogs_mlr.give_money_to_jupiter_guid_bar</action>
+				<action>xr_effects.reward_stash</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_barman_mil_7_7">
+		<dont_has_info>information_about_stash_barman_mil_7_7_1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_barman_mil_7_7_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_barman_mil_7_7_1</text>
+				<give_info>information_about_stash_barman_mil_7_7_1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_barman_mil_7_7_1">
+		<precondition>dialogs_mlr.have_pri_special_trader_mlr_2</precondition>
+		<has_info>information_about_stash_barman_mil_7_7_1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_barman_mil_7_7_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_barman_mil_7_7_1_1</text>
+				<action>dialogs_mlr.give_pri_special_trader_mlr_2</action>
+				<action>xr_effects.reward_stash</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_owl_zat">
+		<dont_has_info>information_about_stash_owl_zat1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_owl_zat_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_owl_zat_1</text>
+				<give_info>information_about_stash_owl_zat1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_owl_zat1">
+		<precondition>dialogs_mlr.have_pri_special_trader_mlr_1</precondition>
+		<has_info>information_about_stash_owl_zat1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_owl_zat1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_owl_zat1_1</text>
+				<action>dialogs_mlr.give_pri_special_trader_mlr_1</action>
+				<action>xr_effects.reward_stash</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_7_4_bandit_trader">
+		<dont_has_info>information_about_stash_7_4_bandit_trader1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_7_4_bandit_trader_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_7_4_bandit_trader_1</text>
+				<give_info>information_about_stash_7_4_bandit_trader1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_7_4_bandit_trader1">
+		<precondition>dialogs_mlr.have_pri_special_trader_mlr_3</precondition>
+		<has_info>information_about_stash_7_4_bandit_trader1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_7_4_bandit_trader1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_7_4_bandit_trader1_1</text>
+				<action>dialogs_mlr.give_pri_special_trader_mlr_3</action>
+				<action>xr_effects.reward_stash</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_barmen">
+		<dont_has_info>information_about_stash_barmen1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_barmen_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_barmen_1</text>
+				<give_info>information_about_stash_barmen1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="information_about_stash_barmen1">
+		<precondition>dialogs_mlr.have_pri_special_trader_mlr_3</precondition>
+		<has_info>information_about_stash_barmen1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>information_about_stash_barmen1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>information_about_stash_barmen1_1</text>
+				<action>dialogs_mlr.give_pri_special_trader_mlr_3</action>
+				<action>xr_effects.reward_stash</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="tesak_meet_dialog">
+		<dont_has_info>tesak_meet_dialog1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tesak_meet_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tesak_meet_dialog_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>tesak_meet_dialog_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>tesak_meet_dialog_3</text>
+				<give_info>tesak_meet_dialog1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_l11pri_mon_haron">
+		<dont_has_info>meet_guid_l11pri_mon_haron_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_l11pri_mon_haron_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_l11pri_mon_haron_1</text>
+				<give_info>meet_guid_l11pri_mon_haron_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_l11pri_mon_haron_list">
+		<has_info>meet_guid_l11pri_mon_haron_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_l11pri_mon_haron_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_l11pri_mon_haron_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_l11pri_mon_haron">
+		<has_info>meet_guid_l11pri_mon_haron_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_l11pri_mon_haron_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_l11pri_mon_haron_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_l11pri_mon_haron_2</text>
+				<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_military_guid_bar</action>
+				<action>dialogs_mlr.pripyat_guid_mon</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_l11pri_mon_haron_3</text>
+				<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_military_guid_bar</action>
+				<action>dialogs_mlr.jupiter_guid_mon</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_l11pri_mon_haron_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_red_forest_mon">
+		<dont_has_info>meet_guid_red_forest_mon_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_red_forest_mon_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_red_forest_mon_1</text>
+				<give_info>meet_guid_red_forest_mon_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_red_forest_mon_list">
+		<has_info>meet_guid_red_forest_mon_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_red_forest_mon_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_red_forest_mon_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_red_forest_mon">
+		<has_info>meet_guid_red_forest_mon_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_red_forest_mon_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_red_forest_mon_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_red_forest_mon_2</text>
+				<precondition>dialogs_mlr.have_money_to_pripyat_guid_zat</precondition>
+				<action>dialogs_mlr.sell_money_to_pripyat_guid_zat</action>
+				<action>dialogs_mlr.pripyat_guid_mon</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_red_forest_mon_3</text>
+				<precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action>
+				<action>dialogs_mlr.jupiter_guid_mon</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_red_forest_mon_4</text>
+				<precondition>dialogs_mlr.have_money_to_pripyat_guid_zat</precondition>
+				<action>dialogs_mlr.sell_money_to_pripyat_guid_zat</action>
+				<action>dialogs_mlr.l11_pripyat_guid_mon</action>
+			</phrase>
+			<phrase id="5">
+				<text>travel_guid_red_forest_mon_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_prikbo_mon">
+		<dont_has_info>meet_guid_prikbo_mon_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_prikbo_mon_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_prikbo_mon_1</text>
+				<give_info>meet_guid_prikbo_mon_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_prikbo_mon_list">
+		<has_info>meet_guid_prikbo_mon_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_prikbo_mon_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_prikbo_mon_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_prikbo_mon_mon">
+		<has_info>meet_guid_prikbo_mon_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_prikbo_mon_mon_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_prikbo_mon_mon_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_prikbo_mon_mon_2</text>
+				<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_zaton_guid_jup</action>
+				<action>dialogs_mlr.jupiter_guid_mon</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_prikbo_mon_mon_3</text>
+				<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_military_guid_bar</action>
+				<action>dialogs_mlr.l11_pripyat_guid_mon</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_prikbo_mon_mon_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_jupdepo_mon">
+		<dont_has_info>meet_guid_jupdepo_mon_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_jupdepo_mon_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_jupdepo_mon_1</text>
+				<give_info>meet_guid_jupdepo_mon_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_jupdepo_mon_list">
+		<has_info>meet_guid_jupdepo_mon_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_jupdepo_mon_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_jupdepo_mon_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_jupdepo_mon_mon">
+		<has_info>meet_guid_jupdepo_mon_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_jupdepo_mon_mon_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_jupdepo_mon_mon_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_jupdepo_mon_mon_2</text>
+				<precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action>
+				<action>dialogs_mlr.red_forest_guid_mon</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_jupdepo_mon_mon_3</text>
+				<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_zaton_guid_jup</action>
+				<action>dialogs_mlr.pripyat_guid_mon</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_jupdepo_mon_mon_4</text>
+				<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_military_guid_bar</action>
+				<action>dialogs_mlr.l11_pripyat_guid_mon</action>
+			</phrase>
+			<phrase id="5">
+				<text>travel_guid_jupdepo_mon_mon_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="remember_dyx_barter">
+		<has_info>meet_povar_army_inf</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>remember_dyx_barter_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>remember_dyx_barter_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="mechanic_monolith_jup_depo_start">
+		<phrase_list>
+			<phrase id="0">
+				<text>mechanic_monolith_jup_depo_start_0</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="mechanic_monolith_kbo_start">
+		<phrase_list>
+			<phrase id="0">
+				<text>mechanic_monolith_kbo_start_0</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="trucks_cemetery_bandit_mechanic_start">
+		<phrase_list>
+			<phrase id="0">
+				<text>trucks_cemetery_bandit_mechanic_start_0</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="ashot_price_for_pathes_duty">
+		<dont_has_info>ashot_price_for_pathes_duty1</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ashot_price_for_pathes_duty_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>ashot_price_for_pathes_duty_1</text>
+				<give_info>ashot_price_for_pathes_duty1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="ashot_price_for_pathes_duty1">
+		<has_info>ashot_price_for_pathes_duty1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>ashot_price_for_pathes_duty1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>ashot_price_for_pathes_duty1_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>dialogs_mlr.have_duty_patch_20</precondition>
+				<text>ashot_price_for_pathes_duty1_2</text>
+				<action>dialogs_mlr.take_duty_patch_20</action>
+				<action>dialogs_mlr.give_ammo_nato_from_ashot_mlr</action>
+			</phrase>
+			<phrase id="3">
+				<precondition>dialogs_mlr.have_duty_patch_15</precondition>
+				<text>ashot_price_for_pathes_duty1_3</text>
+				<action>dialogs_mlr.take_duty_patch_15</action>
+				<action>dialogs_mlr.give_svd_ammo_from_ashot_mlr</action>
+			</phrase>
+			<phrase id="4">
+				<precondition>dialogs_mlr.have_duty_patch_50</precondition>
+				<text>ashot_price_for_pathes_duty1_4</text>
+				<action>dialogs_mlr.take_duty_patch_50</action>
+				<action>dialogs_mlr.give_ammo_m209_from_ashot_mlr</action>
+			</phrase>
+			<phrase id="5">
+				<precondition>dialogs_mlr.have_duty_patch_50</precondition>
+				<text>ashot_price_for_pathes_duty1_5</text>
+				<action>dialogs_mlr.take_duty_patch_50</action>
+				<action>dialogs_mlr.give_sso_from_ashot_mlr</action>
+			</phrase>
+			<phrase id="6">
+				<precondition>dialogs_mlr.have_duty_patch_65</precondition>
+				<text>ashot_price_for_pathes_duty1_6</text>
+				<action>dialogs_mlr.take_duty_patch_65</action>
+				<action>dialogs_mlr.give_seo_from_ashot_mlr</action>
+			</phrase>
+			<phrase id="7">
+				<dont_has_info>ashot_price_for_pathes_duty2</dont_has_info>
+				<precondition>dialogs_mlr.have_duty_patch_100</precondition>
+				<text>ashot_price_for_pathes_duty1_7</text>
+				<action>dialogs_mlr.take_duty_patch_100</action>
+				<action>dialogs_mlr.give_wpn_svd_from_ashot_mlr</action>
+				<give_info>ashot_price_for_pathes_duty2</give_info>
+			</phrase>
+			<phrase id="8">
+				<text>ashot_price_for_pathes_duty1_8</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="barter_povar_army">
+		<has_info>barter_povar_start</has_info>
+		<precondition>dialogs_mlr.have_vodka5</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>barter_povar_army_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>barter_povar_army_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+				<next>8</next>
+				<next>9</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>dialogs_mlr.have_vodka5</precondition>
+				<text>barter_povar_army_2</text>
+				<action>dialogs_mlr.take_vodka5</action>
+				<next>10</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>dialogs_mlr.have_vodka5</precondition>
+				<text>barter_povar_army_3</text>
+				<action>dialogs_mlr.take_vodka5</action>
+				<next>11</next>
+			</phrase>
+			<phrase id="4">
+				<precondition>dialogs_mlr.have_vodka10</precondition>
+				<text>barter_povar_army_4</text>
+				<action>dialogs_mlr.take_vodka10</action>
+				<next>12</next>
+			</phrase>
+			<phrase id="5">
+				<precondition>dialogs_mlr.have_vodka10</precondition>
+				<text>barter_povar_army_5</text>
+				<action>dialogs_mlr.take_vodka10</action>
+				<next>13</next>
+			</phrase>
+			<phrase id="6">
+				<precondition>dialogs_mlr.have_vodka10</precondition>
+				<text>barter_povar_army_6</text>
+				<action>dialogs_mlr.take_vodka10</action>
+				<next>14</next>
+			</phrase>
+			<phrase id="7">
+				<precondition>dialogs_mlr.have_money_povars_ammo_pkm_100</precondition>
+				<precondition>dialogs_mlr.have_vodka15</precondition>
+				<text>barter_povar_army_7</text>
+				<action>dialogs_mlr.take_vodka15</action>
+				<action>dialogs_mlr.sell_money_povars_ammo_pkm_100</action>
+				<next>15</next>
+			</phrase>
+			<phrase id="8">
+				<precondition>dialogs_mlr.have_vodka20</precondition>
+				<text>barter_povar_army_8</text>
+				<action>dialogs_mlr.take_vodka20</action>
+				<next>16</next>
+			</phrase>
+			<phrase id="10">
+				<text>barter_povar_army_10</text>
+				<action>dialogs_mlr.spawn_povars_9_18_6</action>
+			</phrase>
+			<phrase id="11">
+				<text>barter_povar_army_11</text>
+				<action>dialogs_mlr.spawn_povars_5_45_3</action>
+			</phrase>
+			<phrase id="12">
+				<text>barter_povar_army_12</text>
+				<action>dialogs_mlr.spawn_povars_5_45_6</action>
+			</phrase>
+			<phrase id="13">
+				<text>barter_povar_army_13</text>
+				<action>dialogs_mlr.spawn_povars_12_70</action>
+			</phrase>
+			<phrase id="14">
+				<text>barter_povar_army_14</text>
+				<action>dialogs_mlr.spawn_povars_7_62</action>
+			</phrase>
+			<phrase id="15">
+				<text>barter_povar_army_15</text>
+				<action>dialogs_mlr.spawn_povars_ammo_pkm_100</action>
+			</phrase>
+			<phrase id="16">
+				<text>barter_povar_army_16</text>
+				<action>dialogs_mlr.spawn_povars_berill</action>
+			</phrase>
+			<phrase id="9">
+				<text>barter_povar_army_9</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_povar_army">
+		<dont_has_info>meet_povar_army_inf</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_povar_army_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_povar_army_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>meet_povar_army_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>meet_povar_army_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>meet_povar_army_4</text>
+				<give_info>meet_povar_army_inf</give_info>
+				<give_info>barter_povar_start</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="baraholka_trader_talking">
+		<dont_has_info>zat_b7_bandit_boss_sultan_task_3_begin</dont_has_info>
+		<dont_has_info>baraholka_trader_two_talk</dont_has_info>
+		<dont_has_info>baraholka_trader_talk</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>baraholka_trader_talking_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>baraholka_trader_talking_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>baraholka_trader_talking_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>baraholka_trader_talking_3</text>
+				<give_info>baraholka_trader_talk</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="army_yan_mec_about_tool">
+		<dont_has_info>army_yan_talk</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>army_yan_mec_about_tool_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>army_yan_mec_about_tool_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>army_yan_mec_about_tool_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>army_yan_mec_about_tool_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>army_yan_mec_about_tool_4</text>
+				<give_info>army_yan_talk</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bar_dolg_medic_dialog">
+		<phrase_list>
+			<phrase id="0">
+				<text>bar_dolg_medic_dialog_0</text>
+				<next>1</next>
+				<next>2</next>
+			</phrase>
+			<phrase id="1">
+				<text>bar_dolg_medic_dialog_1</text>
+				<precondition>dialogs.actor_needs_bless</precondition>
+				<next>3</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>bar_dolg_medic_dialog_2</text>
+				<precondition>dialogs.actor_is_damn_healthy</precondition>
+			</phrase>
+			<phrase id="3">
+				<text>bar_dolg_medic_dialog_3</text>
+				<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_zaton_guid_jup</action>
+				<action>dialogs.medic_magic_potion</action>
+				<next>4</next>
+			</phrase>
+			<phrase id="5">
+				<text>bar_dolg_medic_dialog_5</text>
+			</phrase>
+			<phrase id="4">
+				<text>bar_dolg_medic_dialog_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bar_dolg_medic_hello">
+		<phrase_list>
+			<phrase id="0">
+				<text>bar_dolg_medic_hello_0</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="brain_on_staff_1">
+		<dont_has_info>brain_on_staff_1_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>brain_on_staff_1_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>brain_on_staff_1_1</text>
+				<give_info>brain_on_staff_1_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="brain_on_staff">
+		<has_info>brain_on_staff_1_done</has_info>
+		<precondition>dialogs_mlr.has_controller_brain</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>brain_on_staff_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>brain_on_staff_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="2">
+				<text>brain_on_staff_2</text>
+				<action>dialogs_mlr.take_part_controller_glass</action>
+				<action>dialogs_mlr.give_ecolog_grugs</action>
+			</phrase>
+			<phrase id="3">
+				<text>brain_on_staff_3</text>
+				<action>dialogs_mlr.take_part_controller_glass</action>
+				<action>dialogs_mlr.give_army_grugs</action>
+			</phrase>
+			<phrase id="4">
+				<text>brain_on_staff_4</text>
+				<action>dialogs_mlr.take_part_controller_glass</action>
+				<action>dialogs_mlr.give_veles</action>
+			</phrase>
+			<phrase id="5">
+				<text>brain_on_staff_5</text>
+				<action>dialogs_mlr.take_part_controller_glass</action>
+				<action>dialogs_mlr.give_anabionic_drug</action>
+			</phrase>
+			<phrase id="6">
+				<text>brain_on_staff_6</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="first_meet_to_barman_mil_7_7">
+		<dont_has_info>first_meet_to_barman_mil_7_7_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>first_meet_to_barman_mil_7_7_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>first_meet_to_barman_mil_7_7_1</text>
+				<give_info>first_meet_to_barman_mil_7_7_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="talk_to_barman_mil_7_7_about_lottery">
+		<has_info>first_meet_to_barman_mil_7_7_done</has_info>
+		<dont_has_info>talk_to_barman_mil_7_7_about_lottery_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>talk_to_barman_mil_7_7_about_lottery_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>talk_to_barman_mil_7_7_about_lottery_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>talk_to_barman_mil_7_7_about_lottery_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>talk_to_barman_mil_7_7_about_lottery_3</text>
+				<give_info>talk_to_barman_mil_7_7_about_lottery_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="lottery_barman_mil_7_7_mlr">
+		<has_info>talk_to_barman_mil_7_7_about_lottery_done</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>lottery_barman_mil_7_7_mlr_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>lottery_barman_mil_7_7_mlr_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+				<next>8</next>
+				<next>9</next>
+				<next>11</next>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+				<next>15</next>
+				<next>16</next>
+				<next>17</next>
+				<next>18</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>dialogs_mlr.have_csky_patch_for_lottery_10</precondition>
+				<text>lottery_barman_mil_7_7_mlr_2</text>
+				<action>dialogs_mlr.take_csky_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>dialogs_mlr.have_merc_patch_for_lottery_10</precondition>
+				<text>lottery_barman_mil_7_7_mlr_3</text>
+				<action>dialogs_mlr.take_merc_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="4">
+				<precondition>dialogs_mlr.have_stalker_patch_for_lottery_10</precondition>
+				<text>lottery_barman_mil_7_7_mlr_4</text>
+				<action>dialogs_mlr.take_stalker_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="5">
+				<precondition>dialogs_mlr.have_ecolog_patch_for_lottery_10</precondition>
+				<text>lottery_barman_mil_7_7_mlr_5</text>
+				<action>dialogs_mlr.take_ecolog_patch_for_lottery_10</action>
+				<next>22</next>
+				<next>24</next>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="6">
+				<precondition>dialogs_mlr.have_bandit_patch_for_lottery_10</precondition>
+				<text>lottery_barman_mil_7_7_mlr_6</text>
+				<action>dialogs_mlr.take_bandit_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="7">
+				<precondition>dialogs_mlr.have_duty_patch_for_lottery_10</precondition>
+				<text>lottery_barman_mil_7_7_mlr_7</text>
+				<action>dialogs_mlr.take_duty_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="8">
+				<precondition>dialogs_mlr.have_monolith_patch_for_lottery_10</precondition>
+				<text>lottery_barman_mil_7_7_mlr_8</text>
+				<action>dialogs_mlr.take_monolith_patch_for_lottery_10</action>
+				<next>22</next>
+				<next>24</next>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="9">
+				<precondition>dialogs_mlr.have_army_patch_for_lottery_10</precondition>
+				<text>lottery_barman_mil_7_7_mlr_9</text>
+				<action>dialogs_mlr.take_army_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="11">
+				<precondition>dialogs_mlr.have_csky_patch_for_lottery_50</precondition>
+				<text>lottery_barman_mil_7_7_mlr_11</text>
+				<action>dialogs_mlr.take_csky_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="12">
+				<precondition>dialogs_mlr.have_merc_patch_for_lottery_50</precondition>
+				<text>lottery_barman_mil_7_7_mlr_12</text>
+				<action>dialogs_mlr.take_merc_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="13">
+				<precondition>dialogs_mlr.have_stalker_patch_for_lottery_50</precondition>
+				<text>lottery_barman_mil_7_7_mlr_13</text>
+				<action>dialogs_mlr.take_stalker_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="14">
+				<precondition>dialogs_mlr.have_ecolog_patch_for_lottery_50</precondition>
+				<text>lottery_barman_mil_7_7_mlr_14</text>
+				<action>dialogs_mlr.take_ecolog_patch_for_lottery_50</action>
+				<next>31</next>
+				<next>30</next>
+				<next>25</next>
+				<next>34</next>
+				<next>35</next>
+				<next>36</next>
+				<next>40</next>
+				<next>41</next>
+			</phrase>
+			<phrase id="15">
+				<precondition>dialogs_mlr.have_bandit_patch_for_lottery_50</precondition>
+				<text>lottery_barman_mil_7_7_mlr_15</text>
+				<action>dialogs_mlr.take_bandit_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="16">
+				<precondition>dialogs_mlr.have_duty_patch_for_lottery_50</precondition>
+				<text>lottery_barman_mil_7_7_mlr_16</text>
+				<action>dialogs_mlr.take_duty_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="17">
+				<precondition>dialogs_mlr.have_monolith_patch_for_lottery_50</precondition>
+				<text>lottery_barman_mil_7_7_mlr_17</text>
+				<action>dialogs_mlr.take_monolith_patch_for_lottery_50</action>
+				<next>31</next>
+				<next>30</next>
+				<next>25</next>
+				<next>34</next>
+				<next>35</next>
+				<next>36</next>
+				<next>40</next>
+				<next>41</next>
+			</phrase>
+			<phrase id="18">
+				<precondition>dialogs_mlr.have_army_patch_for_lottery_50</precondition>
+				<text>lottery_barman_mil_7_7_mlr_18</text>
+				<action>dialogs_mlr.take_army_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="10">
+				<text>lottery_barman_mil_7_7_mlr_10</text>
+			</phrase>
+			<phrase id="19">
+				<text>lottery_barman_mil_7_7_mlr_19</text>
+				<action>dialogs_mlr.lottery_present_low_1</action>
+			</phrase>
+			<phrase id="20">
+				<text>lottery_barman_mil_7_7_mlr_20</text>
+				<action>dialogs_mlr.lottery_present_low_2</action>
+			</phrase>
+			<phrase id="21">
+				<text>lottery_barman_mil_7_7_mlr_21</text>
+				<action>dialogs_mlr.lottery_present_low_3</action>
+			</phrase>
+			<phrase id="22">
+				<text>lottery_barman_mil_7_7_mlr_22</text>
+				<action>dialogs_mlr.lottery_present_low_4</action>
+			</phrase>
+			<phrase id="23">
+				<text>lottery_barman_mil_7_7_mlr_23</text>
+				<action>dialogs_mlr.lottery_present_low_5</action>
+			</phrase>
+			<phrase id="24">
+				<text>lottery_barman_mil_7_7_mlr_24</text>
+				<action>dialogs_mlr.lottery_present_low_6</action>
+			</phrase>
+			<phrase id="25">
+				<text>lottery_barman_mil_7_7_mlr_25</text>
+				<action>dialogs_mlr.lottery_present_medium_1</action>
+			</phrase>
+			<phrase id="26">
+				<text>lottery_barman_mil_7_7_mlr_26</text>
+				<action>dialogs_mlr.lottery_present_medium_2</action>
+			</phrase>
+			<phrase id="27">
+				<text>lottery_barman_mil_7_7_mlr_27</text>
+				<action>dialogs_mlr.lottery_present_medium_3</action>
+			</phrase>
+			<phrase id="28">
+				<text>lottery_barman_mil_7_7_mlr_28</text>
+				<action>dialogs_mlr.lottery_present_medium_4</action>
+			</phrase>
+			<phrase id="29">
+				<text>lottery_barman_mil_7_7_mlr_29</text>
+				<action>dialogs_mlr.lottery_present_medium_5</action>
+			</phrase>
+			<phrase id="30">
+				<text>lottery_barman_mil_7_7_mlr_30</text>
+				<action>dialogs_mlr.lottery_present_medium_6</action>
+			</phrase>
+			<phrase id="31">
+				<text>lottery_barman_mil_7_7_mlr_31</text>
+				<action>dialogs_mlr.lottery_present_medium_7</action>
+			</phrase>
+			<phrase id="34">
+				<text>lottery_barman_mil_7_7_mlr_34</text>
+				<action>dialogs_mlr.lottery_present_hight_1</action>
+			</phrase>
+			<phrase id="35">
+				<text>lottery_barman_mil_7_7_mlr_35</text>
+				<action>dialogs_mlr.lottery_present_hight_2</action>
+			</phrase>
+			<phrase id="36">
+				<text>lottery_barman_mil_7_7_mlr_36</text>
+				<action>dialogs_mlr.lottery_present_hight_3</action>
+			</phrase>
+			<phrase id="37">
+				<text>lottery_barman_mil_7_7_mlr_37</text>
+			</phrase>
+			<phrase id="38">
+				<text>lottery_barman_mil_7_7_mlr_38</text>
+			</phrase>
+			<phrase id="39">
+				<text>lottery_barman_mil_7_7_mlr_39</text>
+			</phrase>
+			<phrase id="40">
+				<text>lottery_barman_mil_7_7_mlr_40</text>
+				<action>dialogs_mlr.lottery_present_hight_4</action>
+			</phrase>
+			<phrase id="41">
+				<text>lottery_barman_mil_7_7_mlr_41</text>
+				<action>dialogs_mlr.lottery_present_hight_5</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="mil_freedom_guid_meet">
+		<dont_has_info>mil_freedom_guid_meet_give</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>mil_freedom_guid_meet_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>mil_freedom_guid_meet_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>mil_freedom_guid_meet_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>mil_freedom_guid_meet_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>mil_freedom_guid_meet_4</text>
+				<give_info>mil_freedom_guid_meet_give</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="mil_freedom_guid_go_list">
+		<has_info>mil_freedom_guid_meet_give</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>mil_freedom_guid_go_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>mil_freedom_guid_go_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="mil_freedom_guid_go">
+		<has_info>mil_freedom_guid_meet_give</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>mil_freedom_guid_go_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>mil_freedom_guid_go_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>12</next>
+			</phrase>
+			<phrase id="2">
+				<text>mil_freedom_guid_go_2</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>mil_freedom_guid_go_5</text>
+				<next>8</next>
+				<next>11</next>
+			</phrase>
+			<phrase id="8">
+				<precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+				<text>mil_freedom_guid_go_8</text>
+				<action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action>
+				<action>dialogs_mlr.jupiter_guid</action>
+			</phrase>
+			<phrase id="3">
+				<text>mil_freedom_guid_go_3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>mil_freedom_guid_go_6</text>
+				<next>9</next>
+				<next>11</next>
+			</phrase>
+			<phrase id="9">
+				<precondition>dialogs_mlr.have_money_to_escp_guid_mil</precondition>
+				<text>mil_freedom_guid_go_9</text>
+				<action>dialogs_mlr.sell_money_to_escp_guid_mil</action>
+				<action>dialogs_mlr.escape_guid</action>
+			</phrase>
+			<phrase id="4">
+				<text>mil_freedom_guid_go_4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>mil_freedom_guid_go_7</text>
+				<next>10</next>
+				<next>11</next>
+			</phrase>
+			<phrase id="10">
+				<precondition>dialogs_mlr.totaliz_5</precondition>
+				<text>mil_freedom_guid_go_10</text>
+				<action>dialogs_mlr.take_totaliz_5</action>
+				<action>dialogs_mlr.yantar_guid_from_freedom_base</action>
+			</phrase>
+			<phrase id="11">
+				<text>mil_freedom_guid_go_11</text>
+			</phrase>
+			<phrase id="12">
+				<text>mil_freedom_guid_go_12</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="guid_esc_mlr_military">
+		<precondition>dialogs_mlr.check_no_neutral</precondition>
+		<precondition>dialogs_mlr.check_no_dolg</precondition>
+		<precondition>dialogs_mlr.check_no_freedom</precondition>
+		<precondition>dialogs_mlr.check_no_monolith</precondition>
+		<precondition>dialogs_mlr.check_no_bandit</precondition>
+		<precondition>dialogs_mlr.check_no_zombied</precondition>
+		<precondition>dialogs_mlr.check_no_killer</precondition>
+		<precondition>dialogs_mlr.check_no_csky</precondition>
+		<dont_has_info>guid_esc_mlr_military_give</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>guid_esc_mlr_military_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>guid_esc_mlr_military_1</text>
+				<give_info>guid_esc_mlr_military_give</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="guid_esc_mlr_military_list">
+		<precondition>dialogs_mlr.request_to_fly</precondition>
+		<has_info>guid_esc_mlr_military_give</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>guid_esc_mlr_military_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>guid_esc_mlr_military_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="guid_esc_mlr_military_vert">
+		<precondition>dialogs_mlr.request_to_fly</precondition>
+		<precondition>dialogs_mlr.have_money_darkscape_guid_military</precondition>
+		<has_info>guid_esc_mlr_military_give</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>guid_esc_mlr_military_vert_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>guid_esc_mlr_military_vert_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>guid_esc_mlr_military_vert_2</text>
+				<precondition>dialogs_mlr.have_money_agroprom_guid_military</precondition>
+				<action>dialogs_mlr.sell_money_agroprom_guid_military</action>
+				<action>dialogs_mlr.agroprom_guid_military</action>
+			</phrase>
+			<phrase id="3">
+				<text>guid_esc_mlr_military_vert_3</text>
+				<precondition>dialogs_mlr.have_money_darkscape_guid_military</precondition>
+				<action>dialogs_mlr.sell_money_darkscape_guid_military</action>
+				<action>dialogs_mlr.darkscape_guid_military</action>
+			</phrase>
+			<phrase id="4">
+				<text>guid_esc_mlr_military_vert_4</text>
+				<precondition>dialogs_mlr.have_mil_to_yant_on_heli</precondition>
+				<action>dialogs_mlr.give_mil_to_yant_on_heli</action>
+				<action>dialogs_mlr.mil_to_yant_on_heli</action>
+			</phrase>
+			<phrase id="5">
+				<text>guid_esc_mlr_military_vert_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="guid_agr_mlr_military">
+		<dont_has_info>guid_agr_mlr_military_give</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>guid_agr_mlr_military_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>guid_agr_mlr_military_1</text>
+				<give_info>guid_agr_mlr_military_give</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="guid_agr_mlr_military_list">
+		<precondition>dialogs_mlr.request_to_fly</precondition>
+		<has_info>guid_agr_mlr_military_give</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>guid_agr_mlr_military_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>guid_agr_mlr_military_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="guid_agr_mlr_military_vert">
+		<precondition>dialogs_mlr.request_to_fly</precondition>
+		<precondition>dialogs_mlr.have_money_agroprom_guid_military</precondition>
+		<has_info>guid_agr_mlr_military_give</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>guid_agr_mlr_military_vert_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>guid_agr_mlr_military_vert_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>guid_agr_mlr_military_vert_2</text>
+				<action>dialogs_mlr.sell_money_agroprom_guid_military</action>
+				<action>dialogs_mlr.escape_guid_military</action>
+			</phrase>
+			<phrase id="3">
+				<text>guid_agr_mlr_military_vert_3</text>
+				<precondition>dialogs_mlr.have_mil_to_yant_on_heli2</precondition>
+				<action>dialogs_mlr.give_mil_to_yant_on_heli2</action>
+				<action>dialogs_mlr.mil_to_yant_on_heli</action>
+			</phrase>
+			<phrase id="4">
+				<text>guid_agr_mlr_military_vert_4</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_marsh_csky">
+		<dont_has_info>meet_guid_marsh_csky_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_marsh_csky_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_marsh_csky_1</text>
+				<give_info>meet_guid_marsh_csky_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_marsh_csky_list">
+		<has_info>meet_guid_marsh_csky_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_marsh_csky_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_marsh_csky_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_marsh_csky">
+		<precondition>dialogs_mlr.have_money_to_marsh_post_guid_marsh</precondition>
+		<has_info>meet_guid_marsh_csky_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_marsh_csky_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_marsh_csky_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+				<next>8</next>
+				<next>9</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_marsh_csky_2</text>
+				<precondition>dialogs_mlr.have_money_to_marsh_post_guid_marsh</precondition>
+				<action>dialogs_mlr.sell_money_to_marsh_post_guid_marsh</action>
+				<action>dialogs_mlr.marsh_post_guid</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_marsh_csky_3</text>
+				<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_military_guid_bar</action>
+				<action>dialogs_mlr.tuzla_tonnel_guid_marsh</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_marsh_csky_4</text>
+				<precondition>dialogs_mlr.have_money_to_marsh_pump_water_guid_marsh</precondition>
+				<action>dialogs_mlr.sell_money_to_marsh_pump_water_guid_marsh</action>
+				<action>dialogs_mlr.marsh_pump_water_guid</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="5">
+				<text>travel_guid_marsh_csky_5</text>
+				<precondition>dialogs_mlr.have_money_to_marsh_pump_water_guid_marsh</precondition>
+				<action>dialogs_mlr.sell_money_to_marsh_pump_water_guid_marsh</action>
+				<action>dialogs_mlr.marsh_old_church_guid</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="6">
+				<text>travel_guid_marsh_csky_6</text>
+				<precondition>dialogs_mlr.have_money_to_tech_yard_guid_marsh</precondition>
+				<action>dialogs_mlr.sell_money_to_tech_yard_guid_marsh</action>
+				<action>dialogs_mlr.marsh_tech_yard_guid</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="7">
+				<text>travel_guid_marsh_csky_7</text>
+				<precondition>dialogs_mlr.have_money_to_jupiter_underground_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_jupiter_underground_guid_jup</action>
+				<action>dialogs_mlr.escape_village_guid</action>
+			</phrase>
+			<phrase id="8">
+				<text>travel_guid_marsh_csky_8</text>
+				<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_zaton_guid_jup</action>
+				<action>dialogs_mlr.agroprom_guid</action>
+			</phrase>
+			<phrase id="9">
+				<text>travel_guid_marsh_csky_9</text>
+				<precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action>
+				<action>dialogs_mlr.l05_bar_guid</action>
+			</phrase>
+			<phrase id="10">
+				<text>travel_guid_marsh_csky_10</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_dv_bandit">
+		<dont_has_info>meet_guid_dv_bandit_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_dv_bandit_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_dv_bandit_1</text>
+				<give_info>meet_guid_dv_bandit_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_dv_bandit_list">
+		<has_info>meet_guid_dv_bandit_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_dv_bandit_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_dv_bandit_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_dv_bandit">
+		<has_info>meet_guid_dv_bandit_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_dv_bandit_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_dv_bandit_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_dv_bandit_2</text>
+				<precondition>dialogs_mlr.have_money_to_jupiter_underground_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_jupiter_underground_guid_jup</action>
+				<action>dialogs_mlr.trucks_cemetery_guid</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_dv_bandit_3</text>
+				<precondition>dialogs_mlr.have_money_to_radar_guid_pri</precondition>
+				<action>dialogs_mlr.sell_money_to_radar_guid_pri</action>
+				<action>dialogs_mlr.jup_guid_bandit_cont</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_dv_bandit_4</text>
+				<precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action>
+				<action>dialogs_mlr.esc_factory_bandit</action>
+			</phrase>
+			<phrase id="5">
+				<text>travel_guid_dv_bandit_5</text>
+				<precondition>dialogs_mlr.have_money_to_jupiter_underground_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_jupiter_underground_guid_jup</action>
+				<action>dialogs_mlr.gar_smart_terrain_5_2</action>
+			</phrase>
+			<phrase id="6">
+				<text>travel_guid_dv_bandit_6</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="tesak_travel_first_dlg">
+		<dont_has_info>tesak_travel_first_dlg</dont_has_info>
+		<has_info>tesak_meet_dialog1</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>tesak_travel_first_dlg_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>tesak_travel_first_dlg_1</text>
+				<give_info>tesak_travel_first_dlg</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_pri_stalker_list">
+		<has_info>tesak_travel_first_dlg</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_pri_stalker_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_pri_stalker_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_pri_stalker">
+		<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+		<has_info>tesak_travel_first_dlg</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_pri_stalker_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_pri_stalker_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_pri_stalker_2</text>
+				<precondition>dialogs_mlr.have_money_to_stancia_guid_pri</precondition>
+				<action>dialogs_mlr.sell_money_to_stancia_guid_pri</action>
+				<action>dialogs_mlr.stancia_guid</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_pri_stalker_3</text>
+				<precondition>dialogs_mlr.have_money_to_escape_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_escape_guid_bar</action>
+				<action>dialogs_mlr.pripyat_2_guid</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_pri_stalker_4</text>
+				<precondition>dialogs_mlr.have_money_to_radar_guid_pri</precondition>
+				<action>dialogs_mlr.sell_money_to_radar_guid_pri</action>
+				<action>dialogs_mlr.radar_guid</action>
+			</phrase>
+			<phrase id="5">
+				<text>travel_guid_pri_stalker_5</text>
+				<precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action>
+				<action>dialogs_mlr.jupiter_guid</action>
+			</phrase>
+			<phrase id="6">
+				<text>travel_guid_pri_stalker_6</text>
+				<precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action>
+				<action>dialogs_mlr.zaton_guid</action>
+			</phrase>
+			<phrase id="7">
+				<text>travel_guid_pri_stalker_7</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_jup">
+		<dont_has_info>meet_guid_jup_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_jup_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_jup_1</text>
+				<give_info>meet_guid_jup_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_jup_list">
+		<has_info>meet_guid_jup_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_jup_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_jup_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_jup">
+		<precondition>dialogs_mlr.have_money_to_jupiter_underground_guid_jup</precondition>
+		<has_info>meet_guid_jup_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_jup_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_jup_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_jup_2</text>
+				<precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action>
+				<action>dialogs_mlr.l05_bar_guid</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_jup_3</text>
+				<precondition>dialogs_mlr.have_money_to_escape_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_escape_guid_bar</action>
+				<action>dialogs_mlr.l11_pripyat_guid</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_jup_4</text>
+				<precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action>
+				<action>dialogs_mlr.pripyat_guid</action>
+			</phrase>
+			<phrase id="5">
+				<text>travel_guid_jup_5</text>
+				<precondition>dialogs_mlr.have_money_to_red_forest_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_red_forest_guid_jup</action>
+				<action>dialogs_mlr.red_forest_guid</action>
+			</phrase>
+			<phrase id="6">
+				<text>travel_guid_jup_6</text>
+				<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_zaton_guid_jup</action>
+				<action>dialogs_mlr.zaton_guid</action>
+			</phrase>
+			<phrase id="7">
+				<text>travel_guid_jup_7</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_zat">
+		<dont_has_info>meet_guid_zat_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_zat_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_zat_1</text>
+				<give_info>meet_guid_zat_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_zat_list">
+		<has_info>meet_guid_zat_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_zat_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_zat_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_zat">
+		<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+		<has_info>meet_guid_zat_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_zat_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_zat_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_zat_2</text>
+				<precondition>dialogs_mlr.have_money_to_pripyat_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_pripyat_guid_jup</action>
+				<action>dialogs_mlr.l11_pripyat_guid</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_zat_3</text>
+				<precondition>dialogs_mlr.have_money_to_pripyat_guid_zat</precondition>
+				<action>dialogs_mlr.sell_money_to_pripyat_guid_zat</action>
+				<action>dialogs_mlr.pripyat_guid</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_zat_4</text>
+				<precondition>dialogs_mlr.have_money_to_zaton_guid_jup</precondition>
+				<action>dialogs_mlr.sell_money_to_zaton_guid_jup</action>
+				<action>dialogs_mlr.jupiter_guid</action>
+			</phrase>
+			<phrase id="5">
+				<text>travel_guid_zat_5</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_bar">
+		<dont_has_info>meet_guid_bar_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_bar_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_bar_1</text>
+				<give_info>meet_guid_bar_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="meet_guid_bar_list">
+		<has_info>meet_guid_bar_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>meet_guid_bar_list_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>meet_guid_bar_list_1</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="travel_guid_bar">
+		<precondition>dialogs_mlr.have_money_to_garbage_guid_bar</precondition>
+		<has_info>meet_guid_bar_over</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>travel_guid_bar_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>travel_guid_bar_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+				<next>8</next>
+			</phrase>
+			<phrase id="2">
+				<text>travel_guid_bar_2</text>
+				<precondition>dialogs_mlr.have_money_to_escape_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_escape_guid_bar</action>
+				<action>dialogs_mlr.escape_guid</action>
+			</phrase>
+			<phrase id="3">
+				<text>travel_guid_bar_3</text>
+				<precondition>dialogs_mlr.have_money_to_garbage_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_garbage_guid_bar</action>
+				<action>dialogs_mlr.garbage_guid</action>
+			</phrase>
+			<phrase id="4">
+				<text>travel_guid_bar_4</text>
+				<precondition>dialogs_mlr.have_money_to_military_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_military_guid_bar</action>
+				<action>dialogs_mlr.military_guid</action>
+			</phrase>
+			<phrase id="5">
+				<text>travel_guid_bar_5</text>
+				<precondition>dialogs_mlr.have_money_to_yantar_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_yantar_guid_bar</action>
+				<action>dialogs_mlr.yantar_guid</action>
+			</phrase>
+			<phrase id="6">
+				<text>travel_guid_bar_6</text>
+				<precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action>
+				<action>dialogs_mlr.jupiter_guid</action>
+			</phrase>
+			<phrase id="7">
+				<text>travel_guid_bar_7</text>
+				<precondition>dialogs_mlr.have_money_to_jupiter_guid_bar</precondition>
+				<action>dialogs_mlr.sell_money_to_jupiter_guid_bar</action>
+				<action>dialogs_mlr.marsh_guid</action>
+			</phrase>
+			<phrase id="8">
+				<text>travel_guid_bar_8</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="hunter_trader_meet">
+		<dont_has_info>hunter_trader_meet_info</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>hunter_trader_meet_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>hunter_trader_meet_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>hunter_trader_meet_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>hunter_trader_meet_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>hunter_trader_meet_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>hunter_trader_meet_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>hunter_trader_meet_6</text>
+				<give_info>hunter_trader_meet_info</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="about_baraholka_hunter_trader">
+		<dont_has_info>about_baraholka_hunter_trader_info</dont_has_info>
+		<has_info>hunter_trader_meet_info</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>about_baraholka_hunter_trader_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>about_baraholka_hunter_trader_1</text>
+				<give_info>about_baraholka_hunter_trader_info</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="about_monsters_trader_hangar">
+		<has_info>hunter_trader_meet_info</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>about_monsters_trader_hangar_0</text>
+				<next>1</next>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+				<next>8</next>
+				<next>9</next>
+				<next>10</next>
+				<next>11</next>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+				<next>15</next>
+			</phrase>
+			<phrase id="1">
+				<text>about_monsters_trader_hangar_1</text>
+			</phrase>
+			<phrase id="2">
+				<text>about_monsters_trader_hangar_2</text>
+			</phrase>
+			<phrase id="3">
+				<text>about_monsters_trader_hangar_3</text>
+			</phrase>
+			<phrase id="4">
+				<text>about_monsters_trader_hangar_4</text>
+			</phrase>
+			<phrase id="5">
+				<text>about_monsters_trader_hangar_5</text>
+			</phrase>
+			<phrase id="6">
+				<text>about_monsters_trader_hangar_6</text>
+			</phrase>
+			<phrase id="7">
+				<text>about_monsters_trader_hangar_7</text>
+			</phrase>
+			<phrase id="8">
+				<text>about_monsters_trader_hangar_8</text>
+			</phrase>
+			<phrase id="9">
+				<text>about_monsters_trader_hangar_9</text>
+			</phrase>
+			<phrase id="10">
+				<text>about_monsters_trader_hangar_10</text>
+			</phrase>
+			<phrase id="11">
+				<text>about_monsters_trader_hangar_11</text>
+			</phrase>
+			<phrase id="12">
+				<text>about_monsters_trader_hangar_12</text>
+			</phrase>
+			<phrase id="13">
+				<text>about_monsters_trader_hangar_13</text>
+			</phrase>
+			<phrase id="14">
+				<text>about_monsters_trader_hangar_14</text>
+			</phrase>
+			<phrase id="15">
+				<has_info>hunter_gar_trader_task_2_inf</has_info>
+				<text>about_monsters_trader_hangar_15</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="request_to_no_trade_dialog">
+		<dont_has_info>request_to_no_trade1</dont_has_info>
+		<precondition>dialogs_mlr.request_to_no_trade</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>request_to_no_trade_dialog_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>request_to_no_trade_dialog_1</text>
+				<give_info>request_to_no_trade1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="request_to_no_trade_dialog_monolith">
+		<dont_has_info>request_to_no_trade1</dont_has_info>
+		<precondition>dialogs_mlr.request_to_no_trade</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>request_to_no_trade_dialog_monolith_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>request_to_no_trade_dialog_monolith_1</text>
+				<give_info>request_to_no_trade1</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="low_level_of_buy_equpments">
+		<precondition>dialogs_mlr.request_to_trade</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>low_level_of_buy_equpments_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>low_level_of_buy_equpments_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>low_level_of_buy_equpments_2</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="3">
+				<text>low_level_of_buy_equpments_3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<text>low_level_of_buy_equpments_4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<text>low_level_of_buy_equpments_5</text>
+				<next>8</next>
+				<next>9</next>
+				<next>10</next>
+				<next>29</next>
+			</phrase>
+			<phrase id="6">
+				<text>low_level_of_buy_equpments_6</text>
+				<next>11</next>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+				<next>15</next>
+				<next>29</next>
+			</phrase>
+			<phrase id="7">
+				<text>low_level_of_buy_equpments_7</text>
+				<next>16</next>
+				<next>17</next>
+				<next>18</next>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+			</phrase>
+			<phrase id="8">
+				<precondition>dialogs_mlr.have_to_buy_opt_bandage</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_bandage</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_bandage</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="9">
+				<precondition>dialogs_mlr.have_to_buy_opt_medkit</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_medkit</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_medkit</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="10">
+				<precondition>dialogs_mlr.have_to_buy_opt_antirad</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_antirad</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_antirad</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="11">
+				<precondition>dialogs_mlr.have_to_buy_opt_bread</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_bread</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_bread</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="12">
+				<precondition>dialogs_mlr.have_to_buy_opt_kolbasa</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_kolbasa</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_kolbasa</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="13">
+				<precondition>dialogs_mlr.have_to_buy_opt_conserva</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_conserva</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_conserva</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="14">
+				<precondition>dialogs_mlr.have_to_buy_opt_vodka</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_vodka</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_vodka</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="15">
+				<precondition>dialogs_mlr.have_to_buy_opt_energy_drink</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_energy_drink</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_energy_drink</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="16">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_18_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_fmj</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_18_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="17">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_18_pmm</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_pmm</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_18_pmm</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="18">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_19_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_19_fmj</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_19_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="19">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_19_pbp</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_19_pbp</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_19_pbp</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="20">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_7_62x25_p</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62x25_p</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_7_62x25_p</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="21">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_7_62x25_ps</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62x25_ps</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_7_62x25_ps</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="22">
+				<precondition>dialogs_mlr.have_to_buy_opt_12_70_buck</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_70_buck</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_12_70_buck</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="23">
+				<precondition>dialogs_mlr.have_to_buy_opt_12_76_zhekan</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_76_zhekan</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_12_76_zhekan</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="24">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_45_39_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_45_39_fmj</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_5_45_39_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="25">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_45_39_ap</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_45_39_ap</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_5_45_39_ap</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="26">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_7_62x39_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62x39_fmj</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_7_62x39_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="27">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_7_62x39_ap</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62x39_ap</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_7_62x39_ap</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="28">
+				<precondition>dialogs_mlr.have_to_buy_opt_grenade_rgd5</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_grenade_rgd5</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_grenade_rgd5</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="29">
+				<text>low_level_of_buy_equpments_29</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="ussr_level_of_buy_equpments">
+		<precondition>dialogs_mlr.request_to_trade</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>ussr_level_of_buy_equpments_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>ussr_level_of_buy_equpments_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>ussr_level_of_buy_equpments_2</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="3">
+				<text>ussr_level_of_buy_equpments_3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<text>ussr_level_of_buy_equpments_4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<text>ussr_level_of_buy_equpments_5</text>
+				<next>8</next>
+				<next>9</next>
+				<next>10</next>
+				<next>11</next>
+				<next>30</next>
+			</phrase>
+			<phrase id="6">
+				<text>ussr_level_of_buy_equpments_6</text>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+				<next>15</next>
+				<next>30</next>
+			</phrase>
+			<phrase id="7">
+				<text>ussr_level_of_buy_equpments_7</text>
+				<next>16</next>
+				<next>17</next>
+				<next>18</next>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+			</phrase>
+			<phrase id="8">
+				<precondition>dialogs_mlr.have_to_buy_opt_bandage</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_bandage</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_bandage</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="9">
+				<precondition>dialogs_mlr.have_to_buy_opt_medkit</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_medkit</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_medkit</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="10">
+				<precondition>dialogs_mlr.have_to_buy_opt_antirad</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_antirad</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_antirad</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="11">
+				<precondition>dialogs_mlr.have_to_buy_opt_medkit_army</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_medkit_army</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_medkit_army</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="12">
+				<precondition>dialogs_mlr.have_to_buy_opt_bread</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_bread</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_bread</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="13">
+				<precondition>dialogs_mlr.have_to_buy_opt_kolbasa</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_kolbasa</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_kolbasa</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="14">
+				<precondition>dialogs_mlr.have_to_buy_opt_conserva</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_conserva</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_conserva</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="15">
+				<precondition>dialogs_mlr.have_to_buy_opt_energy_drink</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_energy_drink</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_energy_drink</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="16">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_18_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_fmj</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_18_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="17">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_18_pmm</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_pmm</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_18_pmm</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="18">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_7_62x25_p</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62x25_p</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_7_62x25_p</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="19">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_7_62x25_ps</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62x25_ps</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_7_62x25_ps</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="20">
+				<precondition>dialogs_mlr.have_to_buy_opt_12_70_buck</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_70_buck</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_12_70_buck</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="21">
+				<precondition>dialogs_mlr.have_to_buy_opt_12_76_zhekan</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_76_zhekan</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_12_76_zhekan</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="22">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_45_39_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_45_39_fmj</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_5_45_39_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="23">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_45_39_ap</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_45_39_ap</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_5_45_39_ap</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="24">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_7_62x39_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62x39_fmj</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_7_62x39_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="25">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_7_62x39_ap</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62x39_ap</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_7_62x39_ap</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="26">
+				<precondition>dialogs_mlr.have_to_buy_opt_7_62_54_7h1</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62_54_7h1</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_7_62_54_7h1</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="27">
+				<precondition>dialogs_mlr.have_to_buy_opt_grenade_rgd5</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_grenade_rgd5</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_grenade_rgd5</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="28">
+				<precondition>dialogs_mlr.have_to_buy_opt_grenade_f1</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_grenade_f1</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_grenade_f1</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="29">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_vog_25</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_vog_25</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_vog_25</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="30">
+				<text>ussr_level_of_buy_equpments_30</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="euro_level_of_buy_equpments">
+		<precondition>dialogs_mlr.request_to_trade</precondition>
+		<phrase_list>
+			<phrase id="0">
+				<text>euro_level_of_buy_equpments_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>euro_level_of_buy_equpments_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+			</phrase>
+			<phrase id="2">
+				<text>euro_level_of_buy_equpments_2</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="3">
+				<text>euro_level_of_buy_equpments_3</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="4">
+				<text>euro_level_of_buy_equpments_4</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="5">
+				<text>euro_level_of_buy_equpments_5</text>
+				<next>8</next>
+				<next>9</next>
+				<next>10</next>
+				<next>11</next>
+				<next>27</next>
+			</phrase>
+			<phrase id="6">
+				<text>euro_level_of_buy_equpments_6</text>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+				<next>15</next>
+				<next>27</next>
+			</phrase>
+			<phrase id="7">
+				<text>euro_level_of_buy_equpments_7</text>
+				<next>16</next>
+				<next>17</next>
+				<next>18</next>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+			</phrase>
+			<phrase id="8">
+				<precondition>dialogs_mlr.have_to_buy_opt_bandage</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_bandage</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_bandage</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="9">
+				<precondition>dialogs_mlr.have_to_buy_opt_medkit</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_medkit</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_medkit</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="10">
+				<precondition>dialogs_mlr.have_to_buy_opt_antirad</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_antirad</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_antirad</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="11">
+				<precondition>dialogs_mlr.have_to_buy_opt_medkit_scientic</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_medkit_scientic</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_medkit_scientic</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="12">
+				<precondition>dialogs_mlr.have_to_buy_opt_bread</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_bread</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_bread</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="13">
+				<precondition>dialogs_mlr.have_to_buy_opt_kolbasa</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_kolbasa</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_kolbasa</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="14">
+				<precondition>dialogs_mlr.have_to_buy_opt_conserva</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_conserva</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_conserva</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="15">
+				<precondition>dialogs_mlr.have_to_buy_opt_energy_drink</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_energy_drink</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_energy_drink</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="16">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_18_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_fmj</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_18_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="17">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_18_pmm</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_18_pmm</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_18_pmm</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="18">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_19_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_19_fmj</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_19_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="19">
+				<precondition>dialogs_mlr.have_to_buy_opt_9_19_pbp</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_9_19_pbp</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_9_19_pbp</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="20">
+				<precondition>dialogs_mlr.have_to_buy_opt_12_70_buck</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_70_buck</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_12_70_buck</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="21">
+				<precondition>dialogs_mlr.have_to_buy_opt_12_76_zhekan</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_12_76_zhekan</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_12_76_zhekan</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="22">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_56_45_fmj</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_56_45_ss190</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_5_56_45_fmj</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="23">
+				<precondition>dialogs_mlr.have_to_buy_opt_ammo_5_56_45_ap</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_5_56_45_ap</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_ammo_5_56_45_ap</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="24">
+				<precondition>dialogs_mlr.have_to_buy_opt_7_62_54_7h1</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_ammo_7_62_54_7h1</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_7_62_54_7h1</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="25">
+				<precondition>dialogs_mlr.have_to_buy_opt_grenade_rgd5</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_grenade_rgd5</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_grenade_rgd5</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="26">
+				<precondition>dialogs_mlr.have_to_buy_opt_grenade_f1</precondition>
+				<script_text>dialogs_mlr.get_phrase_buy_opt_grenade_f1</script_text>
+				<action>dialogs_mlr.sell_to_buy_opt_grenade_f1</action>
+				<action>dialogs.break_dialog</action>
+			</phrase>
+			<phrase id="27">
+				<text>euro_level_of_buy_equpments_27</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="story_dolg_p">
+		<dont_has_info>story_dolg_p_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>story_dolg_p_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>story_dolg_p_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>story_dolg_p_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>story_dolg_p_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>story_dolg_p_4</text>
+				<give_info>story_dolg_p_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="aslan_st_about_job">
+		<precondition>dialogs_mlr.check_killer</precondition>
+		<dont_has_info>aslan_st_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>aslan_st_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>aslan_st_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>aslan_st_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>aslan_st_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>aslan_st_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>aslan_st_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>aslan_st_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>aslan_st_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>aslan_st_8</text>
+				<give_info>aslan_st_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bandit_mechanic_st">
+		<dont_has_info>bandit_mechanic_st_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit_mechanic_st_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit_mechanic_st_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit_mechanic_st_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit_mechanic_st_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>bandit_mechanic_st_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit_mechanic_st_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>bandit_mechanic_st_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>bandit_mechanic_st_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>bandit_mechanic_st_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>bandit_mechanic_st_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>bandit_mechanic_st_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>bandit_mechanic_st_11</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>bandit_mechanic_st_12</text>
+				<give_info>bandit_mechanic_st_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bandit_trader_st">
+		<dont_has_info>bandit_trader_st_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit_trader_st_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit_trader_st_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit_trader_st_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>bandit_trader_st_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>bandit_trader_st_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>bandit_trader_st_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>bandit_trader_st_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>bandit_trader_st_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>bandit_trader_st_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>bandit_trader_st_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>bandit_trader_st_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>bandit_trader_st_11</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>bandit_trader_st_12</text>
+				<give_info>bandit_trader_st_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="sultan_st">
+		<dont_has_info>sultan_st_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>sultan_st_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>sultan_st_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>sultan_st_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>sultan_st_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>sultan_st_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>sultan_st_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>sultan_st_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>sultan_st_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>sultan_st_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>sultan_st_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>sultan_st_10</text>
+				<give_info>sultan_st_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="army_south_mechan_mlr_st">
+		<dont_has_info>army_south_mechan_mlr_st_over</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>army_south_mechan_mlr_st_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>army_south_mechan_mlr_st_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>army_south_mechan_mlr_st_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>army_south_mechan_mlr_st_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>army_south_mechan_mlr_st_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>army_south_mechan_mlr_st_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>army_south_mechan_mlr_st_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>army_south_mechan_mlr_st_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>army_south_mechan_mlr_st_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>army_south_mechan_mlr_st_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>army_south_mechan_mlr_st_10</text>
+				<give_info>army_south_mechan_mlr_st_over</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="loki_st">
+		<dont_has_info>loki_st_done</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>loki_st_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>loki_st_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>loki_st_2</text>
+				<next>3</next>
+			</phrase>
+			<phrase id="3">
+				<text>loki_st_3</text>
+				<next>4</next>
+			</phrase>
+			<phrase id="4">
+				<text>loki_st_4</text>
+				<next>5</next>
+			</phrase>
+			<phrase id="5">
+				<text>loki_st_5</text>
+				<next>6</next>
+			</phrase>
+			<phrase id="6">
+				<text>loki_st_6</text>
+				<next>7</next>
+			</phrase>
+			<phrase id="7">
+				<text>loki_st_7</text>
+				<next>8</next>
+			</phrase>
+			<phrase id="8">
+				<text>loki_st_8</text>
+				<next>9</next>
+			</phrase>
+			<phrase id="9">
+				<text>loki_st_9</text>
+				<next>10</next>
+			</phrase>
+			<phrase id="10">
+				<text>loki_st_10</text>
+				<next>11</next>
+			</phrase>
+			<phrase id="11">
+				<text>loki_st_11</text>
+				<next>12</next>
+			</phrase>
+			<phrase id="12">
+				<text>loki_st_12</text>
+				<give_info>loki_st_done</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="bandit_barman_dar_mlr_about_lottery">
+		<has_info>bandit_barman_dar_mlr_start_dlg</has_info>
+		<dont_has_info>bandit_barman_dar_mlr_about_lottery</dont_has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>bandit_barman_dar_mlr_about_lottery_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>bandit_barman_dar_mlr_about_lottery_1</text>
+				<next>2</next>
+			</phrase>
+			<phrase id="2">
+				<text>bandit_barman_dar_mlr_about_lottery_2</text>
+				<give_info>bandit_barman_dar_mlr_about_lottery</give_info>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="lottery_bandit_barman_dar_mlr">
+		<has_info>bandit_barman_dar_mlr_about_lottery</has_info>
+		<phrase_list>
+			<phrase id="0">
+				<text>lottery_bandit_barman_dar_mlr_0</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text>lottery_bandit_barman_dar_mlr_1</text>
+				<next>2</next>
+				<next>3</next>
+				<next>4</next>
+				<next>5</next>
+				<next>6</next>
+				<next>7</next>
+				<next>8</next>
+				<next>9</next>
+				<next>11</next>
+				<next>12</next>
+				<next>13</next>
+				<next>14</next>
+				<next>15</next>
+				<next>16</next>
+				<next>17</next>
+				<next>18</next>
+				<next>10</next>
+			</phrase>
+			<phrase id="2">
+				<precondition>dialogs_mlr.have_csky_patch_for_lottery_10</precondition>
+				<text>lottery_bandit_barman_dar_mlr_2</text>
+				<action>dialogs_mlr.take_csky_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="3">
+				<precondition>dialogs_mlr.have_merc_patch_for_lottery_10</precondition>
+				<text>lottery_bandit_barman_dar_mlr_3</text>
+				<action>dialogs_mlr.take_merc_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="4">
+				<precondition>dialogs_mlr.have_stalker_patch_for_lottery_10</precondition>
+				<text>lottery_bandit_barman_dar_mlr_4</text>
+				<action>dialogs_mlr.take_stalker_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="5">
+				<precondition>dialogs_mlr.have_ecolog_patch_for_lottery_10</precondition>
+				<text>lottery_bandit_barman_dar_mlr_5</text>
+				<action>dialogs_mlr.take_ecolog_patch_for_lottery_10</action>
+				<next>22</next>
+				<next>24</next>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="6">
+				<precondition>dialogs_mlr.have_freedom_patch_for_lottery_10</precondition>
+				<text>lottery_bandit_barman_dar_mlr_6</text>
+				<action>dialogs_mlr.take_freedom_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="7">
+				<precondition>dialogs_mlr.have_duty_patch_for_lottery_10</precondition>
+				<text>lottery_bandit_barman_dar_mlr_7</text>
+				<action>dialogs_mlr.take_duty_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="8">
+				<precondition>dialogs_mlr.have_monolith_patch_for_lottery_10</precondition>
+				<text>lottery_bandit_barman_dar_mlr_8</text>
+				<action>dialogs_mlr.take_monolith_patch_for_lottery_10</action>
+				<next>22</next>
+				<next>24</next>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="9">
+				<precondition>dialogs_mlr.have_army_patch_for_lottery_10</precondition>
+				<text>lottery_bandit_barman_dar_mlr_9</text>
+				<action>dialogs_mlr.take_army_patch_for_lottery_10</action>
+				<next>19</next>
+				<next>20</next>
+				<next>21</next>
+				<next>22</next>
+				<next>23</next>
+				<next>24</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="11">
+				<precondition>dialogs_mlr.have_csky_patch_for_lottery_50</precondition>
+				<text>lottery_bandit_barman_dar_mlr_11</text>
+				<action>dialogs_mlr.take_csky_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="12">
+				<precondition>dialogs_mlr.have_merc_patch_for_lottery_50</precondition>
+				<text>lottery_bandit_barman_dar_mlr_12</text>
+				<action>dialogs_mlr.take_merc_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="13">
+				<precondition>dialogs_mlr.have_stalker_patch_for_lottery_50</precondition>
+				<text>lottery_bandit_barman_dar_mlr_13</text>
+				<action>dialogs_mlr.take_stalker_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="14">
+				<precondition>dialogs_mlr.have_ecolog_patch_for_lottery_50</precondition>
+				<text>lottery_bandit_barman_dar_mlr_14</text>
+				<action>dialogs_mlr.take_ecolog_patch_for_lottery_50</action>
+				<next>31</next>
+				<next>30</next>
+				<next>25</next>
+				<next>34</next>
+				<next>35</next>
+				<next>36</next>
+				<next>40</next>
+				<next>41</next>
+			</phrase>
+			<phrase id="15">
+				<precondition>dialogs_mlr.have_freedom_patch_for_lottery_50</precondition>
+				<text>lottery_bandit_barman_dar_mlr_15</text>
+				<action>dialogs_mlr.take_freedom_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="16">
+				<precondition>dialogs_mlr.have_duty_patch_for_lottery_50</precondition>
+				<text>lottery_bandit_barman_dar_mlr_16</text>
+				<action>dialogs_mlr.take_duty_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="17">
+				<precondition>dialogs_mlr.have_monolith_patch_for_lottery_50</precondition>
+				<text>lottery_bandit_barman_dar_mlr_17</text>
+				<action>dialogs_mlr.take_monolith_patch_for_lottery_50</action>
+				<next>31</next>
+				<next>30</next>
+				<next>25</next>
+				<next>34</next>
+				<next>35</next>
+				<next>36</next>
+				<next>40</next>
+				<next>41</next>
+			</phrase>
+			<phrase id="18">
+				<precondition>dialogs_mlr.have_army_patch_for_lottery_50</precondition>
+				<text>lottery_bandit_barman_dar_mlr_18</text>
+				<action>dialogs_mlr.take_army_patch_for_lottery_50</action>
+				<next>25</next>
+				<next>26</next>
+				<next>27</next>
+				<next>28</next>
+				<next>29</next>
+				<next>30</next>
+				<next>31</next>
+				<next>38</next>
+				<next>37</next>
+				<next>39</next>
+			</phrase>
+			<phrase id="10">
+				<text>lottery_bandit_barman_dar_mlr_10</text>
+			</phrase>
+			<phrase id="19">
+				<text>lottery_bandit_barman_dar_mlr_19</text>
+				<action>dialogs_mlr.lottery_present_low_1</action>
+			</phrase>
+			<phrase id="20">
+				<text>lottery_bandit_barman_dar_mlr_20</text>
+				<action>dialogs_mlr.lottery_present_low_2</action>
+			</phrase>
+			<phrase id="21">
+				<text>lottery_bandit_barman_dar_mlr_21</text>
+				<action>dialogs_mlr.lottery_present_low_3</action>
+			</phrase>
+			<phrase id="22">
+				<text>lottery_bandit_barman_dar_mlr_22</text>
+				<action>dialogs_mlr.lottery_present_low_4</action>
+			</phrase>
+			<phrase id="23">
+				<text>lottery_bandit_barman_dar_mlr_23</text>
+				<action>dialogs_mlr.lottery_present_low_5</action>
+			</phrase>
+			<phrase id="24">
+				<text>lottery_bandit_barman_dar_mlr_24</text>
+				<action>dialogs_mlr.lottery_present_low_6</action>
+			</phrase>
+			<phrase id="25">
+				<text>lottery_bandit_barman_dar_mlr_25</text>
+				<action>dialogs_mlr.lottery_present_medium_1</action>
+			</phrase>
+			<phrase id="26">
+				<text>lottery_bandit_barman_dar_mlr_26</text>
+				<action>dialogs_mlr.lottery_present_medium_2</action>
+			</phrase>
+			<phrase id="27">
+				<text>lottery_bandit_barman_dar_mlr_27</text>
+				<action>dialogs_mlr.lottery_present_medium_3</action>
+			</phrase>
+			<phrase id="28">
+				<text>lottery_bandit_barman_dar_mlr_28</text>
+				<action>dialogs_mlr.lottery_present_medium_4</action>
+			</phrase>
+			<phrase id="29">
+				<text>lottery_bandit_barman_dar_mlr_29</text>
+				<action>dialogs_mlr.lottery_present_medium_bandit_5</action>
+			</phrase>
+			<phrase id="30">
+				<text>lottery_bandit_barman_dar_mlr_30</text>
+				<action>dialogs_mlr.lottery_present_medium_bandit_6</action>
+			</phrase>
+			<phrase id="31">
+				<text>lottery_bandit_barman_dar_mlr_31</text>
+				<action>dialogs_mlr.lottery_present_medium_bandit_7</action>
+			</phrase>
+			<phrase id="34">
+				<text>lottery_bandit_barman_dar_mlr_34</text>
+				<action>dialogs_mlr.lottery_present_hight_bandit_1</action>
+			</phrase>
+			<phrase id="35">
+				<text>lottery_bandit_barman_dar_mlr_35</text>
+				<action>dialogs_mlr.lottery_present_hight_bandit_2</action>
+			</phrase>
+			<phrase id="36">
+				<text>lottery_bandit_barman_dar_mlr_36</text>
+				<action>dialogs_mlr.lottery_present_hight_bandit_3</action>
+			</phrase>
+			<phrase id="37">
+				<text>lottery_bandit_barman_dar_mlr_37</text>
+			</phrase>
+			<phrase id="38">
+				<text>lottery_bandit_barman_dar_mlr_38</text>
+			</phrase>
+			<phrase id="39">
+				<text>lottery_bandit_barman_dar_mlr_39</text>
+			</phrase>
+			<phrase id="40">
+				<text>lottery_bandit_barman_dar_mlr_40</text>
+				<action>dialogs_mlr.lottery_present_hight_bandit_4</action>
+			</phrase>
+			<phrase id="41">
+				<text>lottery_bandit_barman_dar_mlr_41</text>
+				<action>dialogs_mlr.lottery_present_hight_bandit_5</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<!-- Сопровождение -->
+	<!-- Companions -->
+
+	<dialog id="ecolog_companion_task_mlr_1_dialog">
+		<phrase_list>
+			<phrase id="0">
+				<text/>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text/>
+				<next>111</next>
+				<next>112</next>
+				<next>113</next>
+			</phrase>
+			<phrase id="111">
+				<dont_has_info>ecolog_companion_task_mlr_1_started</dont_has_info>
+				<precondition>dialogs_mlr.ecolog_companion_task_mlr_1_not_complete</precondition>
+				<text>ecolog_companion_task_mlr_1_start_dialog_1</text>
+				<give_info>ecolog_companion_task_mlr_1_started</give_info>
+				<next>1111</next>
+			</phrase>
+			<phrase id="112">
+				<has_info>ecolog_companion_task_mlr_1_started</has_info>
+				<precondition>dialogs_mlr.ecolog_companion_task_mlr_1_not_complete</precondition>
+				<text>ecolog_companion_task_mlr_1_start_dialog_2</text>
+				<give_info>ecolog_companion_task_mlr_1_started</give_info>
+				<next>1111</next>
+			</phrase>
+			<phrase id="113">
+				<precondition>dialogs_mlr.ecolog_companion_task_mlr_1_complete</precondition>
+				<text>ecolog_companion_task_mlr_1_complete</text>
+				<next>1113</next>
+			</phrase>
+			<phrase id="1111">
+				<text>ecolog_companion_task_mlr_1_actor_reply</text>
+			</phrase>
+			<phrase id="1113">
+				<text>ecolog_companion_task_mlr_1_actor_reply</text>
+				<action>dialogs_mlr.ecolog_companion_task_mlr_1_give_reward</action>
+				<action>dialogs_mlr.ecolog_companion_task_mlr_1_complete_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="ecolog_companion_task_mlr_2_dialog">
+		<phrase_list>
+			<phrase id="0">
+				<text/>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text/>
+				<next>111</next>
+				<next>112</next>
+				<next>113</next>
+			</phrase>
+			<phrase id="111">
+				<dont_has_info>ecolog_companion_task_mlr_2_started</dont_has_info>
+				<precondition>dialogs_mlr.ecolog_companion_task_mlr_2_not_complete</precondition>
+				<text>ecolog_companion_task_mlr_2_start_dialog_1</text>
+				<give_info>ecolog_companion_task_mlr_2_started</give_info>
+				<next>1111</next>
+			</phrase>
+			<phrase id="112">
+				<has_info>ecolog_companion_task_mlr_2_started</has_info>
+				<precondition>dialogs_mlr.ecolog_companion_task_mlr_2_not_complete</precondition>
+				<text>ecolog_companion_task_mlr_2_start_dialog_2</text>
+				<give_info>ecolog_companion_task_mlr_2_started</give_info>
+				<next>1111</next>
+			</phrase>
+			<phrase id="113">
+				<precondition>dialogs_mlr.ecolog_companion_task_mlr_2_complete</precondition>
+				<text>ecolog_companion_task_mlr_2_complete</text>
+				<next>1113</next>
+			</phrase>
+			<phrase id="1111">
+				<text>ecolog_companion_task_mlr_2_actor_reply</text>
+			</phrase>
+			<phrase id="1113">
+				<text>ecolog_companion_task_mlr_2_actor_reply</text>
+				<action>dialogs_mlr.ecolog_companion_task_mlr_2_give_reward</action>
+				<action>dialogs_mlr.ecolog_companion_task_mlr_2_complete_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+	<dialog id="stalker_companion_task_mlr_1_dialog">
+		<phrase_list>
+			<phrase id="0">
+				<text/>
+				<next>1</next>
+			</phrase>
+			<phrase id="1">
+				<text/>
+				<next>111</next>
+				<next>112</next>
+				<next>113</next>
+			</phrase>
+			<phrase id="111">
+				<dont_has_info>stalker_companion_task_mlr_1_started</dont_has_info>
+				<precondition>dialogs_mlr.stalker_companion_task_mlr_1_not_complete</precondition>
+				<text>stalker_companion_task_mlr_1_start_dialog_1</text>
+				<give_info>stalker_companion_task_mlr_1_started</give_info>
+				<next>1111</next>
+			</phrase>
+			<phrase id="112">
+				<has_info>stalker_companion_task_mlr_1_started</has_info>
+				<precondition>dialogs_mlr.stalker_companion_task_mlr_1_not_complete</precondition>
+				<text>stalker_companion_task_mlr_1_start_dialog_2</text>
+				<give_info>stalker_companion_task_mlr_1_started</give_info>
+				<next>1111</next>
+			</phrase>
+			<phrase id="113">
+				<precondition>dialogs_mlr.stalker_companion_task_mlr_1_complete</precondition>
+				<text>stalker_companion_task_mlr_1_complete</text>
+				<action>dialogs_mlr.stalker_companion_task_mlr_1_give_reward</action>
+				<next>1113</next>
+			</phrase>
+			<phrase id="1111">
+				<text>stalker_companion_task_mlr_1_actor_reply</text>
+			</phrase>
+			<phrase id="1113">
+				<text>stalker_companion_task_mlr_1_actor_reply</text>
+				<action>dialogs_mlr.stalker_companion_task_mlr_1_complete_task</action>
+			</phrase>
+		</phrase_list>
+	</dialog>
+</game_dialogs>

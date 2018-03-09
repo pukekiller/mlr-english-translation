@@ -1,0 +1,80 @@
+function lootmoney(npc)
+	if npc:money() < 10000 then
+		local actor = db.actor
+		local money = npc:money()
+		if money ~= nil and money > 0 then
+			local deadmoney = money
+			local npc_rank = ranks.get_obj_rank_name(npc)
+			if npc_rank ~= nil then
+				if npc_rank == "novice" and deadmoney >=400
+					then deadmoney=math.random(25,50)
+				elseif npc_rank == "trainee" and deadmoney >=500
+					then deadmoney=math.random(50,75)
+				elseif npc_rank == "experienced" and deadmoney >=550
+					then deadmoney=math.random(75,100)
+				elseif npc_rank == "professional" and deadmoney >=600
+					then deadmoney=math.random(100,200)
+				elseif npc_rank == "veteran" and deadmoney >=650
+					then deadmoney=math.random(200,300)
+				elseif npc_rank == "expert" and deadmoney >=700
+					then deadmoney=math.random(300,500)
+				elseif npc_rank == "master" and deadmoney >=750
+					then deadmoney=math.random(500,1500)
+				elseif npc_rank == "legend" and deadmoney >=800
+					then deadmoney=math.random(600,2000)
+			  end
+			end
+			local news_caption = game.translate_string("lootmoney_1")..npc:character_name()
+			local news_text = game.translate_string("lootmoney_2")..game.translate_string(deadmoney)..game.translate_string("lootmoney_3")
+				actor:give_game_news(news_caption, news_text, "ui_iconsTotal_found_money", 0, 10000)
+				actor:give_money(deadmoney)
+				-- game_stats.money_quest_update(deadmoney)
+				npc:give_money(-money)
+				-- game_stats.money_quest_update(-money)
+	if (math.random(1,100) >= 80) then
+		coc_treasure_manager.create_random_stash(nil,npc:character_name()..game.translate_string("lootmoney_4"))
+	end
+			if (math.random(1,100) >= 85) and (axr_main.config:r_value("mm_options","enable_transitions_closed_disable",1,true) == false) then
+				if transitions.check_rnd_transitions_rookie() == true and npc_rank == "novice" or transitions.check_rnd_transitions_rookie() == true and npc_rank == "experienced" or transitions.check_rnd_transitions_rookie() == true and npc_rank == "professional" then
+					transitions.rnd_open_transition_rookie()
+				elseif transitions.check_rnd_transitions_winrar() == true and npc_rank == "veteran" or transitions.check_rnd_transitions_winrar() == true and npc_rank == "expert" or transitions.check_rnd_transitions_winrar() == true and npc_rank == "master" or transitions.check_rnd_transitions_winrar() == true and npc_rank == "legend" then
+					transitions.rnd_open_transition_winrar()
+				end
+		    end
+		end
+	end
+end
+
+function lootmoney_effect(npc,corpse_npc)
+	if corpse_npc:money() < 10000 then
+		local num=corpse_npc:money()
+		if num and num >0 then
+			local deadmoney = num
+			local gi_rank
+			gi_rank = ranks.get_obj_rank_name(corpse_npc)
+			if gi_rank ~= nil then
+				if npc_rank == "novice" and deadmoney >=400
+					then deadmoney=math.random(25,50)
+				elseif npc_rank == "trainee" and deadmoney >=500
+					then deadmoney=math.random(50,75)
+				elseif npc_rank == "experienced" and deadmoney >=550
+					then deadmoney=math.random(75,100)
+				elseif npc_rank == "professional" and deadmoney >=600
+					then deadmoney=math.random(100,200)
+				elseif npc_rank == "veteran" and deadmoney >=650
+					then deadmoney=math.random(200,300)
+				elseif npc_rank == "expert" and deadmoney >=700
+					then deadmoney=math.random(300,500)
+				elseif npc_rank == "master" and deadmoney >=750
+					then deadmoney=math.random(500,1500)
+				elseif npc_rank == "legend" and deadmoney >=800
+					then deadmoney=math.random(600,2000)
+				end
+			end
+			npc:give_money(deadmoney)
+			-- game_stats.money_quest_update(deadmoney)
+			corpse_npc:give_money(-num)
+			-- game_stats.money_quest_update(-num)
+		end
+	end
+end
