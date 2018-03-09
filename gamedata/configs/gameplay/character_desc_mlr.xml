@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding="windows-1251"?>
+<?xml version='1.0' encoding="windows-1251" ?>
 <xml>
 
 <!-------------------------- Нейтрал мерки ------------------------>
@@ -27,7 +27,7 @@
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
     </specific_character>
-    
+
     <specific_character id="neutral_killer_sim_mlr_2" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_mercenary3</icon>
@@ -61,7 +61,7 @@
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>esc_2_12_medic_mlr</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
     <rank>900</rank>
@@ -79,8 +79,8 @@
 		<actor_dialog>esc_2_12_medic_mlr_save_task_mlr_dlg_2</actor_dialog>
 		<actor_dialog>esc_2_12_medic_mlr_save_task_mlr_dlg_3</actor_dialog>
 		<actor_dialog>esc_2_12_medic_mlr_save_task_mlr_dlg_4</actor_dialog>
-		<actor_dialog>esc_2_12_medic_mlr_after_wounded</actor_dialog>		
-		<actor_dialog>esc_2_12_medic_mlr_heal</actor_dialog>		
+		<actor_dialog>esc_2_12_medic_mlr_after_wounded</actor_dialog>
+		<actor_dialog>esc_2_12_medic_mlr_heal</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
 
@@ -93,7 +93,7 @@
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>newbee_monolith_stalker_1</class>
-    <community>monolith</community> 
+    <community>monolith</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\monolith\</snd_config>
     <rank>0</rank>
@@ -118,7 +118,7 @@
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>newbee_monolith_stalker_2</class>
-    <community>monolith</community> 
+    <community>monolith</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\monolith\</snd_config>
     <rank>0</rank>
@@ -143,7 +143,7 @@
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>newbee_monolith_stalker_3</class>
-    <community>monolith</community> 
+    <community>monolith</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\monolith\</snd_config>
     <rank>0</rank>
@@ -168,7 +168,7 @@
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>newbee_monolith_stalker_4</class>
-    <community>monolith</community> 
+    <community>monolith</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\monolith\</snd_config>
     <rank>0</rank>
@@ -185,8 +185,8 @@
 #include "gameplay\character_criticals_4.xml"
 		<actor_dialog>newbee_monolith_stalker_4_dlg</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
-    </specific_character>	
-	
+    </specific_character>
+
 <!-------------------------- Медик бандитов в ангаре, свалка ------------------------>
 <!------------------ Bandit medic in the train hangar in the Garbage ---------------->
 
@@ -230,7 +230,7 @@
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>fat_rookie_in_the_house_pole_purpose</class>
-<community>stalker</community> 
+<community>stalker</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\stalker\</snd_config>
 
@@ -288,7 +288,7 @@ ammo_5.45x39_fmj = 1 \n
 <actor_dialog>dm_ordered_task_cancel_dialog</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
-	
+
 <!-------------------------- Техник бандитов (кордон) ------------------------>
 <!---------------------- Bandit technician in the Cordon --------------------->
 
@@ -318,14 +318,14 @@ ammo_5.45x39_fmj = 1 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
-#include "gameplay\character_criticals_4.xml"	
+#include "gameplay\character_criticals_4.xml"
 <actor_dialog>esc_factory_smart_terrain_10_bandit_mechanic_first_meet</actor_dialog>
 <actor_dialog>dm_ordered_task_dialog</actor_dialog>
 <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
 <actor_dialog>dm_ordered_task_cancel_dialog</actor_dialog>
 <actor_dialog>dm_tech_repair</actor_dialog>
 <actor_dialog>actor_break_dialog</actor_dialog>
-</specific_character>	
+</specific_character>
 
 <!-------------------------- Лидер отряда Инквизиторов ------------------------>
 <!---------------------- Leader of a squad of Inquisitors --------------------->
@@ -359,8 +359,8 @@ ammo_5.45x39_fmj = 1 \n
 #include "gameplay\character_criticals_4.xml"
 		<actor_dialog>main_monolith_mlr_task_5_dlg_2</actor_dialog>
 		<actor_dialog>main_monolith_mlr_task_5_1_dlg_1</actor_dialog>
-		<actor_dialog>main_monolith_mlr_task_5_1_dlg_2</actor_dialog>		
-		<actor_dialog>main_monolith_mlr_task_5_1_dlg_about_leader</actor_dialog>		
+		<actor_dialog>main_monolith_mlr_task_5_1_dlg_2</actor_dialog>
+		<actor_dialog>main_monolith_mlr_task_5_1_dlg_about_leader</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
 
@@ -430,7 +430,7 @@ ammo_5.45x39_fmj = 1 \n
 <actor_dialog>dm_ordered_task_cancel_dialog</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
-	
+
 <!-------------------------- Техник бандитов (свалка) ------------------------>
 <!---------------------- Bandit technician at the Garbage -------------------->
 
@@ -460,13 +460,13 @@ ammo_5.45x39_fmj = 1 \n
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
     </supplies>
-#include "gameplay\character_criticals_4.xml"		
+#include "gameplay\character_criticals_4.xml"
 <actor_dialog>dm_ordered_task_dialog</actor_dialog>
 <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
 <actor_dialog>dm_ordered_task_cancel_dialog</actor_dialog>
 <actor_dialog>dm_tech_repair</actor_dialog>
 <actor_dialog>actor_break_dialog</actor_dialog>
-</specific_character>	
+</specific_character>
 
 <!-------------------------- Главарь стоянки долга ------------------------>
 <!------------- Duty squad leader at the parking lot in Jupiter ----------->
@@ -478,7 +478,7 @@ ammo_5.45x39_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>gar_smart_terrain_5_4_main_dolg_soldier</class>
-<community>dolg</community> 
+<community>dolg</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\dolg\</snd_config>
 
@@ -534,9 +534,9 @@ ammo_5.45x39_fmj = 1 \n
 #include "gameplay\character_criticals_4.xml"
 		<start_dialog>bandit_barman_dar_mlr_start_dlg</start_dialog>
 		<actor_dialog>bandit_barman_dar_mlr_about_lottery</actor_dialog>
-		<actor_dialog>lottery_bandit_barman_dar_mlr</actor_dialog>		
-		<actor_dialog>bandit_barman_dar_mlr_ab_find_number</actor_dialog>	
-		<actor_dialog>bandit_barman_dar_mlr_find_number</actor_dialog>			
+		<actor_dialog>lottery_bandit_barman_dar_mlr</actor_dialog>
+		<actor_dialog>bandit_barman_dar_mlr_ab_find_number</actor_dialog>
+		<actor_dialog>bandit_barman_dar_mlr_find_number</actor_dialog>
 		<actor_dialog>actor_break_dialog</actor_dialog>
 	</specific_character>
 
@@ -550,7 +550,7 @@ ammo_5.45x39_fmj = 1 \n
 <bio>Детальная информация отсутствует.</bio>
 
 <class>pri_monolith_teacher_mlr</class>
-<community>monolith</community> 
+<community>monolith</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\monolith\</snd_config>
 
@@ -592,7 +592,7 @@ ammo_5.45x39_fmj = 1 \n
 <bio>Лидер Монолита. Детальная информация отсутствует.</bio>
 
 <class>lider_monolith_haron</class>
-<community>monolith</community> 
+<community>monolith</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_02\monolith\</snd_config>
 
@@ -624,7 +624,7 @@ ammo_7.62x54_7h1 = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>fat_rookie_in_the_house_pole</class>
-<community>stalker</community> 
+<community>stalker</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\stalker\</snd_config>
 
@@ -669,7 +669,7 @@ ammo_12x70_buck = 5 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>x16_zombie_crying</class>
-<community>zombied</community> 
+<community>zombied</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\zombied\</snd_config>
 
@@ -701,7 +701,7 @@ ammo_12x70_buck = 5 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>mil_freedom_barman_mlr</class>
-<community>freedom</community> 
+<community>freedom</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\freedom\</snd_config>
 
@@ -718,7 +718,7 @@ ammo_12x70_buck = 5 \n
 #include "gameplay\character_drugs.xml"
 </supplies>
 #include "gameplay\character_criticals_4.xml"
-<actor_dialog>first_meet_to_barman_mil_7_7</actor_dialog>	
+<actor_dialog>first_meet_to_barman_mil_7_7</actor_dialog>
 <actor_dialog>dm_ordered_task_dialog</actor_dialog>
 <actor_dialog>dm_ordered_task_completed_dialog</actor_dialog>
 <actor_dialog>talk_to_barman_mil_7_7_about_lottery</actor_dialog>
@@ -738,7 +738,7 @@ ammo_12x70_buck = 5 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>sick_duty_stalker_bar_general</class>
-<community>dolg</community> 
+<community>dolg</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\dolg\</snd_config>
 
@@ -765,7 +765,7 @@ ammo_12x70_buck = 5 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>bodyguard_duty_medic_bar_general</class>
-<community>dolg</community> 
+<community>dolg</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\dolg\</snd_config>
 
@@ -797,7 +797,7 @@ ammo_5.45x39_ap = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>border_freedom_keeper_max</class>
-<community>freedom</community> 
+<community>freedom</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_03\freedom\</snd_config>
 
@@ -831,7 +831,7 @@ ammo_7.62x54_7h1 = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>bar_visitors_sad_stalker</class>
-<community>stalker</community> 
+<community>stalker</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <!-- <snd_config>characters_voice\human_02\stalker\</snd_config> -->
 
@@ -866,7 +866,7 @@ ammo_9x18_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>bar_visitors_sad_veteran</class>
-<community>dolg</community> 
+<community>dolg</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <!-- <snd_config>characters_voice\human_01\dolg\</snd_config> -->
 
@@ -901,7 +901,7 @@ ammo_12x70_buck = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>bar_visitors_sad_veteran_friend_1</class>
-<community>dolg</community> 
+<community>dolg</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\dolg\</snd_config>
 
@@ -932,7 +932,7 @@ ammo_12x70_buck = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>bar_visitors_sad_veteran_friend_2</class>
-<community>dolg</community> 
+<community>dolg</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\dolg\</snd_config>
 
@@ -966,7 +966,7 @@ ammo_12x70_buck = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>val_smart_terrain_7_5_bandit_bodyguard1</class>
-<community>bandit</community> 
+<community>bandit</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_02\bandit\</snd_config>
 
@@ -997,7 +997,7 @@ ammo_11.43x23_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>val_smart_terrain_7_5_bandit_bodyguard2</class>
-<community>bandit</community> 
+<community>bandit</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_02\bandit\</snd_config>
 
@@ -1028,7 +1028,7 @@ ammo_11.43x23_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>val_smart_terrain_7_5_bandit_bodyguard3</class>
-<community>bandit</community> 
+<community>bandit</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_02\bandit\</snd_config>
 
@@ -1062,7 +1062,7 @@ ammo_11.43x23_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>bandit_main_base_medic_mlr</class>
-<community>bandit</community> 
+<community>bandit</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\bandit\</snd_config>
 
@@ -1095,7 +1095,7 @@ ammo_9x18_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>ds_killer_medic_mlr</class>
-<community>killer</community> 
+<community>killer</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_03\killer\</snd_config>
 
@@ -1128,7 +1128,7 @@ ammo_5.45x39_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>mil_freedom_medic</class>
-<community>freedom</community> 
+<community>freedom</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\freedom\</snd_config>
 
@@ -1161,7 +1161,7 @@ ammo_9x18_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>ds_killer_guide_main_base</class>
-<community>killer</community> 
+<community>killer</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_03\killer\</snd_config>
 
@@ -1193,7 +1193,7 @@ ammo_5.45x39_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>zaton_killer_guide_station</class>
-<community>killer</community> 
+<community>killer</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_03\killer\</snd_config>
 
@@ -1227,7 +1227,7 @@ ammo_5.45x39_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>dasc_traveler_mlr</class>
-<community>stalker</community> 
+<community>stalker</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_03\stalker\</snd_config>
 
@@ -1259,7 +1259,7 @@ ammo_9x18_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>dasc_trade_mlr</class>
-<community>stalker</community> 
+<community>stalker</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_02\stalker\</snd_config>
 
@@ -1294,7 +1294,7 @@ ammo_9x19_fmj = 1 \n
 <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
 
 <class>bar_informator_mlr</class>
-<community>stalker</community> 
+<community>stalker</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <!-- <snd_config>characters_voice\human_03\stalker\</snd_config> -->
 
@@ -1331,7 +1331,7 @@ ammo_9x19_fmj = 1 \n
 <bio>Информация отсутствует.</bio>
 
 <class>agr_1_6_medic_army_mlr</class>
-<community>army</community> 
+<community>army</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_02\military\</snd_config>
 
@@ -1369,7 +1369,7 @@ ammo_9x18_fmj = 3 \n
 <bio>Информация отсутствует.</bio>
 
 <class>agr_1_6_barman_army_mlr</class>
-<community>army</community> 
+<community>army</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_03\military\</snd_config>
 
@@ -1402,7 +1402,7 @@ ammo_9x18_fmj = 3 \n
 
     <class>merc_pri_a16_trader_mlr</class>
     <community>stalker</community>
-	<terrain_sect>stalker_terrain</terrain_sect>   
+	<terrain_sect>stalker_terrain</terrain_sect>
     <rank>5200</rank>
     <reputation>-1500</reputation>
 	<money min="100000" max="100000" infinitive="1"/>
@@ -1411,11 +1411,11 @@ ammo_9x18_fmj = 3 \n
 
   <supplies>
     [spawn] \n
-    wpn_ak103_kobra = 1 \n 
+    wpn_ak103_kobra = 1 \n
     ammo_5.45x39_fmj = 10 \n
 	wpn_pm = 1 \n
 	ammo_9x18_fmj = 4 \n
-	
+
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -1438,7 +1438,7 @@ ammo_9x18_fmj = 3 \n
 
     <class>merc_pri_a16_tesak_mlr</class>
     <community>stalker</community>
-	<terrain_sect>stalker_terrain</terrain_sect>   
+	<terrain_sect>stalker_terrain</terrain_sect>
     <rank>6100</rank>
     <reputation>-1500</reputation>
 	<money min="6000" max="12000" infinitive="0"/>
@@ -1449,7 +1449,7 @@ ammo_9x18_fmj = 3 \n
       [spawn] \n
 		  wpn_ak74m_sk1_pso \n
 		  ammo_5.45x39_fmj = 10 \n
-		  
+
 #include "gameplay\character_items_nd.xml"
 #include "gameplay\character_food.xml"
 #include "gameplay\character_drugs.xml"
@@ -1903,10 +1903,10 @@ ammo_9x19_fmj = 1 \n
 	<community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
 	<money min="100000" max="100000" infinitive="1"></money>
-		
+
     <rank>1000</rank>
     <reputation>1500</reputation>
- 
+
 	<visual>actors\stalker_dolg\stalker_dolg2a_mask</visual>
 	<snd_config>characters_voice\human_01\dolg\</snd_config>
 	<crouch_type>0</crouch_type>
@@ -1914,16 +1914,16 @@ ammo_9x19_fmj = 1 \n
 	<supplies>
 	[spawn] \n
 	wpn_fort \n
-	ammo_9x18_fmj \n			
+	ammo_9x18_fmj \n
 #include "gameplay\character_food.xml" \n
 #include "gameplay\character_drugs.xml"
 </supplies>
-		
+
 #include "gameplay\character_criticals_6.xml">
-<start_dialog>bar_dolg_medic_hello</start_dialog>	
-<actor_dialog>bar_dolg_medic_dialog</actor_dialog>	
-<actor_dialog>actor_break_dialog</actor_dialog>			
-</specific_character>	
+<start_dialog>bar_dolg_medic_hello</start_dialog>
+<actor_dialog>bar_dolg_medic_dialog</actor_dialog>
+<actor_dialog>actor_break_dialog</actor_dialog>
+</specific_character>
 
 <!-------------------------- Сапсан(военный механик) ------------------------>
 <!---------------------------- Military technician -------------------------->
@@ -1935,7 +1935,7 @@ ammo_9x19_fmj = 1 \n
 <bio>Информация отсутствует.</bio>
 
 <class>mechanic_army_yan_mlr</class>
-<community>ecolog</community> 
+<community>ecolog</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <mechanic_mode>1</mechanic_mode>
 <snd_config>characters_voice\human_03\military\</snd_config>
@@ -2377,7 +2377,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_duty_one_h</class>
-    <community>dolg</community> 
+    <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
     <rank>993</rank>
@@ -2402,7 +2402,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_duty_one_h_1</class>
-    <community>dolg</community> 
+    <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
     <rank>1500</rank>
@@ -2419,7 +2419,7 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
+    </specific_character>
 
     <specific_character id="total_duty_one_h_2" team_default = "1">
     <name>GENERATE_NAME_sergeant</name>
@@ -2427,7 +2427,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_duty_one_h_2</class>
-    <community>dolg</community> 
+    <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
     <rank>1300</rank>
@@ -2452,7 +2452,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_duty_one_h_3</class>
-    <community>dolg</community> 
+    <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
     <rank>2500</rank>
@@ -2477,7 +2477,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_duty_one_h_4</class>
-    <community>dolg</community> 
+    <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
     <rank>3000</rank>
@@ -2495,14 +2495,14 @@ ammo_12x70_buck = 2 \n
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
     </specific_character>
-	
+
     <specific_character id="total_freeman_one_h" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_2</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_freeman_one_h</class>
-    <community>freedom</community> 
+    <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
     <rank>910</rank>
@@ -2520,7 +2520,7 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
+    </specific_character>
 
     <specific_character id="total_freeman_one_h_1" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
@@ -2528,7 +2528,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_freeman_one_h_1</class>
-    <community>freedom</community> 
+    <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
     <rank>600</rank>
@@ -2547,14 +2547,14 @@ ammo_12x70_buck = 2 \n
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
     </specific_character>
-	
+
     <specific_character id="total_freeman_one_h_2" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_freedom_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_freeman_one_h_2</class>
-    <community>freedom</community> 
+    <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
     <rank>1300</rank>
@@ -2572,15 +2572,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_freeman_one_h_3" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_3</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_freeman_one_h_3</class>
-    <community>freedom</community> 
+    <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
     <rank>2500</rank>
@@ -2598,15 +2598,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_freeman_one_h_4" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_Freedom_3</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_freeman_one_h_4</class>
-    <community>freedom</community> 
+    <community>freedom</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\freedom\</snd_config>
     <rank>3000</rank>
@@ -2624,15 +2624,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_stalker_left_one" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_left_one</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>2000</rank>
@@ -2649,15 +2649,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_stalker_right_one" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_right_one</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>2000</rank>
@@ -2674,7 +2674,7 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
+    </specific_character>
 
     <specific_character id="total_stalker_left_one_1" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
@@ -2682,7 +2682,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_left_one_1</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
     <rank>500</rank>
@@ -2699,15 +2699,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_stalker_right_one_1" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_1</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_right_one_1</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>500</rank>
@@ -2724,15 +2724,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_stalker_left_one_2" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_left_one_2</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>2000</rank>
@@ -2749,15 +2749,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_stalker_right_one_2" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_old</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_right_one_2</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>2000</rank>
@@ -2774,15 +2774,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>		
-	
+    </specific_character>
+
     <specific_character id="total_stalker_left_one_3" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_left_one_3</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>4500</rank>
@@ -2799,15 +2799,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_stalker_right_one_3" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_nauchniy</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_right_one_3</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>4500</rank>
@@ -2824,15 +2824,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>		
-	
+    </specific_character>
+
     <specific_character id="total_stalker_left_one_4" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_left_one_4</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>6000</rank>
@@ -2849,15 +2849,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_stalker_right_one_4" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_4</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_right_one_4</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>6000</rank>
@@ -2874,15 +2874,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>		
-	
+    </specific_character>
+
     <specific_character id="total_group_stalkers_1" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_stalkers_1</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>2051</rank>
@@ -2900,14 +2900,14 @@ ammo_12x70_buck = 2 \n
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
     </specific_character>
-    
+
     <specific_character id="total_group_stalkers_2" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_stalkers_2</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>2228</rank>
@@ -2932,7 +2932,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_stalkers_3</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\stalker\</snd_config>
     <rank>831</rank>
@@ -2957,7 +2957,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_stalkers_4</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
     <rank>332</rank>
@@ -2974,7 +2974,7 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
+    </specific_character>
 
     <specific_character id="total_group_bandits_1" team_default = "1">
     <name>GENERATE_NAME_bandit</name>
@@ -2982,7 +2982,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_bandits_1</class>
-    <community>bandit</community> 
+    <community>bandit</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_03\bandit\</snd_config>
     <rank>1400</rank>
@@ -3000,14 +3000,14 @@ ammo_12x70_buck = 2 \n
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
     </specific_character>
-	
+
     <specific_character id="total_group_bandits_2" team_default = "1">
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_bandits_2</class>
-    <community>bandit</community> 
+    <community>bandit</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\bandit\</snd_config>
     <rank>1997</rank>
@@ -3032,7 +3032,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_bandits_3</class>
-    <community>bandit</community> 
+    <community>bandit</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\bandit\</snd_config>
     <rank>448</rank>
@@ -3057,7 +3057,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_bandits_4</class>
-    <community>bandit</community> 
+    <community>bandit</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\bandit\</snd_config>
     <rank>400</rank>
@@ -3074,7 +3074,7 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
+    </specific_character>
 
     <specific_character id="total_stalker_one_n" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
@@ -3082,7 +3082,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_one_n</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>1000</rank>
@@ -3107,7 +3107,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_one_n_1</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>600</rank>
@@ -3124,7 +3124,7 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
+    </specific_character>
 
     <specific_character id="total_stalker_one_n_2" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
@@ -3132,7 +3132,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_one_n_2</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>1200</rank>
@@ -3150,14 +3150,14 @@ ammo_12x70_buck = 2 \n
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
     </specific_character>
-	
+
     <specific_character id="total_stalker_one_n_3" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_merc</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_one_n_3</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>2100</rank>
@@ -3182,7 +3182,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_one_n_4</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>3000</rank>
@@ -3199,15 +3199,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_soldier_one_n" team_default = "1">
     <name>GENERATE_NAME_senior_sergeant</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_soldier_one_n</class>
-    <community>army</community> 
+    <community>army</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\military\</snd_config>
     <rank>1000</rank>
@@ -3231,7 +3231,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_soldier_one_n_1</class>
-    <community>army</community> 
+    <community>army</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\military\</snd_config>
     <rank>1500</rank>
@@ -3248,14 +3248,14 @@ ammo_12x70_buck = 2 \n
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
     </specific_character>
-	
+
     <specific_character id="total_soldier_one_n_2" team_default = "1">
     <name>GENERATE_NAME_senior_sergeant</name>
     <icon>ui_inGame2_Soldier_3</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_soldier_one_n_2</class>
-    <community>army</community> 
+    <community>army</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\military\</snd_config>
     <rank>1400</rank>
@@ -3279,7 +3279,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_soldier_one_n_3</class>
-    <community>army</community> 
+    <community>army</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\military\</snd_config>
     <rank>2200</rank>
@@ -3303,7 +3303,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_soldier_one_n_4</class>
-    <community>army</community> 
+    <community>army</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\military\</snd_config>
     <rank>3435</rank>
@@ -3319,15 +3319,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_stalker_one_with_mutant" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2_mask</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_one_with_mutant</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>1400</rank>
@@ -3344,15 +3344,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_stalker_one_with_mutant_1" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
     <icon>ui_inGame2_neutral_2</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_one_with_mutant_1</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\stalker\</snd_config>
     <rank>1100</rank>
@@ -3369,7 +3369,7 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
+    </specific_character>
 
     <specific_character id="total_stalker_one_with_mutant_2" team_default = "1">
     <name>GENERATE_NAME_stalker</name>
@@ -3377,7 +3377,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_stalker_one_with_mutant_2</class>
-    <community>stalker</community> 
+    <community>stalker</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\stalker\</snd_config>
     <rank>500</rank>
@@ -3394,15 +3394,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>		
-	
+    </specific_character>
+
     <specific_character id="total_duty_one_with_snork" team_default = "1">
     <name>GENERATE_NAME_sergeant</name>
     <icon>ui_inGame2_Dolg_2</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_duty_one_with_snork</class>
-    <community>dolg</community> 
+    <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
     <rank>1300</rank>
@@ -3419,7 +3419,7 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
+    </specific_character>
 
     <specific_character id="total_duty_one_with_snork_1" team_default = "1">
     <name>GENERATE_NAME_sergeant</name>
@@ -3427,7 +3427,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_duty_one_with_snork_1</class>
-    <community>dolg</community> 
+    <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\dolg\</snd_config>
     <rank>2400</rank>
@@ -3452,7 +3452,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_duty_one_with_snork_2</class>
-    <community>dolg</community> 
+    <community>dolg</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_01\dolg\</snd_config>
     <rank>700</rank>
@@ -3469,15 +3469,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_group_bandits_with_bloodsucker_1" team_default = "1">
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_3</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_bandits_with_bloodsucker_1</class>
-    <community>bandit</community> 
+    <community>bandit</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\bandit\</snd_config>
     <rank>206</rank>
@@ -3494,7 +3494,7 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
+    </specific_character>
 
     <specific_character id="total_group_bandits_with_bloodsucker_2" team_default = "1">
     <name>GENERATE_NAME_bandit</name>
@@ -3502,7 +3502,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_bandits_with_bloodsucker_2</class>
-    <community>bandit</community> 
+    <community>bandit</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\bandit\</snd_config>
     <rank>206</rank>
@@ -3519,15 +3519,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
+    </specific_character>
+
     <specific_character id="total_group_bandits_with_bloodsucker_3" team_default = "1">
     <name>GENERATE_NAME_bandit</name>
     <icon>ui_inGame2_bandit_2a</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_group_bandits_with_bloodsucker_3</class>
-    <community>bandit</community> 
+    <community>bandit</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\bandit\</snd_config>
     <rank>206</rank>
@@ -3544,15 +3544,15 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>		
-	
+    </specific_character>
+
     <specific_character id="total_two_soldiers_with_burer_1" team_default = "1">
     <name>GENERATE_NAME_senior_sergeant</name>
     <icon>ui_inGame2_Soldier_2</icon>
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_two_soldiers_with_burer_1</class>
-    <community>army</community> 
+    <community>army</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\military\</snd_config>
     <rank>3435</rank>
@@ -3576,7 +3576,7 @@ ammo_12x70_buck = 2 \n
     <map_icon x="1" y="0"></map_icon>
     <bio>Опытный сталкер. Детальная информация отсутствует.</bio>
     <class>total_two_soldiers_with_burer_2</class>
-    <community>army</community> 
+    <community>army</community>
 	<terrain_sect>stalker_terrain</terrain_sect>
     <snd_config>characters_voice\human_02\military\</snd_config>
     <rank>3435</rank>
@@ -3592,11 +3592,11 @@ ammo_12x70_buck = 2 \n
     </supplies>
 #include "gameplay\character_criticals_4.xml"
 #include "gameplay\character_dialogs.xml"
-    </specific_character>	
-	
-<!-------------------------- "Крылья" ------------------------>	
+    </specific_character>
+
+<!-------------------------- "Крылья" ------------------------>
 <!--------------------------- Wings -------------------------->
-	
+
 <specific_character id="wings_leader_mon_mlr" team_default="1">
 <name>st_wings_leader_mon_mlr_name</name>
 <icon>ui_inGame2_monolith_griffin</icon>
@@ -3604,7 +3604,7 @@ ammo_12x70_buck = 2 \n
 <bio>Детальная информация отсутствует.</bio>
 
 <class>wings_leader_mon_mlr</class>
-<community>monolith</community> 
+<community>monolith</community>
 <terrain_sect>stalker_terrain</terrain_sect>
 <snd_config>characters_voice\human_01\monolith\</snd_config>
 
@@ -3627,8 +3627,8 @@ ammo_5.45x39_fmj = 1 \n
 <actor_dialog>main_monolith_mlr_task_4_dlg_2</actor_dialog>
 <actor_dialog>main_monolith_mlr_task_4_dlg_3</actor_dialog>
 <actor_dialog>actor_break_dialog</actor_dialog>
-</specific_character>	
-	
+</specific_character>
+
 <specific_character id="wings_soldier_mon_mlr_1" team_default = "1">
     <name>st_wings_soldier_mon_mlr_1_name</name>
     <icon>ui_inGame2_monolith_sparrow</icon>
@@ -3652,10 +3652,10 @@ ammo_5.45x39_fmj = 1 \n
     </supplies>
 	#include "gameplay\character_criticals_4.xml"
 	#include "gameplay\character_dialogs.xml"
-		<actor_dialog>wings_soldier_mon_mlr_1_talk</actor_dialog>	
-		<actor_dialog>actor_break_dialog</actor_dialog>	
+		<actor_dialog>wings_soldier_mon_mlr_1_talk</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
-    
+
 <specific_character id="wings_soldier_mon_mlr_2" team_default = "1">
     <name>st_wings_soldier_mon_mlr_2_name</name>
     <icon>ui_inGame2_monolith_pegasus</icon>
@@ -3679,10 +3679,10 @@ ammo_5.45x39_fmj = 1 \n
     </supplies>
 	#include "gameplay\character_criticals_4.xml"
 	#include "gameplay\character_dialogs.xml"
-		<actor_dialog>wings_soldier_mon_mlr_2_talk</actor_dialog>		
-		<actor_dialog>actor_break_dialog</actor_dialog>	
+		<actor_dialog>wings_soldier_mon_mlr_2_talk</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
     </specific_character>
-    
+
 <specific_character id="wings_soldier_mon_mlr_3" team_default = "1">
     <name>st_wings_soldier_mon_mlr_3_name</name>
     <icon>ui_inGame2_monolith_wind</icon>
@@ -3706,8 +3706,8 @@ ammo_5.45x39_fmj = 1 \n
     </supplies>
 	#include "gameplay\character_criticals_4.xml"
 	#include "gameplay\character_dialogs.xml"
-		<actor_dialog>wings_soldier_mon_mlr_3_talk</actor_dialog>		
-		<actor_dialog>actor_break_dialog</actor_dialog>	
-    </specific_character>	
-	
+		<actor_dialog>wings_soldier_mon_mlr_3_talk</actor_dialog>
+		<actor_dialog>actor_break_dialog</actor_dialog>
+    </specific_character>
+
 </xml>
