@@ -28,7 +28,7 @@ Translation progress by individual files can be found below.
 		- done
 	- [st_dialogs_bar.xml](gamedata/configs/text/eng/st_dialogs_bar.xml)
 		- done
-	- [st_dynamic_news.xm](gamedata/configs/text/eng/st_dynamic_news.xm)
+	- [st_dynamic_news.xml](gamedata/configs/text/eng/st_dynamic_news.xml)
 		- done
 	- [st_items_outfit.xml](gamedata/configs/text/eng/st_items_outfit.xml)
 		- unchecked; some item descriptions may need translating
@@ -39,7 +39,7 @@ Translation progress by individual files can be found below.
 	- [zone_news_main.xml](gamedata/configs/text/eng/zone_news_main.xml)
 		- unrevised
 	- [zone_surge_news.xml](gamedata/configs/text/eng/zone_surge_news.xml)
-		- needs minor grammatical fixes
+		- done; needs minor grammatical fixes
 
 - **configs/text/rus:**
 	- [dialogs_mlr.xml](gamedata/configs/text/rus/dialogs_mlr.xml)
@@ -47,7 +47,7 @@ Translation progress by individual files can be found below.
 	- [lootmoney.xml](gamedata/configs/text/rus/lootmoney.xml)
 		- done
 	- [mlr_addon.xml](gamedata/configs/text/rus/mlr_addon.xml)
-		- could use typographical reworking by a native speaker of Russian; lots of missing punctuation and seemingly unfitting words for the S.T.A.L.K.E.R. series
+		- done; could use typographical reworking by a native speaker of Russian, as there are lots of missing punctuation and seemingly unfitting words for the S.T.A.L.K.E.R. series
 	- [mlr_addon_arena.xml](gamedata/configs/text/rus/mlr_addon_arena.xml)
 		- done
 	- [mlr_characters.xml](gamedata/configs/text/rus/mlr_characters.xml)
@@ -59,15 +59,15 @@ Translation progress by individual files can be found below.
 	- [zone_new.xml](gamedata/configs/text/rus/zone_new.xml)
 		- done
 	- [zone_news_main.xml](gamedata/configs/text/rus/zone_news_main.xml)
-		- could use typographical reworking by a native speaker of Russian
+		- done; could use typographical reworking by a native speaker of Russian
 	- [zone_surge_news.xml](gamedata/configs/text/rus/zone_surge_news.xml)
-		- lacks punctuation in some strings
+		- done; lacks punctuation in some strings
 
 - **scripts:**
 	- [dialogs_mlr.script](gamedata/scripts/dialogs_mlr.script)
-		- unchecked, could use comments in English
+		- unchecked; could use comments in English
 	- [jg_guider.script](gamedata/scripts/djg_guider.script)
-		- done, could use comments in English
+		- done; could use comments in English
 	- [lootmoney.script](gamedata/scripts/lootmoney.script)
 		- done
 	- [transitions.script](gamedata/scripts/transitions.script)
@@ -75,8 +75,8 @@ Translation progress by individual files can be found below.
 	- [ui_sr_teleport.script](gamedata/scripts/ui_sr_teleport.script)
 		- incomplete
 	- [zone_new.script](gamedata/scripts/zone_new.script)
-		- done, could use comments in English
+		- done; could use comments in English
 	- [zone_news_main.script](gamedata/scripts/zone_news_main.script)
 		- done
 	- [zone_surge_news.script](gamedata/scripts/zone_surge_news.script)
-		- done, could use comments in English
+		- done; could use comments in English
