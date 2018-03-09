@@ -27,7 +27,7 @@
 	</string>
 
 
-	<!-- RECOIL îòäà÷à -->
+	<!-- RECOIL Ã®Ã²Ã¤Ã Ã·Ã  -->
 
 	<string id="st_up_assault_rifle_mlr_RECOIL_name">
 		<text>Recoil reduction</text>
@@ -46,7 +46,7 @@
 	</string>
 
 
-	<!-- BULLET_SPEED íàñòèëüíîñòü -->
+	<!-- BULLET_SPEED Ã­Ã Ã±Ã²Ã¨Ã«Ã¼Ã­Ã®Ã±Ã²Ã¼ -->
 
 	<string id="st_up_assault_rifle_mlr_BULLET_SPEED_name">
 		<text>Bullet's flight speed increase</text>
@@ -62,7 +62,7 @@
 	</string>
 
 
-	<!-- RELIABILITY ïðî÷íîñòü -->
+	<!-- RELIABILITY Ã¯Ã°Ã®Ã·Ã­Ã®Ã±Ã²Ã¼ -->
 
 	<string id="st_up_assault_rifle_mlr_RELIABILITY_name">
 		<text>Reliability increase</text>
@@ -72,7 +72,7 @@
 	</string>
 
 
-	<!-- DISPERSION òî÷íîñòü -->
+	<!-- DISPERSION Ã²Ã®Ã·Ã­Ã®Ã±Ã²Ã¼ -->
 
 	<string id="st_up_assault_rifle_mlr_DISPERSION_name">
 		<text>Dispersion reduction</text>
@@ -88,7 +88,7 @@
 	</string>
 
 
-	<!-- INERTION óäîáíîñòü -->
+	<!-- INERTION Ã³Ã¤Ã®Ã¡Ã­Ã®Ã±Ã²Ã¼ -->
 
 	<string id="st_up_assault_rifle_mlr_INERTION_name">
 		<text>Stability increase</text>
@@ -97,11 +97,11 @@
 		<text>Artifacts are not chosen by chance, they balance each other's characteristics and are installed in the weapon for even better stabilization.</text>
 	</string>
 	<string id="st_up_assault_rifle_mlr_INERTION_2_descr">
-		<text>an alloy made with the artifacts Jellyfish and Wrenched due to their properties will help stabilize the weapon.</text>
+		<text>An alloy made with the artifacts Jellyfish and Wrenched due to their properties will help stabilize the weapon.</text>
 	</string>
 
 
-	<!-- WEIGHT âåñ -->
+	<!-- WEIGHT Ã¢Ã¥Ã± -->
 
 	<string id="st_up_assault_rifle_mlr_WEIGHT_name">
 		<text>Weight reduction</text>
@@ -114,7 +114,7 @@
 		<text>Installation of the artifact particle of a Stone Blood</text>
 	</string>
 	<string id="st_up_assault_rifle_mlr_a2_descr">
-		<text>Few people know, but the dry mass allocated by an artifact which absorbs temporary chemical effects has the property of corroding any dirt that somehow finds itself in the receiver, which relieves the wearer of exhausting procedures for cleaning weapons, needing only to shake it out sometimes.</text>
+		<text>Few people know, but the dry mass allocated by an artifact which absorbs temporary chemical effects has the property of corroding any dirt that somehow finds itself in the receiver, which relieves the wearer of exhausting procedures for cleaning weapons, needing instead only to shake it out sometimes.</text>
 	</string>
 
 	<string id="st_up_assault_rifle_mlr_a5_name">

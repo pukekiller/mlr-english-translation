@@ -1,7 +1,9 @@
 # MLR
-Hello! This is an English translation for a mod by the name of MLR, a mod for the S.T.A.L.K.E.R. series. Additional information can be found [here]( http://www.moddb.com/mods/call-of-chernobyl/addons/mlr).
+Welcome to the page of an English translation of [*MLR*](http://www.moddb.com/mods/call-of-chernobyl/addons/mlr), a mod for the *[S.T.A.L.K.E.R.](https://en.wikipedia.org/wiki/S.T.A.L.K.E.R.)* series!
 
-Translation progress by individual files can be found below.
+A list of all files with their detailed progress can be found below.
+
+---
 
 - **configs/gameplay:**
 	- [character_desc_mlr.xml](gamedata/configs/gameplay/character_desc_mlr.xml)
@@ -66,7 +68,7 @@ Translation progress by individual files can be found below.
 - **scripts:**
 	- [dialogs_mlr.script](gamedata/scripts/dialogs_mlr.script)
 		- unchecked; could use comments in English
-	- [jg_guider.script](gamedata/scripts/djg_guider.script)
+	- [jg_guider.script](gamedata/scripts/jg_guider.script)
 		- done; could use comments in English
 	- [lootmoney.script](gamedata/scripts/lootmoney.script)
 		- done

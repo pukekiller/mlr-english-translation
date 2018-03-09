@@ -1,6 +1,8 @@
 --------------------------------------------------
---** Скрипт подработки ГГ проводником.
---** Автор - SadBlackFox
+--** Г‘ГЄГ°ГЁГЇГІ ГЇГ®Г¤Г°Г ГЎГ®ГІГЄГЁ ГѓГѓ ГЇГ°Г®ГўГ®Г¤Г­ГЁГЄГ®Г¬.
+--** РђРІС‚РѕСЂ - SadBlackFox
+--** Г‘ГЄГ°ГЁГЇГІ ГЇГ®Г¤Г°Г ГЎГ®ГІГЄГЁ ГѓГѓ ГЇГ°Г®ГўГ®Г¤Г­ГЁГЄГ®Г¬.
+--** Author - SadBlackFox
 --------------------------------------------------
 local stdzarplata = 1000
 local guid = {}
@@ -9,8 +11,8 @@ curr_guid = {}
 function load_state()
 	guid = jg_utils.l_v("guid", {})
 	curr_guid = jg_utils.l_v("curr_guid", {})
-	local newgame = jg_utils.l_v("newgame")	-- хз как ещё сделать срабатывание при НИ
-	if not newgame then jg_utils.s_v("newgame", 'Каллбек сработал') return jg_timers.g_start_timer('guid_msg',0,0,15,'jg_guider','prepare_follower') end
+	local newgame = jg_utils.l_v("newgame")	-- ГµГ§ ГЄГ ГЄ ГҐГ№Вё Г±Г¤ГҐГ«Г ГІГј Г±Г°Г ГЎГ ГІГ»ГўГ Г­ГЁГҐ ГЇГ°ГЁ ГЌГ€
+	if not newgame then jg_utils.s_v("newgame", 'ГЉГ Г«Г«ГЎГҐГЄ Г±Г°Г ГЎГ®ГІГ Г«') return jg_timers.g_start_timer('guid_msg',0,0,15,'jg_guider','prepare_follower') end
 end
 function save_state()
 	jg_utils.s_v("guid", guid)
@@ -50,9 +52,12 @@ function ins_mass_onl()
 end
 
 --[[
-	Функция поиска НПС, которому нужен проводник.
-	Если такой НПС находится, то отправляется сообщение в сеть.
-	Вызывается таймерами
+	Р¤СѓРЅРєС†РёСЏ РїРѕРёСЃРєР° РќРџРЎ, РєРѕС‚РѕСЂРѕРјСѓ РЅСѓР¶РµРЅ РїСЂРѕРІРѕРґРЅРёРє.
+	Р•СЃР»Рё С‚Р°РєРѕР№ РќРџРЎ РЅР°С…РѕРґРёС‚СЃСЏ, С‚Рѕ РѕС‚РїСЂР°РІР»СЏРµС‚СЃСЏ СЃРѕРѕР±С‰РµРЅРёРµ РІ СЃРµС‚СЊ.
+	Р’С‹Р·С‹РІР°РµС‚СЃСЏ С‚Р°Р№РјРµСЂР°РјРё
+	The function searches for an NPC, who needs a guide.
+	If such a NPC is located, a message is sent to the network.
+	Called by timers
 ]]
 function prepare_follower()
 	local npc = ins_mass_onl()
@@ -82,7 +87,8 @@ function prepare_follower()
 	guid.neustoika		= math.ceil(math.random(guid.zarplata * 0.5, guid.zarplata * 1.5))
 	news_manager.send_tip(db.actor, string.format(game.translate_string('st_jg_14'), game.translate_string(level_name), dynamic_news_helper.GetPointDescription(npc), npc:character_name()), nil, "tourist", 15000)
 	return
-	-- Запускаем таймер следующего вызова этой функции
+	-- Р—Р°РїСѓСЃРєР°РµРј С‚Р°Р№РјРµСЂ СЃР»РµРґСѓСЋС‰РµРіРѕ РІС‹Р·РѕРІР° СЌС‚РѕР№ С„СѓРЅРєС†РёРё
+	-- Start the timer for the next call to this function
 	jg_timers.g_start_timer('guid_msg',0,math.random(6),0,'jg_guider','prepare_follower')
 end
 
@@ -90,9 +96,9 @@ function activate()
 	curr_guid = jg_utils.copy_tbl(guid)
 	guid = {}
 	jg_utils.d_v("guid")
-	-- Старт таймера фэйла
+	-- Start of the file timer
 	jg_timers.g_start_timer('guid_fail',0,curr_guid.timer,0,'jg_guider','fail_time')
-	--level.map_add_object_spot_ser(curr_guid.id_smart, 'storyline_task_location', 'Сталкеру необходимо попасть '..curr_guid.description)
+	--level.map_add_object_spot_ser(curr_guid.id_smart, 'storyline_task_location', 'Г‘ГІГ Г«ГЄГҐГ°Гі Г­ГҐГ®ГЎГµГ®Г¤ГЁГ¬Г® ГЇГ®ГЇГ Г±ГІГј '..curr_guid.description)
 end
 
 function complete(first_speaker,second_speaker)
@@ -110,13 +116,13 @@ function fail_time()
 end
 
 function fail()
---[[	На данный момент нет условий, при котором напарник был бы в оффлайне(они принудительно всегда в онлайне),
-		поэтому использование переключателя нецелесообразно
+--[[	ГЌГ  Г¤Г Г­Г­Г»Г© Г¬Г®Г¬ГҐГ­ГІ Г­ГҐГІ ГіГ±Г«Г®ГўГЁГ©, ГЇГ°ГЁ ГЄГ®ГІГ®Г°Г®Г¬ Г­Г ГЇГ Г°Г­ГЁГЄ ГЎГ»Г« ГЎГ» Гў Г®ГґГґГ«Г Г©Г­ГҐ(Г®Г­ГЁ ГЇГ°ГЁГ­ГіГ¤ГЁГІГҐГ«ГјГ­Г® ГўГ±ГҐГЈГ¤Г  Гў Г®Г­Г«Г Г©Г­ГҐ),
+		ГЇГ®ГЅГІГ®Г¬Гі ГЁГ±ГЇГ®Г«ГјГ§Г®ГўГ Г­ГЁГҐ ГЇГҐГ°ГҐГЄГ«ГѕГ·Г ГІГҐГ«Гї Г­ГҐГ¶ГҐГ«ГҐГ±Г®Г®ГЎГ°Г Г§Г­Г®
 	local func = function()
 					local squad = alife():object(curr_guid.squad_id)
 					local commander_id = squad and squad:commander_id()
 					local npc = level.object_by_id(commander_id)
-					news_manager.send_tip(db.actor, "Мы опоздали! Мы же договаривались!! Плати неустойку в "..curr_guid.neustoika..' рублей.'..'. '..(npc:character_name() or ''))
+					news_manager.send_tip(db.actor, "ГЊГ» Г®ГЇГ®Г§Г¤Г Г«ГЁ! ГЊГ» Г¦ГҐ Г¤Г®ГЈГ®ГўГ Г°ГЁГўГ Г«ГЁГ±Гј!! ГЏГ«Г ГІГЁ Г­ГҐГіГ±ГІГ®Г©ГЄГі Гў "..curr_guid.neustoika..' Г°ГіГЎГ«ГҐГ©.'..'. '..(npc:character_name() or ''))
 					if db.actor:money() >= curr_guid.neustoika then
 						dialogs.relocate_money(db.actor,curr_guid.neustoika,"out")
 					else
@@ -126,7 +132,7 @@ function fail()
 				end
 	local squad = alife():object(curr_guid.squad_id)
 	if not squad then return end
-	jg_utils.squad_switcher(squad,func) -- выкидыш при помощи переключателя
+	jg_utils.squad_switcher(squad,func) -- ГўГ»ГЄГЁГ¤Г»Гё ГЇГ°ГЁ ГЇГ®Г¬Г®Г№ГЁ ГЇГҐГ°ГҐГЄГ«ГѕГ·Г ГІГҐГ«Гї
 ]]
 	local m = db.actor:money()
 	if (m >= curr_guid.neustoika) then
@@ -146,7 +152,7 @@ function get_comm_id(squad_id)
 	return squad and squad:commander_id()
 end
 
---///////////////////////////////// Диалоговые функции
+--///////////////////////////////// Г„ГЁГ Г«Г®ГЈГ®ГўГ»ГҐ ГґГіГ­ГЄГ¶ГЁГЁ
 
 function is_guider_companion(actor, npc)
 	return get_object_squad(dialogs.who_is_npc(actor,npc)).id == curr_guid.squad_id
