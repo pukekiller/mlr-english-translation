@@ -1,5 +1,7 @@
 --------------------------------------------------
 --** Ñêðèïò ïîäðàáîòêè ÃÃ ïðîâîäíèêîì.
+--** Автор - SadBlackFox
+--** Ñêðèïò ïîäðàáîòêè ÃÃ ïðîâîäíèêîì.
 --** Author - SadBlackFox
 --------------------------------------------------
 local stdzarplata = 1000
@@ -50,7 +52,10 @@ function ins_mass_onl()
 end
 
 --[[
-	The function search for an NPC, who needs a guide.
+	Функция поиска НПС, которому нужен проводник.
+	Если такой НПС находится, то отправляется сообщение в сеть.
+	Вызывается таймерами
+	The function searches for an NPC, who needs a guide.
 	If such a NPC is located, a message is sent to the network.
 	Called by timers
 ]]
@@ -82,6 +87,7 @@ function prepare_follower()
 	guid.neustoika		= math.ceil(math.random(guid.zarplata * 0.5, guid.zarplata * 1.5))
 	news_manager.send_tip(db.actor, string.format(game.translate_string('st_jg_14'), game.translate_string(level_name), dynamic_news_helper.GetPointDescription(npc), npc:character_name()), nil, "tourist", 15000)
 	return
+	-- Запускаем таймер следующего вызова этой функции
 	-- Start the timer for the next call to this function
 	jg_timers.g_start_timer('guid_msg',0,math.random(6),0,'jg_guider','prepare_follower')
 end
