@@ -66,7 +66,7 @@ Translation progress by individual files can be found below.
 - **scripts:**
 	- [dialogs_mlr.script](gamedata/scripts/dialogs_mlr.script)
 		- unchecked; could use comments in English
-	- [jg_guider.script](gamedata/scripts/djg_guider.script)
+	- [jg_guider.script](gamedata/scripts/jg_guider.script)
 		- done; could use comments in English
 	- [lootmoney.script](gamedata/scripts/lootmoney.script)
 		- done
