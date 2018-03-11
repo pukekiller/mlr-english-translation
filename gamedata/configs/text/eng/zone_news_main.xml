@@ -518,7 +518,7 @@
 		<text>%c[255,160,160,160]Bandits\n%c[default]Brothers at Jupiter, got word that you have a rat from the USS. I bet my arse it's the one with the good weapon.</text>
 	</string>
 	<string id="zone_news_main_fake_news_bandit_5">
-		<text>%c[255,160,160,160]Bandits\n%c[default]Evening chat, kissel, and sweets! Haha.</text>
+		<text>%c[255,160,160,160]Bandits\n%c[default]A campfire, some kisel, and sweets! Haha.</text>
 	</string>
 	<string id="zone_news_main_fake_news_bandit_6">
 		<text>%c[255,160,160,160]Bandits\n%c[default]Fucking fatass arsewipe. Did you lose the armoury keys again?</text>
@@ -561,10 +561,10 @@
 		<text>%c[255,255,0,0]Duty\n%c[default]Attention, all squads: upon your arrival at the base, immediately report to the command post for instructions on the use of our new equipment models.</text>
 	</string>
 	<string id="zone_news_main_fake_news_dolg_2">
-		<text>%c[255,255,0,0]Duty\n%c[default]Attention to all squads in square e15 or nearby! Immediately confirm the presence of highly dangerous mutants in this region! This information has been received from an unverified source.</text>
+		<text>%c[255,255,0,0]Duty\n%c[default]Attention to all squads that are in or near square e15! Confirm the presence of highly dangerous mutants in this region immediately! This information has been received from an unverified source.</text>
 	</string>
 	<string id="zone_news_main_fake_news_dolg_3">
-		<text>%c[255,255,0,0]Duty\n%c[default]Attention to all squads that are in or near square h23! Immediately confirm the presence of highly dangerous mutants in this region! This information has been received from an unverified source.</text>
+		<text>%c[255,255,0,0]Duty\n%c[default]Attention to all squads that are in or near square h23! Confirm the presence of highly dangerous mutants in this region immediately! This information has been received from an unverified source.</text>
 	</string>
 	<string id="zone_news_main_fake_news_dolg_4">
 		<text>%c[255,255,0,0]Duty\n%c[default]Calling all free squads! Bandit activity has once again risen in the Garbage. Clean up the sector.</text>
@@ -621,13 +621,13 @@
 		<text>%c[255,255,0,0]Duty\n%c[default]Stalkers, join Duty! We shall cure our Earth from the deadly disease called the Zone!</text>
 	</string>
 	<string id="zone_news_main_fake_news_dolg_22">
-		<text>%c[255,255,0,0]Duty\n%c[default]Stalkers, join Duty. Protect the planet from the Zone's infection!</text>
+		<text>%c[255,255,0,0]Duty\n%c[default]Stalkers, join Duty. Protect the planet from the Zone's affliction!</text>
 	</string>
 	<string id="zone_news_main_fake_news_dolg_23">
 		<text>%c[255,255,0,0]Duty\n%c[default]Stalkers, remember: anarchy represents chaos, destruction, and death. Join Duty! Maintain the order and purity in the Zone!</text>
 	</string>
 	<string id="zone_news_main_fake_news_dolg_24">
-		<text>%c[255,255,0,0]Duty\n%c[default]Stalkers, join us in our collective duty to protect and rid the world of the mutant invasion and anomalous infection!</text>
+		<text>%c[255,255,0,0]Duty\n%c[default]Stalkers, join us in our collective duty to protect and rid the world of the mutant invasion and anomalous infestation!</text>
 	</string>
 	<string id="zone_news_main_fake_news_dolg_25">
 		<text>%c[255,255,0,0]Duty\n%c[default]Okay, guys, I've received information about a group of mercenaries lingering in the outskirts of Rostok. Eyes peeled.</text>

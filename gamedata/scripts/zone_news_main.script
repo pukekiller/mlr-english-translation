@@ -53,20 +53,11 @@ function news_main()
 end
 
 function sunset_news()
-	local time_morn =
-	{
-		game.translate_string("zone_news_main_time_morn_" .. math.random(21))
-	}
-
-	local time_night =
-	{
-		game.translate_string("zone_news_main_time_night_" .. math.random(19))
-	}
 	if level.get_time_hours() >= 6 and level.get_time_hours() < 9 then
-		db.actor:give_game_news(game.translate_string("zone_new_4"), (time_morn), "ui_icon_vs_news_all", 0, 10000)
+		db.actor:give_game_news(game.translate_string("zone_new_4"), (game.translate_string("zone_news_main_time_morn_" .. math.random(21))), "ui_icon_vs_news_all", 0, 10000)
 		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 	elseif level.get_time_hours() >= 19 and level.get_time_hours() < 22 then
-		db.actor:give_game_news(game.translate_string("zone_new_4"), (time_night), "ui_icon_vs_news_all", 0, 10000)
+		db.actor:give_game_news(game.translate_string("zone_new_4"), (game.translate_string("zone_news_main_time_night_" .. math.random(19))), "ui_icon_vs_news_all", 0, 10000)
 		xr_sound.set_sound_play(db.actor:id(), "pda_tips")
 	end
 end

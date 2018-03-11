@@ -8,7 +8,52 @@
 	</string>
 
 
-	<!-- RPM rate of fire -->
+	<!-- Bullet speed -->
+
+	<string id="st_up_assault_rifle_mlr_BULLET_SPEED_name">
+		<text>Bullet speed increase</text>
+	</string>
+	<string id="st_up_assault_rifle_mlr_BULLET_SPEED_descr">
+		<text>The Night Star artifact has a gravitational field that repels various objects. If the bottom of the barrel is rubbed with such an artifact, its particles will slightly speed up the speed of bullets.</text>
+	</string>
+	<string id="st_up_assault_rifle_mlr_BULLET_SPEED_2_descr">
+		<text>Stalkers have learned to solder this alloy to a moving mechanism. A Gravi reduces the mass of the bullet during the start, while a Night Star accelerates it; as a result, the speed of the bullet increases significantly.</text>
+	</string>
+	<string id="st_up_assault_rifle_mlr_BULLET_SPEED_3_descr">
+		<text>By soldering elements of the Night Star artifact to the mobile mechanism, the initial speed of fired rounds is increased.</text>
+	</string>
+
+
+	<!-- Dispersion -->
+
+	<string id="st_up_assault_rifle_mlr_DISPERSION_name">
+		<text>Dispersion reduction</text>
+	</string>
+	<string id="st_up_assault_rifle_mlr_DISPERSION_descr">
+		<text>Installed in the butt of the rifle, the gravitational field of the Night Star is very powerful, and offers a repulsive effect and a significant counterweight when combined with a Flash, thus reducing recoil.</text>
+	</string>
+	<string id="st_up_assault_rifle_mlr_DISPERSION_2_descr">
+		<text>Higher accuracy can be achieved by using the force of gravitational artifacts.</text>
+	</string>
+	<string id="st_up_assault_rifle_mlr_DISPERSION_3_descr">
+		<text>Sealing the gun barrel with welded particles of a Jellyfish artifact helps to improve the accuracy of the flight of bullets to an extent.</text>
+	</string>
+
+
+	<!-- Inertia -->
+
+	<string id="st_up_assault_rifle_mlr_INERTION_name">
+		<text>Stability increase</text>
+	</string>
+	<string id="st_up_assault_rifle_mlr_INERTION_descr">
+		<text>These artifacts can balance the properties of each other and are installed in the weapon for improved stabilization.</text>
+	</string>
+	<string id="st_up_assault_rifle_mlr_INERTION_2_descr">
+		<text>An alloy made with the Jellyfish and Wrenched artifacts will help stabilize the weapon due to their properties.</text>
+	</string>
+
+
+	<!-- Rate of fire -->
 
 	<string id="st_up_assault_rifle_mlr_RPM_name">
 		<text>Rate of fire increase</text>
@@ -27,7 +72,7 @@
 	</string>
 
 
-	<!-- RECOIL îòäà÷à -->
+	<!-- Recoil -->
 
 	<string id="st_up_assault_rifle_mlr_RECOIL_name">
 		<text>Recoil reduction</text>
@@ -46,23 +91,7 @@
 	</string>
 
 
-	<!-- BULLET_SPEED íàñòèëüíîñòü -->
-
-	<string id="st_up_assault_rifle_mlr_BULLET_SPEED_name">
-		<text>Bullet's flight speed increase</text>
-	</string>
-	<string id="st_up_assault_rifle_mlr_BULLET_SPEED_descr">
-		<text>The Night Star artifact has a gravitational field that repels various objects from itself. If you rub the bottom of the barrel with one, then its particles will slightly speed up the speed of the bullet's flight.</text>
-	</string>
-	<string id="st_up_assault_rifle_mlr_BULLET_SPEED_2_descr">
-		<text>Stalkers have learned to solder this alloy to a moving mechanism. A Gravi reduces the mass of the bullet during the start, and Night Star accelerates it; as a result, the speed of the bullet increases significantly.</text>
-	</string>
-	<string id="st_up_assault_rifle_mlr_BULLET_SPEED_3_descr">
-		<text>Elements of the "Night Star" artifact are soldered to the mobile mechanism, which allows increasing the initial speed of the bullet's flight.</text>
-	</string>
-
-
-	<!-- RELIABILITY ïðî÷íîñòü -->
+	<!-- Reliability -->
 
 	<string id="st_up_assault_rifle_mlr_RELIABILITY_name">
 		<text>Reliability increase</text>
@@ -72,36 +101,7 @@
 	</string>
 
 
-	<!-- DISPERSION òî÷íîñòü -->
-
-	<string id="st_up_assault_rifle_mlr_DISPERSION_name">
-		<text>Dispersion reduction</text>
-	</string>
-	<string id="st_up_assault_rifle_mlr_DISPERSION_descr">
-		<text>It is installed in the rifle's butt; the gravitational field of the Night Star is very powerful, and when combined with a Flash has a repulsive effect and creates a significant counterweight, reducing the recoil.</text>
-	</string>
-	<string id="st_up_assault_rifle_mlr_DISPERSION_2_descr">
-		<text>You can achieve a higher gun accuracy, if you use the force of gravitational artifacts.</text>
-	</string>
-	<string id="st_up_assault_rifle_mlr_DISPERSION_3_descr">
-		<text>Sealing the gun's barrel with welded particles of a Jellyfish artifact helps to improve to some extent the accuracy of the bullet's flight.</text>
-	</string>
-
-
-	<!-- INERTION óäîáíîñòü -->
-
-	<string id="st_up_assault_rifle_mlr_INERTION_name">
-		<text>Stability increase</text>
-	</string>
-	<string id="st_up_assault_rifle_mlr_INERTION_descr">
-		<text>Artifacts are not chosen by chance, they balance each other's characteristics and are installed in the weapon for even better stabilization.</text>
-	</string>
-	<string id="st_up_assault_rifle_mlr_INERTION_2_descr">
-		<text>An alloy made with the artifacts Jellyfish and Wrenched due to their properties will help stabilize the weapon.</text>
-	</string>
-
-
-	<!-- WEIGHT âåñ -->
+	<!-- Weight -->
 
 	<string id="st_up_assault_rifle_mlr_WEIGHT_name">
 		<text>Weight reduction</text>

@@ -52,13 +52,13 @@
 		<text>Tell me about this place.</text>
 	</string>
 	<string id="about_gar_talk_to_choper_1">
-		<text>What can I say? This place isn’t really the best. Radiation chews you up through the ass, and it’s full of freaks like Dutyers and bandits.</text>
+		<text>What can I say? This place isn’t really the best. Radiation chews you up through the arse, and it’s full of Duty and bandit freaks.</text>
 	</string>
 	<string id="about_gar_talk_to_choper_2">
 		<text>And how are the sights?</text>
 	</string>
 	<string id="about_gar_talk_to_choper_3">
-		<text>I guess the flea market here’s the main landmark… There’s also the train hangar north of here, but don’t go there. It’s chock full of bandits. Further north along the road is the entrance to the Bar, guarded by Duty sentries. Close by, near the road to the Cordon is a substation of some sort, but nobody goes there. It’s just a good-for-nothing area full of anomalies. And by the way, we’ve got three whopping spots full of anomalies in the area, and one of them is, unfortunately, in the substation itself; lots of Electros and stuff. The stalkers have chosen these areas and aren’t letting anyone pass, although that doesn’t matter to the bandits; they haven’t come here to hunt artefacts, but rather steal them from anyone who possesses them, which is why they have such a strategic advantage, being located right by the entrance to the Bar. The wildlife here ain’t too bad, as long as you stay on the surface and out of the substation. There’s a tunnel the railway in the train hangar leads into, and damned if I or even the bandits know what’s there… ugh, and I’ve heard that a certain type of local fauna has started gathering over there.</text>
+		<text>I guess the flea market here is the main landmark. There’s also the train hangar north of here, but don’t go there; it’s chock full of bandits. Further north along the road is the entrance to the Bar, guarded by Duty sentries. Close by near the road to the Cordon is a substation of some sort, but nobody goes there. It’s just a good-for-nothing area full of anomalies. And, by the way, we’ve got a whopping three spots full of anomalies in the area, and, unfortunately, one of them is in the substation itself; lots of Electros and stuff. The stalkers have chosen these areas and aren’t letting anyone pass, although that doesn’t matter to the bandits, who haven’t actually come here to hunt artefacts, but rather steal them from anyone who possesses them, which is why they have such a strategic advantage, being located right by the entrance to the Bar and all. The wildlife here ain’t too bad, as long as you stay on the surface and out of the substation. There’s a tunnel that the railway in the train hangar leads into, and damned if I or even the bandits know what’s there… ugh, and I’ve heard that a certain type of local fauna has started gathering there.</text>
 	</string>
 
 
@@ -70,7 +70,7 @@
 		<text>There are a few cute rodents in the Zone, called ‘tushkanos’. You’ve seen them for sure. They don’t really seem dangerous, but in packs, they can easily kill even an experienced stalker. There was a case where a special detachment of Dutyers went to sweep a bloodsucker lair. Those blokes made camp somewhere in the middle of the Agroprom complex. One of the guys took off somewhere while another screwed around on his PDA. No one was keeping the night watch. Morning came, and no one was there; something was wrong. The first people to set foot in that room were in for a big surprise… The throats of the squad members had been all chewed up. Typical tushkano traces. God knows why the rodents just up and left their meal. Anyway, the rest of the soldiers decided to head to the lair and finish the job, writing off the deaths of their comrades afterwards. That’s how those men perished. Some stalker ended up retrieving their PDAs, having a new story to tell in the Bar for shits and giggles.</text>
 	</string>
 	<string id="about_monsters_trader_hangar_2">
-		<text>Every rookie encounters a few dogs at the Cordon, as well as in the Great Land. They don’t really differ that much from their ‘prototypes’, so to speak; except they’re blind, but that doesn’t really keep them down, since their other senses have evolved… especially their ability to smell. They can take out newbies like fish in a barrel, and sometimes more experienced stalkers, too, mostly thanks to their manoeuvrability and sudden strikes. Oi, here’s a story for you: somebody made it a habit to snatch some sausage from the Bar. Everyone raised some fuss, tore up the security, and some men from Duty even ended up keeping watch and check who was stealing. Eventually, they saw a dog run in through a hole in the fence and, naturally, shot it down. In the morning, a solemn-looking stalker comes into the Bar and asks about the dog. Barman realises what’s happening and tells him to ask the guys from Duty. Turns out the fresh-faced lad was moving to the Zone with that dead dog, who was his pet. They went though a lot. The guy was also an orphan, and then this happens to him. Ever since that moment, any wise guy who crosses the border into the Zone with a pet either keeps moving or makes dinner out of his ‘little friend’ for other stalkers… just to keep tensions low. By the way, all that sausage was actually stolen by a local alcoholic.</text>
+		<text>Every rookie encounters a few dogs at the Cordon, as well as in the Great Land. They don’t really differ that much from their ‘prototypes’, so to speak; except they’re blind, but that doesn’t really keep them down, since their other senses have evolved… especially their ability to smell. They can take out newbies like fish in a barrel, and sometimes more experienced stalkers, too, mostly thanks to their mobility and swift strikes. Oi, here’s a story for you: somebody made it a habit to snatch some sausage from the Bar. Everyone raised some fuss, tore up the security, and some men from Duty even ended up keeping watch and check who was stealing. Eventually, they saw a dog run in through a hole in the fence and, naturally, shot it down. In the morning, a solemn-looking stalker comes into the Bar and asks about the dog. Barman realises what’s happening and tells him to ask the guys from Duty. Turns out the fresh-faced lad was moving to the Zone with that dead dog, who was his pet. They went though a lot. The guy was also an orphan, and then this happens to him. Ever since that moment, any wise guy who crosses the border into the Zone with a pet either keeps moving or makes dinner out of his ‘little friend’ for other stalkers… just to keep tensions low. By the way, all that sausage was actually stolen by a local alcoholic.</text>
 	</string>
 	<string id="about_monsters_trader_hangar_3">
 		<text>There are dogs, and there are pseudodogs. Why ‘pseudo’, you ask? Well, they originally evolved from wild wolves. On their own, they are easily dispatched by point blank buckshot rounds, much like ordinary wild dogs. However, a pack of pseudodogs is nothing to scoff at. Moreover, they conjure clones of themselves that swarm you… and when that happens, you need to find and kill the real one for the phantoms to stop appearing, otherwise you end up wasting precious ammo and risk getting yourself badly hurt. Those creatures are very reasonable, though, and there are even legends about, claiming they can be tamed. The Swamp Doctor’s pseudodog is an example. You can go find him if you don’t believe me.</text>
@@ -85,10 +85,10 @@
 		<text>Bloodsuckers, perhaps? Let’s see. Rumour has it they’re mutated human beings. Whether or not they mutated from the radiation after the explosions or were scientifically modified by other humans, I don’t know. What I do know, however, is that they’re one of the most dangerous predators inhabiting the Zone. Not only do they boast incredible speed, but they also camouflage themselves, making them extremely dangerous and aggressive beasts. They use stealth and circle around you, tiring your legs out, waiting for the perfect moment to strike; and when they do, it’s curtains for you. See, their name speaks for itself. They drain so much blood that by the time you unhinge those slimy feelers off your neck, you might as well be a piece of paper floating in the wind. I’ve heard stories of a stalker having committed suicide while being circled indefinitely by a bloodsucker. It’s almost like a game to them, really. When they’re not sucking your blood through a straw, their razor sharp claws come into play. Just like snorks, you can avoid their attacks, but you gotta expect it: be alert, use a shotgun, aim for the head, then fire. Rookies end up with empty mags and often fatal wounds. You’d better find a high spot or stick close to an object, keeping both of your eyes open, because the bastard will appear right before you. Keep your trigger finger on the ready and fire right as the sucker closes in. That’s the best tactic if they find you alone… Running away from them is problematic.</text>
 	</string>
 	<string id="about_monsters_trader_hangar_7">
-		<text>Burers. They are near-legendary creatures, the existence of which many don’t even want to know… Personally, I crap myself with fear just thinking about them. The best advice I can give regarding burers is to not head into dungeons or any kinds of empty complexes, laboratories in particular, because they love dwelling in such places. Recently, though, they have been sighted in pretty much every place in the Zone, and this is primarily thanks to to the actions of the Marked One, who turned off the Brain Scorcher. Chimeras too, for example, used to live closer to the centre of the Zone, but then suddenly migrated and increased their population. Apparently, someone who runs all of this in the centre of the Zone has got some influence over these creatures and is using them as a kind of Cerberus on the last approaches towards their ‘stronghold’. If you get into trouble and end up unable to escape, I’d advise you to protect your head, because they’ve got relatively powerful telekinesis powers. They can fire a focused impulse and knock you off your feet, and also take away your weapons and exhaust you, somehow influencing the gravity around you. They resemble fat, hideous dwarfs, who wear huge shoes with their own characteristic sounds, as well as black cloaks, strangely enough sewn almost their size. I too think that they are the result of experiments in secret laboratories. There are also different subspecies of burers, for example fire and electric, just like poltergeists. Some argue that the poltergeist is an evolutionary stage of the burer… however, if an electric poltergeist acts on you only with telekinesis, then a corresponding burer can easily throw a ball of lightning at you or even a whole Electra anomaly, the size of a substation.</text>
+		<text>Burers. They are near-legendary creatures, the existence of which many don’t even want to know… Personally, I crap myself with fear just thinking about them. The best advice I can give regarding burers is to not head into dungeons or any kinds of empty complexes, laboratories in particular, because they love dwelling in such places. Recently, though, they have been sighted in pretty much every place in the Zone, and this is primarily thanks to to the actions of the Marked One, who turned off the Brain Scorcher. Chimeras too, for example, used to live closer to the centre of the Zone, but then suddenly migrated and increased their population. Apparently, someone who runs all of this in the centre of the Zone has got some influence over these creatures and is using them as a kind of Cerberus on the last approaches towards their ‘stronghold’. If you get into trouble and end up unable to escape, I’d advise you to protect your head, because they’ve got relatively powerful telekinesis powers. They can fire a focused impulse and knock you off your feet, and also take away your weapons and exhaust you, somehow influencing the gravity around you. They resemble fat, hideous dwarfs, who wear jumbo shoes with their own characteristic sounds, as well as black cloaks, strangely enough sewn almost their size. I too think that they are the result of experiments in secret laboratories. There are also different subspecies of burers, for example fire and electric, just like poltergeists. Some argue that the poltergeist is an evolutionary stage of the burer… however, if an electric poltergeist acts on you only with telekinesis, then a corresponding burer can easily throw a ball of lightning at you or even a whole Electra anomaly, the size of a substation.</text>
 	</string>
 	<string id="about_monsters_trader_hangar_8">
-		<text>Controllers are no joke: those monsters emit a steady psy-background and can manipulate the consciousness of any person. It’s absolutely fatal to approach them without the right type of protection, and you’re generally better off staying away from any places they might be dwelling in. They’ll most likely just burn your brain out, not even zombifying you, in order to make some juicy grub out of you right then and there. Legend’s going around saying that they can even talk, but I don’t really believe in that. Their high level of intellect is beyond doubt, though. Sometimes they can stage clever ambushes. They often wander alone, greedy for food, or thinking about whatever goes on in that screwed-up head of theirs. A stalker once dropped by and told me and the boys that there was a weird creature that settled down around Rostok. He went to have a look, but was stopped by a sudden, severe headache that almost made him drop his gun; so he backed off, thinking it was just radiation. The rest of us went with him to scoop the place out, came in; and I also felt a headache! Later, we went back prepared, having taken some special pills that basically got rid of any emotions in our body. I looked around and saw a man-shaped figure sitting in the darkness. I opened fire, but it disappeared, and then, the bastard came out behind my back, and I shot him. Then I heard a faint, yet familiar voice… and couldn’t believe it. I had shot down my friend Vasyuk. Eventually we managed to get rid of that mutant freak, but I quit hunting ever since and ended up opening a bar here. I was fortunate not to get killed. Redhead was a smart guy, so he took off to the north after what happened.</text>
+		<text>Controllers are no joke: those monsters emit a steady psy-background and can manipulate the consciousness of any person. It’s absolutely fatal to approach them without the right type of protection, and you’re generally better off staying away from any places they might be dwelling in. They’ll most likely just burn your brain out, not even zombifying you, in order to make some juicy grub out of you right then and there. Legend’s going around saying that they can even talk, but I don’t really believe in that. Their high level of intellect is beyond doubt, though. Sometimes they can stage clever ambushes. They often wander alone, greedy for food, or thinking about whatever goes on in that screwed-up head of theirs. A stalker once dropped by and told me and the boys that there was a weird creature that settled down around Rostok. He went to have a look, but was stopped by a sudden, severe headache that almost made him drop his gun, so he backed off, thinking it was just radiation. The rest of us went with him to scoop the place out. We came in, and I also felt a headache! Later, we went back prepared, having taken some special pills that basically got rid of any emotions in our body. I looked around and saw a man-shaped figure sitting in the darkness. I opened fire, but it disappeared, and then, the bastard came out behind my back, and I shot him. Then I heard a faint, yet familiar voice… and couldn’t believe it. I had shot down my friend Vasyuk. Eventually we managed to get rid of that mutant freak, but I quit hunting ever since and ended up opening a bar here. I was fortunate not to get killed. Redhead was a smart guy, so he took off to the north after what happened.</text>
 	</string>
 	<string id="about_monsters_trader_hangar_9">
 		<text>And the cats… Have you seen those things? Oh, god. Only this place can turn pets into feral beasts. Their whole thyroid is swollen from all the radiation, along with tumours located inside their cheeks. I don’t really know why those cats have become like this. They’ve grown in size with sharper claws, and they run like crazy. People usually have to get domestic cats down from trees; here, you’re the one who gets chased around. To make matters worse, they’ve developed a pack mentality similar to dogs and wolves. They’re wild and they can be found anywhere in the Zone, so keep an eye on your surroundings at all times. They come running, and if you aren’t careful, they will cling onto your ass and have a nice, tasty bite.</text>
@@ -109,13 +109,13 @@
 		<text>Wild boars and flesh. The latter are an example of a terribly mutated pig, as proven by scientists. Those creatures are rather sluggish and weak, and only a complete muppet could get under its bladed paws, which will penetrate virtually any armour. As for boars, differ little from their relatives outside the Zone, apart from the fact that they are larger and more dangerous… Oh, and their hooves are much stronger, cutting through fabric and human flesh effortlessly. It’s enough just to jump aside and move somewhere in a couple of metres when these beasts rush at you, to avoid their fangs. Oftentimes, stalkers like to meat of wild boars and flesh alike, but not without treating it beforehand to avoid radiation poisoning.</text>
 	</string>
 	<string id="about_monsters_trader_hangar_15">
-		<text>Karliks… Thanks for helping me gather information about them. Here’s what I’ve jotted down: they mainly reside in underground complexes, most of which have previously been used for experiments on people. Apparently, karliks are the result of such experiments. They possess supernatural strength, good speed, and attack most often in groups. At the moment, only one subspecies has been discovered: smoked ones. They’re nasty buggers mutated by anomalies and they emit dangerous radiation. Best not to go near them without a Wrenched or a Bubble in your pocket.</text>
+		<text>Karliks… Thanks for helping me gather information about them. Here’s what I’ve jotted down: they mainly reside in underground complexes, most of which have previously been used for experiments on people. Apparently, karliks are the result of such experiments. They possess supernatural strength, good speed, and attack most often in groups. At the moment, only one subspecies has been discovered: smoked ones. They’re nasty buggers mutated by anomalies, and they emit dangerous radiation. Best not to go near them without a Wrenched or a Bubble in your pocket.</text>
 	</string>
 
 
 
 	<string id="agr_main_monolith_mlr_task_5_attack_done_message">
-		<text>Mentor:\nFollow Inquisitor’s orders. He still needs your assistance. You will return to me later.</text>
+		<text>Mentor:\nFollow Inquisitor’s orders; he still needs your assistance. You will return to me later.</text>
 	</string>
 
 
@@ -245,10 +245,10 @@
 		<text>What’s the current situation?</text>
 	</string>
 	<string id="army_yan_mec_about_tool_3">
-		<text>To be honest with you, it’s all a load of bollocks. I don’t have the tools I need, all thanks to the outstanding supply of the higher-ups. The equipment the scientists have got here hasn’t really been making it easy for us, and it’s gonna need some higher quality modifications. Managed to get the old receiver here repaired, though it’s still spouting a bunch of gibberish. Our guys kicked the bucket at the army warehouses a couple of years ago, and it still transmits their voices.</text>
+		<text>To be honest with you, it’s a load of bollocks. I don’t have the tools I need, all thanks to the outstanding supply of the higher-ups. The equipment the scientists have got here hasn’t really been making it easy for us, and it’s gonna need some higher quality modifications. Managed to get the old receiver here repaired, though it’s still spouting a bunch of gibberish. Our guys kicked the bucket at the army warehouses a couple of years ago, and it still transmits their voices.</text>
 	</string>
 	<string id="army_yan_mec_about_tool_4">
-		<text>Well, this is the Zone, you never know what’ll happen. Best wishes.</text>
+		<text>Well, this is the Zone; you never know what’ll happen. Best wishes.</text>
 	</string>
 
 
@@ -321,13 +321,13 @@
 
 
 	<string id="bandit_barman_dar_mlr_start_dlg_0">
-		<text>Ah, a new face in my diner. Welcome, man.</text>
+		<text>Ah, a new face in my diner. Welcome, lad.</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_start_dlg_1">
 		<text>You work as a cook here?</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_start_dlg_2">
-		<text>Yeah, guess my time at that sharashka paid off. Have some vodka to your heart’s content. If you wanna have a drink, a snack, and a laugh, you found the right place. This certainly ain’t the 100 Rads, but on the other hand, we ain’t got no wimpy knuckleheads around here, either. Our boys are square and our spoons in one piece, tee-hee.</text>
+		<text>Yeah. Guess my time at that sharashka paid off. Have some vodka to your heart’s content. If you wanna have a drink, a snack, and a laugh, you found the right place. This certainly ain’t the 100 Rads, but on the other hand, we ain’t got no wimpy knuckleheads around here, either. Our boys are square and our spoons in one piece, tee-hee.</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_start_dlg_3">
 		<text>I’ll make sure to drop by.</text>
@@ -337,17 +337,17 @@
 		<text>Is there anything to do around here?</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_about_lottery_1">
-		<text>Out of luck, aren’t you, sucker? I’ve got a lottery of sorts for ya. Just for shits and giggles, you can fetch me some patches from other groupings and win yourself some decent gizmos… or end up with jack shit, he-he.</text>
+		<text>Out of luck, aren’t you, sucker? I’ve got a lottery of sorts for ya. Just for shits and giggles, you can fetch me some patches from other groupings and win yourself some decent gizmos… or end up with bugger all, he-he.</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_about_lottery_2">
-		<text>I’ll have tried. Let’s see what kind of scam you’ve got, big shot.</text>
+		<text>I’ll have tried. Let’s see what kind of scam you’ve got, bigwig.</text>
 	</string>
 
 	<string id="bandit_barman_dar_mlr_ab_find_number_0">
 		<text>Anything else fun to do?</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_ab_find_number_1">
-		<text>Do I look like a damn clown to you?… Actually, I have an idea. We can play some Russian roulette: I’ve got an old revolver here, and we can fire off the entire cylinder. Obviously, I’m gonna be shooting into the air and not into myself. You win, you earn five patches.</text>
+		<text>Do I look like a bloody clown to you?… Actually, I have an idea. We can play some Russian roulette; I’ve an old revolver here, and we can play with the entire cylinder. Obviously, I’m gonna be shooting into the air and not into myself. You win, you earn five patches.</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_ab_find_number_2">
 		<text>Let’s start.</text>
@@ -360,7 +360,7 @@
 		<text>He-he, let’s go.</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_find_number_2">
-		<text>[pull the trigger]</text>
+		<text>[pulls the trigger]</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_find_number_3">
 		<text>[miss]</text>
@@ -381,7 +381,7 @@
 		<text>…</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_find_number_9">
-		<text>[pull the trigger]</text>
+		<text>[pulls the trigger]</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_find_number_10">
 		<text>[miss]</text>
@@ -393,10 +393,10 @@
 		<text>[miss]</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_find_number_13">
-		<text>[pull the trigger]</text>
+		<text>[pulls the trigger]</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_find_number_14">
-		<text>You’ve got some balls! Five grand for you, big boy.</text>
+		<text>You’ve got some nads! Five grand for you, big boy.</text>
 	</string>
 	<string id="bandit_barman_dar_mlr_find_number_15">
 		<text>Aw, snap! You win, here’s your stuff.</text>
@@ -411,10 +411,10 @@
 		<text>Zhuchila has complained about the recklessness of local hoodlums. You have been asked to go to the railway tunnel opposite the depot and find the SVD.</text>
 	</string>
 	<string id="bandit_barman_gar_hangr_mlr_task_1_about">
-		<text>Yeah, got one thing. Some asshole went into the nearby tunnel, apparently wanted to show something to his friends, and you know that tunnel. a complete dog’s dinner in there. Well, he came back with a brand new SVD! Surely stole it from some poor guy—damned if I know who—but it’s clear that the wanker ran into some creatures there, who ended up knocking his rifle from his hands, and that was end of that. You’re gonna go after that beauty, huh?</text>
+		<text>Yeah, got one thing. Some asshole went into the nearby tunnel, apparently wanted to show something to his friends, and you know that tunnel; a complete dog’s dinner for any man. Well, he came back with a brand new SVD! Surely stole it from some poor guy—damned if I know who—but it’s clear that the wanker ran into some creatures there, who ended up knocking his rifle from his hands, and that was end of that. You’re gonna go after that beauty, huh?</text>
 	</string>
 	<string id="bandit_barman_gar_hangr_mlr_task_1_fetch_about">
-		<text>Yeah, got one thing. Some asshole went into the nearby tunnel, apparently wanted to show something to his friends, and you know that tunnel; a complete dog’s dinner in there. Well, he came back with a brand new SVD! Surely stole it from some poor guy—damned if I know who—but it’s clear that the wanker ran into some creatures there, who ended up knocking his rifle from his hands, and that was end of that. You’re gonna go after that beauty, huh?</text>
+		<text>Yeah, got one thing. Some asshole went into the nearby tunnel, apparently wanted to show something to his friends, and you know that tunnel; a complete dog’s dinner for any man. Well, he came back with a brand new SVD! Surely stole it from some poor guy—damned if I know who—but it’s clear that the wanker ran into some creatures there, who ended up knocking his rifle from his hands, and that was end of that. You’re gonna go after that beauty, huh?</text>
 	</string>
 	<string id="bandit_barman_gar_hangr_mlr_task_1_fetch_finish">
 		<text>Bloody brilliant. Here, take this and have yourself a nap or something… while I think about who I can pass this loot off to.</text>
@@ -426,7 +426,7 @@
 		<text>Think I’ve caught a bullet or two.</text>
 	</string>
 	<string id="bandit_gar_smart_terrain_5_2_medic_mlr_heal_1">
-		<text>Aw, caught a bullet? Need mommy to kiss your wound? Mate, get your ass over here and ready the dosh, two grand.</text>
+		<text>Aw, caught a bullet? Need mommy to kiss your wound? Mate, get your ass over here and ready the dosh: two grand.</text>
 	</string>
 
 		<string id="bandit_gar_smart_terrain_5_2_medic_mlr_heal_5">
@@ -434,13 +434,13 @@
 		</string>
 
 	<string id="bandit_gar_smart_terrain_5_2_medic_mlr_heal_2">
-		<text>You’re healthy, alright. Mate, if you’re here just to waste my time, I might as well take your nuts while you’re at it, eh?</text>
+		<text>You’re healthy, alright. Mate, if you’re here just to waste my time, I might as well take your nuts while you’re at it, innit?</text>
 	</string>
 	<string id="bandit_gar_smart_terrain_5_2_medic_mlr_heal_3">
 		<text>Screw you.</text>
 	</string>
 	<string id="bandit_gar_smart_terrain_5_2_medic_mlr_heal_4">
-		<text>Yeah, you looked a little off-colour there. You’ll live. Get going, and don’t forget about the brotherhood.</text>
+		<text>Yeah, you looked a little off-colour there, but you’ll live. Get going… and don’t forget about the brotherhood.</text>
 	</string>
 
 
@@ -490,7 +490,7 @@
 		<text>They call you Limpid because you’ve got something limp down under?</text>
 	</string>
 	<string id="bandit_mechanic_st_7">
-		<text>Real funny guy. Anyway, I enjoyed hanging out with my mates after a long shift. Had a few too many drinks… The boss caught us, and I got fired like some retarded bellend.</text>
+		<text>Real funny guy. Anyway, I enjoyed hanging out with my mates after a long shift. Had a few too many drinks… The boss caught us, and I got fired like some daft bellend.</text>
 	</string>
 	<string id="bandit_mechanic_st_8">
 		<text>Life’s a bitch.</text>
@@ -517,13 +517,13 @@
 		<text>The technician at the Garbage has asked you to retrieve %s.</text>
 	</string>
 	<string id="bandit_tech_gar_hangr_mlr_task_1_about">
-		<text>Yeah, mate. Of course there’s work for you here. Frankly, it’s embarrassing for me to ask you for help, but, fuck it. No one here’s getting me the stuff I need. Basically, I need some tools for rough work. If you find any, deliver ’em here, eh?</text>
+		<text>Yeah, mate. Of course there’s work for you here. Frankly, it’s embarrassing for me to ask you for help, but, fuck it. No one here’s getting me the stuff I need. Basically, I need some tools for rough work. If you find any, deliver ’em here, innit?</text>
 	</string>
 	<string id="bandit_tech_gar_hangr_mlr_task_1_fetch_about">
-		<text>Yeah, mate. Of course there’s work for you here. Frankly, it’s embarrassing for me to ask you for help, but, fuck it. No one here’s getting me the stuff I need. Basically, I need some tools for rough work. If you find any, deliver ’em here, eh?</text>
+		<text>Yeah, mate. Of course there’s work for you here. Frankly, it’s embarrassing for me to ask you for help, but, fuck it. No one here’s getting me the stuff I need. Basically, I need some tools for rough work. If you find any, deliver ’em here, innit?</text>
 	</string>
 	<string id="bandit_tech_gar_hangr_mlr_task_1_fetch_finish">
-		<text>Now, look at that... You’ve really helped the lads. Brothers don’t forget their own, so I’ll give you a discount.</text>
+		<text>Now, look at that… You’ve really helped the lads. Brothers don’t forget their own, so I’ll give you a discount.</text>
 	</string>
 
 	<string id="bandit_tech_gar_hangr_mlr_task_2_name">
@@ -533,10 +533,10 @@
 		<text>The technician at the Garbage has asked you to retrieve %s.</text>
 	</string>
 	<string id="bandit_tech_gar_hangr_mlr_task_2_about">
-		<text>It doesn’t feel complete… my equipment. These tools aren’t enough. The others looked around left, right, and centre, but found bugger all. What do you say? Wanna help out the brotherhood once more?</text>
+		<text>It doesn’t feel complete… my equipment. These tools aren’t enough. The others have looked around left, right, and centre, but found bugger all. What do you say? Wanna help out the brotherhood once more?</text>
 	</string>
 	<string id="bandit_tech_gar_hangr_mlr_task_2_fetch_about">
-		<text>It doesn’t feel complete… my equipment. These tools aren’t enough. The others looked around left, right, and centre, but found bugger all. What do you say? Wanna help out the brotherhood once more?</text>
+		<text>It doesn’t feel complete… my equipment. These tools aren’t enough. The others have looked around left, right, and centre, but found bugger all. What do you say? Wanna help out the brotherhood once more?</text>
 	</string>
 	<string id="bandit_tech_gar_hangr_mlr_task_2_fetch_finish">
 		<text>Respect from the heart, lad! Drop by anytime and I’ll help you out with these tools. You’ll always be welcome here. Sorry I ain’t got any beer for you, though.</text>
@@ -548,7 +548,7 @@
 		<text>Why is your nickname so lousy?</text>
 	</string>
 	<string id="bandit_trader_st_1">
-		<text>Look who’s talking! Goddamn greenhorns, trying to act all tough… You don’t handle them, they can’t even hold their own cocks straight when taking a piss. If you do, they act like lousy bellends, to put it in your words.</text>
+		<text>Look who’s talking! Goddamn colts, trying to act all tough… You don’t handle them, they can’t even hold their own cocks straight when taking a piss. If you do, they act like lousy bellends, to put it in your words.</text>
 	</string>
 	<string id="bandit_trader_st_2">
 		<text>Hey, easy. Didn’t mean anything by it. Just didn’t know what to say.</text>
@@ -578,7 +578,7 @@
 		<text>[continue…]</text>
 	</string>
 	<string id="bandit_trader_st_11">
-		<text>By the way, they call me Olivius. I’m well known around these parts because I tend to try out the goods people bring me firsthand. I’m keen on quality and condition.</text>
+		<text>By the way, they call me Olivius. I’m well known around these parts, because I tend to try out the goods people bring me firsthand. I’m keen on quality and condition.</text>
 	</string>
 	<string id="bandit_trader_st_12">
 		<text>Thanks for the history lesson. Sorry once again.</text>
@@ -612,7 +612,7 @@
 		<text>I need medical assistance.</text>
 	</string>
 	<string id="bar_dolg_medic_dialog_1">
-		<text>You hand over two thousand, I’ll fix you up.</text>
+		<text>You hand over two thousand, I’ll do my best.</text>
 	</string>
 
 		<string id="bar_dolg_medic_dialog_5">
@@ -620,7 +620,7 @@
 		</string>
 
 	<string id="bar_dolg_medic_dialog_2">
-		<text>You’re fit as a fiddle. Now go; I’m busy.</text>
+		<text>You’re fit as a fiddle. Now go. I’m busy.</text>
 	</string>
 	<string id="bar_dolg_medic_dialog_3">
 		<text>How bad is it?</text>
@@ -700,7 +700,7 @@
 		<text>Are you the only trader here?</text>
 	</string>
 	<string id="baraholka_trader_talking_3">
-		<text>What? No! Other guys trade here, we just have one rule: any big deals don’t happen before sunset. The guy over at the table is also a trader, and that’s not counting the barman, who I hope you’ve noticed. At night, the real life begins… The goods are completely different.</text>
+		<text>What? No! Other guys trade here, we just have one rule: any big deals don’t happen before sunset. The guy over at the table is also a trader, and that’s not counting the barman, who I hope you’ve noticed. At night, the real life begins; the goods are completely different.</text>
 	</string>
 
 
@@ -712,7 +712,7 @@
 		<text>A trader at the flea market in the Garbage has offered you some work in the form of getting a container unlocked. The services of a technician will be required.</text>
 	</string>
 	<string id="baraholka_trader_task_1_about">
-		<text>You look like a decent guy. I got some dirty work need doing… Can you bring this case to Sakharov?</text>
+		<text>You look like a decent guy… I got some dirty work need doing. Can you bring this case to Sakharov?</text>
 	</string>
 	<string id="baraholka_trader_task_1_finish">
 		<text>Well done, man.</text>
@@ -731,7 +731,7 @@
 		<text>There’s always work to do. I need an artefact, called %s. Will you get it?</text>
 	</string>
 	<string id="baraholka_trader_task_2_fetch_finish">
-		<text>Well done, you deserve this.</text>
+		<text>Well done. You deserve this.</text>
 	</string>
 
 
@@ -749,7 +749,7 @@
 		<text>Feel like earning some loot while looking for rare artefacts? For %s, I can offer you some more stuff.</text>
 	</string>
 	<string id="baraholka_trader_night_task_1_fetch_finish">
-		<text>Ah, great work, stalker. Here, for you.</text>
+		<text>Ah, great work, stalker. Here. For you.</text>
 	</string>
 
 
@@ -773,7 +773,7 @@
 		<text>Actually, never mind.</text>
 	</string>
 	<string id="baraholka_trader_task_sapsan_talk_6">
-		<text>Well, lookie here. Take anything you like.</text>
+		<text>Well, have a gander. Take anything you like.</text>
 	</string>
 
 
@@ -782,7 +782,7 @@
 		<text>What is this place?</text>
 	</string>
 	<string id="baraholka_trader_two_talk_1">
-		<text>Man, you’re in the flea market. Stalkers around here trade whatever they can get their hands on; to my right behind the bar is our bartender and part-time hunter, although he’s basically retired at this point. Left on the couch is my colleague.</text>
+		<text>Mate, you’re in the flea market. The stalkers around here trade whatever they can get their hands on. To my right, behind the bar, is our bartender and part-time hunter, although he’s basically retired at this point. Left on the couch is my colleague.</text>
 	</string>
 
 
@@ -791,7 +791,7 @@
 		<text>Flight recorder</text>
 	</string>
 	<string id="blackbox_mlr_descr">
-		<text>Or ‘black box’, as it is commonly named in media. Flight data recorders are used to record internal aircraft systems and crew conversations, usually storing data that could be useful in the event of determining the cause of a crash. In the Zone, such devices are used on all types of aircraft, though a proper ‘black box’ is not always fitted. Both the military and different types of dealers may show an interest in it, and they have also proven to be sought-after wares among communities of stalkers.</text>
+		<text>Or a ‘black box’, as it is commonly named in media. Flight data recorders are used to record internal aircraft systems and crew conversations, usually storing data that could be useful in the event of determining the cause of a crash. In the Zone, such devices are used on all types of aircraft, though a proper ‘black box’ is not always fitted. Both the military and different types of dealers may show an interest in it, and they have also proven to be sought-after wares among communities of stalkers.</text>
 	</string>
 
 
@@ -995,7 +995,7 @@
 		<text>I need a mutant den taken care of. This place isn’t too popular among stalkers, so peoples’ wishes about getting here don’t happen because of the damn mutants, who are out and about in the forest, the road, even on the approaches. I’ve got the coordinates and a reward if you can carry out a cleanup. Deal?</text>
 	</string>
 	<string id="dasc_trade_mlr_task_1_finish">
-		<text>Thanks, maybe more people will end up coming here. Here, as a reward.</text>
+		<text>Thanks. Maybe more people will end up coming here. Here, as a reward.</text>
 	</string>
 
 	<string id="dasc_trade_mlr_task_2_name">
@@ -1008,7 +1008,7 @@
 		<text>There are a few buyers here who would be interested in a certain artefact, but since the anomalies here are poor, I prefer to entrust artefact hunting to stalkers. I’d like %s, and you’ll be rewarded, of course.</text>
 	</string>
 	<string id="dasc_trade_mlr_task_2_fetch_finish">
-		<text>Well done, just what I need. Here.</text>
+		<text>Well done. Just what I need. Here.</text>
 	</string>
 
 	<string id="dasc_trade_mlr_task_3_name">
@@ -1018,10 +1018,10 @@
 		<text>You have been tasked by Axeman with assaulting a bandit encampment and destroying them.</text>
 	</string>
 	<string id="dasc_trade_mlr_task_3_about">
-		<text>There’s a former military outpost in the vicinity that was formerly occupied by the army boys… and now the bandits have settled there. Can you deal with them?</text>
+		<text>There’s a former military outpost in the vicinity that was formerly occupied by the army boys… and now, the bandits have settled there. Can you deal with them?</text>
 	</string>
 	<string id="dasc_trade_mlr_task_3_finish">
-		<text>Awesome, man. Here’s the reward.</text>
+		<text>Beautiful, man. Here’s the reward.</text>
 	</string>
 
 
@@ -1062,7 +1062,7 @@
 		<text>Is it important? We need to hurry, it’ll be dangerous to stay here for too long.</text>
 	</string>
 	<string id="ecolog_companion_task_mlr_1_complete">
-		<text>Thank you, stalker, you’ve done a good job. Here’s your reward.</text>
+		<text>Thank you, stalker. You’ve done a good job. Here’s your reward.</text>
 	</string>
 	<string id="ecolog_companion_task_mlr_1_actor_reply">
 		<text>Alright.</text>
@@ -1099,7 +1099,7 @@
 		<text>Better not stick your nose out, especially since you’ve got a handy skill that lets you just sit around and make cash. It’s not like doctoring Soviet grans for wee wage.</text>
 	</string>
 	<string id="esc_2_12_medic_mlr_after_wounded_5">
-		<text>You’re right, I’m talking bull. Alright, see you around, friend. Still gotta sort out some ampoules here. Good hunting!</text>
+		<text>You’re right. I’m talking bull. Alright, see you around, friend. Still gotta sort out some ampoules here. Good hunting!</text>
 	</string>
 
 
@@ -1108,7 +1108,7 @@
 		<text>I need medical assistance.</text>
 	</string>
 	<string id="esc_2_12_medic_mlr_heal_1">
-		<text>Let’s have a look, partner.</text>
+		<text>Let’s have a look, eh?</text>
 	</string>
 	<string id="esc_2_12_medic_mlr_heal_2">
 		<text>Not sure what you need; everything’s fine. Drink something for psy-protection.</text>
@@ -1182,7 +1182,7 @@
 		<text>So how do you feel?</text>
 	</string>
 	<string id="esc_2_12_medic_mlr_save_task_mlr_dlg_4_1">
-		<text>Ugh, feels like the whole world is spinning… Wonder how I even got here. Gonna lie down and have myself some ammonia, then I’ll have to patch myself up. Hey, take as much money as you need from the backpack and come back in a few days if you need any help. Oh, by the way, never introduced myself… They call me Kashpirovsky. I’ll be staying around here to treat local stalkers. I’d better get going, my legs aren’t gonna keep up for much longer.</text>
+		<text>Ugh, feels like the whole world is spinning… Wonder how I even got here. Gonna lie down and have myself some ammonia, then I’ll have to patch myself up. Hey, take as much money as you need from the backpack and come back in a few days if you need any help. Oh, by the way, never introduced myself… I’m Kashpirovsky. I’ll be staying around here to treat local stalkers. I’d better get going, my legs aren’t gonna keep up for much longer.</text>
 	</string>
 
 
@@ -1194,7 +1194,7 @@
 		<text>A mutant lair needs to be destroyed in order to protect the rookies in the village and any other stalkers passing through the Cordon.</text>
 	</string>
 	<string id="esc_2_12_stalker_fanat_task_1_about">
-		<text>We’ve got a problem. The mutants have found a new favorite spot to settle down at, and every day in the Cordon has been getting more and more dangerous with those things around. We just can’t let them grow in numbers. You’re gonna have to head over there and take out anything you find. Everyone here will be in your debt if you get it done. What do you say?</text>
+		<text>We’ve got a problem. The mutants have found a new favourite spot to settle down at, and every day in the Cordon has been getting more and more dangerous with those things around. We just can’t let them grow in numbers. You’re gonna have to head over there and take out anything you find. Everyone here will be in your debt if you get it done. What do you say?</text>
 	</string>
 	<string id="esc_2_12_stalker_fanat_task_1_finish">
 		<text>Great work. Thanks to you, the area will be safer for the rookies. Here’s your reward.</text>
@@ -1222,10 +1222,10 @@
 		<text>Zhurov has asked you to retrieve %s.</text>
 	</string>
 	<string id="esc_3_16_military_trader_task_1_about">
-		<text>The top brass has launched an unofficial programme, you wanna take part? As proof, I require patches from criminals in the Zone.</text>
+		<text>The top brass has launched an unofficial programme. You wanna take part? As proof, I require patches from criminals in the Zone.</text>
 	</string>
 	<string id="esc_3_16_military_trader_task_1_fetch_about">
-		<text>The top brass has launched an unofficial programme, you wanna take part? You can gather %s, don’t strain yourself!</text>
+		<text>The top brass has launched an unofficial programme. You wanna take part? You can gather %s, don’t strain yourself!</text>
 	</string>
 	<string id="esc_3_16_military_trader_task_1_fetch_finish">
 		<text>Hah, you’re certainly no slouch. Nice work, here’s your reward.</text>
@@ -1285,7 +1285,7 @@
 			<text>Things happen. What’s your name?</text>
 		</string>
 		<string id="esc_factory_smart_terrain_10_bandit_mechanic_first_meet_9">
-			<text>I go by Baltic… Like, ‘Baltic Porter’: the same beer that got me locked up in the first place. Some thief took the mickey out of me for my story, and it stuck. The nickname’s always bothered me, but I’ve managed to keep me dignity.</text>
+			<text>I go by Baltic… Like, ‘Baltic Porter’: the same beer that got me locked up in the first place. Some thief took the mickey out of me for my story, and it stuck with me. The nickname’s always bothered me, but I’ve managed to keep me dignity.</text>
 		</string>
 
 	<string id="esc_factory_smart_terrain_10_bandit_mechanic_first_meet_5">
@@ -1409,7 +1409,7 @@
 		<text>So, it’s like this: I need five dog tails, or to be more precise, one good man… a zoologist. Interested?</text>
 	</string>
 	<string id="esc_m_trader_task_3_fetch_finish">
-		<text>Oi, it smells like hell in here! Just be glad I’m not fining you for this stench.</text>
+		<text>Oof, it smells like shit in here! Just be glad I’m not fining you for this stench.</text>
 	</string>
 
 	<string id="esc_m_trader_task_4_name">
@@ -1445,7 +1445,7 @@
 		<text>Sidorovich has handed you some leadership work: you must lead around a squad of rookies until they gain some fundamental experience.</text>
 	</string>
 	<string id="esc_m_trader_task_6_about">
-		<text>Work, eh? Well, I’ve got something here. You’re no lousy greenhorn, as far as I can judge by your PDA profile. Ugh, well… Some tossers mobbed me; asked me to show them every little thing about the Zone. I sent them to Fanatic, and that sly devil didn’t want those morons dying on him during training and ruining his reputation, he allegedly told them that he was no longer holding basic stalker training among newcomers. In the Zone, reputation, like brain cells, doesn’t grow back. So I don’t blame him for snubbing them on training. I figured that unnecessary deaths were not needed here, so I asked them to wait at the village until I could find them a suitable candidate. Well, are you the one to be leading these jerks around the neighbourhood? If so, make sure that they leave you with payment and joyful smiles on their faces.</text>
+		<text>Work, eh? Well, I’ve got something here. You’re no lousy tenderfoot, as far as I can judge by your PDA profile. Ugh, well… Some tossers mobbed me; asked me to show them every little thing about the Zone. I sent them to Fanatic, and that sly devil didn’t want those morons dying on him during training and ruining his reputation; he allegedly told them that he was no longer holding basic stalker training among newcomers. In the Zone, reputation, like brain cells, doesn’t grow back. So I don’t blame him for snubbing them on training. I figured that unnecessary deaths were not needed here, so I asked them to wait at the village until I could find them a suitable candidate. Well, are you the one to be leading these newbies around the neighbourhood? If so, make sure that they leave you with payment and joyful smiles on their faces.</text>
 	</string>
 	<string id="esc_m_trader_task_6_finish">
 		<text>Great. Here’s a little payment for you.</text>
@@ -1530,7 +1530,7 @@
 	</string>
 
 	<string id="fanat_kmb_1_start_0">
-		<text>Oh, a new face? Would you like to go through some basic training?</text>
+		<text>Oh, a new face in the village? Would you like to go through some basic training?</text>
 	</string>
 	<string id="fanat_kmb_1_start_1">
 		<text>Sure.</text>
@@ -1539,11 +1539,11 @@
 		<text>No, thanks.</text>
 	</string>
 	<string id="fanat_kmb_1_start_3">
-		<text>Excellent. The most dangerous things around here are mutants. There’s a herd of boars by the ravine, and you and I are going there to clear the place out. Try and keep them off me.</text>
+		<text>Brilliant. The most dangerous things around here are mutants. There’s a herd of boars by the ravine, and you and I are going there to clear the place out. Try and keep them off me.</text>
 	</string>
 
 	<string id="fanat_kmb_1_start1_0">
-		<text>Phew. What now?</text>
+		<text>Phew… What now?</text>
 	</string>
 	<string id="fanat_kmb_1_start1_1">
 		<text>Well done. See if your knife’s strong enough to get a few parts off of them. When you’re done, let’s head over to the nearest anomalous zone.</text>
@@ -1660,14 +1660,14 @@
 		<text>Brother, I’m on board. I dug up the flight recorder.</text>
 	</string>
 	<string id="find_blackbox_mlr_reward_haron_1">
-		<text>Give it here, let’s see what the military is planning this time.</text>
+		<text>Give it here. Let’s see what the military is planning this time.</text>
 	</string>
 
 	<string id="find_blackbox_mlr_reward_killer_0">
 		<text>Here. I found a flight recorder.</text>
 	</string>
 	<string id="find_blackbox_mlr_reward_killer_1">
-		<text>A military one? Great. That’s actually a nice gizmo you’ve got there, I’ll take it off your hands for some paper.</text>
+		<text>A military one? Great. That’s actually a nice gizmo you’ve got there. I’ll take it off your hands for some dosh.</text>
 	</string>
 
 	<string id="find_blackbox_mlr_reward_owl_0">
@@ -1683,7 +1683,7 @@
 		<text>Is this a dining room, or a bar, or something?</text>
 	</string>
 	<string id="first_meet_to_barman_mil_7_7_1">
-		<text>Well, only Duty’s got a dining room in the Zone, and nobody’s seen it. Welcome, man. You can call me Ganja. I’ve been in charge of the local grub after they put Chef in the minefield, he-he.</text>
+		<text>Well, only Duty’s got a dining room in the Zone, and nobody’s seen it. Welcome, man. You can call me Ganja. I’ve been in charge of the local grub after they put Chef in the minefield… he-he.</text>
 	</string>
 
 
@@ -1707,7 +1707,7 @@
 		<text>A group of bandits have settled near Duty’s post and need to be taken out.</text>
 	</string>
 	<string id="gar_smart_terrain_5_4_main_dolg_soldier_task_1_about">
-		<text>If you’ve got the guts, the parking lot needs to be cleared out of a few local bandits. Those freaks must be taking the piss, setting up camp next to our post. We would take care of them, but I don’t have the extra people. Are you in?</text>
+		<text>If you’ve got the guts, the parking lot needs to be cleared out of a few local bandits. Those freaks must be taking the piss, setting up camp next to our post and all. We would take care of them, but I don’t have the extra people. Are you in?</text>
 	</string>
 	<string id="gar_smart_terrain_5_4_main_dolg_soldier_task_1_finish">
 		<text>That’s a relief. Here’s your reward.</text>
@@ -1840,7 +1840,7 @@
 		<text>Eliminate the zombies at the Garbage</text>
 	</string>
 	<string id="hunter_gar_trader_task_4_text">
-		<text>A pack of zombies have moved from Yantar to the Garbage, gathering around the rubbish piles. They must be neutralised.</text>
+		<text>A pack of zombies have moved from Yantar to the Garbage, gathering around the piles of rubbish. They must be neutralised.</text>
 	</string>
 	<string id="hunter_gar_trader_task_4_about">
 		<text>Yeah, got a good job for a hunter! You’re a hunter, right? Good! So, basically, you need to clear out the Garbage of the zombie infestation that’s going on there. I’ll send you the coordinates on the PDA. You in?</text>
@@ -2043,7 +2043,7 @@
 		<text>You got any info on stashes?</text>
 	</string>
 	<string id="information_about_stash_owl_zat_1">
-		<text>I’ve got everything and more; if you’ve got the cash, that is. Got plenty of spare info from various sources. Eight thousand for this one, no less.</text>
+		<text>I’ve got everything and more, if you’ve got the cash, that is. Got plenty of spare info from various sources. Eight thousand for this one, no less.</text>
 	</string>
 
 	<string id="information_about_stash_owl_zat1_0">
@@ -2140,7 +2140,7 @@
 		<text>Recently, I’ve been feeling nostalgic for the days where I’d fix up and upgrade rifles. Do you think you could provide me with some tools?</text>
 	</string>
 	<string id="jup_b19_freedom_yar_task_3_fetch_finish">
-		<text>Thank you; in doing this, you’ve helped everyone else who wants to have their rifle serviced. You’ll see a discount if you are one of those people.</text>
+		<text>Thank you. In doing this, you’ve helped everyone else who wants to have their rifle serviced. You’ll see a discount if you are one of those people.</text>
 	</string>
 
 	<string id="jup_b19_freedom_yar_task_4_name">
@@ -2156,7 +2156,7 @@
 		<text>The last toolkit alone is not enough to create a masterpiece. To accomplish that, I’ll need some better tools. Will you help out your uncle Yar again?</text>
 	</string>
 	<string id="jup_b19_freedom_yar_task_4_fetch_finish">
-		<text>You truly deserve to be my special client: the only stalker with such a large discount. Thank you!</text>
+		<text>You truly deserve to be my special client; the only stalker with such a large discount. Thank you!</text>
 	</string>
 
 
@@ -2168,10 +2168,10 @@
 		<text>The gangster technician at the container warehouse near Jupiter has asked you to retrieve %s.</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_about">
-		<text>Yeah, stalkers snatched everything and set up defences at Yanov, those bastards. We ain’t got nothing! Need some tools, lad. Get me some, yeah?</text>
+		<text>Yeah, stalkers snatched everything and set up defences at Yanov… Those bastards. We ain’t got nothing! Need some tools, lad. Get me some, yeah?</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_fetch_about">
-		<text>Yeah, stalkers snatched everything and set up defences at Yanov, those bastards. We ain’t got nothing! Need some tools, lad. Get me some, yeah?</text>
+		<text>Yeah, stalkers snatched everything and set up defences at Yanov… Those bastards. We ain’t got nothing! Need some tools, lad. Get me some, yeah?</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_1_fetch_finish">
 		<text>Ah, beautiful! Someone’s getting a discount.</text>
@@ -2200,10 +2200,10 @@
 		<text>The gangster technician at the container warehouse near Jupiter has asked you to retrieve %s.</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_about">
-		<text>Oi, lad, the two other sets of tools you brought us is really helpin’, but I need the best o’ the best. You know… the shit that’ll make ’em go, ‘oooh, yeeeah…’.</text>
+		<text>Oi, lad, the two other sets of tools you brought us is really helpin’, but I need the best o’ the best. You know… the shit that’ll make ’em go ‘oooh, yeeeah…’.</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_fetch_about">
-		<text>Oi, lad, the two other sets of tools you brought us is really helpin’, but I need the best o’ the best. You know… the shit that’ll make ’em go, ‘oooh, yeeeah…’.</text>
+		<text>Oi, lad, the two other sets of tools you brought us is really helpin’, but I need the best o’ the best. You know… the shit that’ll make ’em go ‘oooh, yeeeah…’.</text>
 	</string>
 	<string id="jup_cont_mech_bandit_task_3_fetch_finish">
 		<text>Well, fuck me sideways! What a rarity… a real rarity. I’ll give you another discount; you deserve it. Thanks, bruv.</text>
@@ -2234,10 +2234,10 @@
 		<text>Gatekeeper has asked you to retrieve %s.</text>
 	</string>
 	<string id="killer_bridge_trader_mlr_task_2_about">
-		<text>Our soldiers could use a few artefacts, it’ll be tough getting through Limansk without them. Could you help us find one?</text>
+		<text>Our soldiers could use a few artefacts; it’ll be tough getting through Limansk without them. Could you help us find one?</text>
 	</string>
 	<string id="killer_bridge_trader_mlr_task_2_fetch_about">
-		<text>Our soldiers could use a few artefacts, it’ll be tough getting through Limansk without them. Could you help us find %s?</text>
+		<text>Our soldiers could use a few artefacts; it’ll be tough getting through Limansk without them. Could you help us find %s?</text>
 	</string>
 	<string id="killer_bridge_trader_mlr_task_2_fetch_finish">
 		<text>Many thanks. Here, have this.</text>
@@ -2291,7 +2291,7 @@
 		<text>What makes the local environment dangerous?</text>
 	</string>
 	<string id="loki_st_11">
-		<text>It’s full of mutant. On top of that, you’ve got the Monolith, who have completely taken over the old depot. Other than that, some areas are crawling with zombies, such as the old village of Kopachy west of us, along with the ventilation complex and the Volkhov AA complex. Keep your eyes peeled, lad.</text>
+		<text>It’s full of mutant. On top of that, you’ve got the Monolith, who have completely taken over the old depot. Other than that, some areas are crawling with zombies, such as the old village of Kopachy west of us, along with the ventilation complex and the Volkhov AA complex. Keep your eyes peeled, mate.</text>
 	</string>
 	<string id="loki_st_12">
 		<text>Thanks. I’ll keep that in mind.</text>
@@ -2569,13 +2569,13 @@
 			<text>Ammunition.</text>
 		</string>
 		<string id="low_level_of_buy_equpments_5">
-			<text>Choose.</text>
+			<text>Choose your medicaments.</text>
 		</string>
 		<string id="low_level_of_buy_equpments_6">
-			<text>Choose.</text>
+			<text>What do you need for your journeys?</text>
 		</string>
 		<string id="low_level_of_buy_equpments_7">
-			<text>Choose.</text>
+			<text>You won’t find a shortage of ammunition here.</text>
 		</string>
 
 	<string id="low_level_of_buy_equpments_29">
@@ -2588,7 +2588,7 @@
 		<text>I need medical assistance.</text>
 	</string>
 	<string id="mar_smart_terrain_base_doctor_heal_1">
-		<text>A thousand roubles, then we’ll see what I can do.</text>
+		<text>A thousand roubles, and then we’ll see what I can do.</text>
 	</string>
 
 		<string id="mar_smart_terrain_base_doctor_heal_5">
@@ -2795,7 +2795,7 @@
 		<text>Are you part of Wings? What are we doing here?</text>
 	</string>
 	<string id="main_monolith_mlr_task_4_dlg_1_2">
-		<text>That we are… or more precisely, what is left of them. I’m Griffin, and the other guys go by Sparrow and Pegasus. The guy with the SVD is Wind; not the most talkative lad in the squad, though. So, listen up: at one time, there were a lot of men in our unit. Our might was something for all the heretics to fear… that was, until some stalker sabotaged the local ‘brainwashing facility’. The ensuing firefight had to be witnessed to be believed: Duty, Freedom, the loners, and the military, assaulting us all at once. Our unit was thrashed, and not even our best members survived the battle. But still: even now, nobody has managed to take control of this area. I don’t know what happened here, but the area’s completely infested by walking corpses and all kinds of nasty creatures.</text>
+		<text>That we are… or more precisely, what is left of them. I’m Griffin, and the other guys go by Sparrow and Pegasus. The guy with the SVD is Wind. So, listen up: at one time, there were a lot of men in our unit. Our might was something for all the heretics to fear… that was, until some stalker sabotaged the local ‘brainwashing facility’. The ensuing firefight had to be witnessed to be believed: Duty, Freedom, the loners, and the military, assaulting us all at once. Our unit was thrashed, and not even our best members survived the battle. But still: even now, nobody has managed to take control of this area. I don’t know what happened here, but the area’s completely infested by walking corpses and all kinds of nasty creatures.</text>
 	</string>
 	<string id="main_monolith_mlr_task_4_dlg_1_3">
 		<text>So, what is our mission?</text>
@@ -2957,7 +2957,7 @@
 		<text>This needs to be done before morning, since that’s when all of those bastards are cosy in their camp. I’ve gathered a squad of strong men to get even with the thugs at their home base in the fishing hamlet, and I would like you to go with them. There’s only one thing: don’t ditch the guys. If someone gets killed, I won’t forgive you.</text>
 	</string>
 	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_1_finish">
-		<text>Thank you, this is from me. You are worthy to wear this uniform.</text>
+		<text>Thank you. This is from me. You are worthy to wear this uniform.</text>
 	</string>
 
 	<string id="mar_smart_terrain_base_stalker_leader_marsh_task_2_name">
@@ -3132,7 +3132,7 @@
 		<text>Are you a guide?</text>
 	</string>
 	<string id="meet_guid_bar_1">
-		<text>Yep, Navigator’s the name. Can take you to a few places for a modest fee. Rookies are my customers most of the time, but I can lead any experienced stalker as well. No shame in that. I’ll break it down: you pay, I get you wherever you want to go, and I return here. I can take you to one of six locations: Yantar, the Great Swamps, the army warehouses, the Garbage, the Cordon, and Jupiter.</text>
+		<text>Yep. Navigator’s the name. Can take you to a few places for a modest fee. Rookies are my customers most of the time, but I can lead any experienced stalker as well. No shame in that. I’ll break it down: you pay, I get you wherever you want to go, and I return here. I can take you to one of six locations: Yantar, the Great Swamps, the army warehouses, the Garbage, the Cordon, and Jupiter.</text>
 	</string>
 
 	<string id="meet_guid_bar_list_0">
@@ -3148,14 +3148,14 @@
 		<text>Who have we got here?</text>
 	</string>
 	<string id="meet_guid_dv_bandit_1">
-		<text>You blind or something? I’m the local guide here. If you need my help, I can drop you at quite a few places, such as our outpost in the truck cemetery or our warehouse in Jupiter. It’ll cost ya, though!</text>
+		<text>You blind or something? I’m the local guide here. If you need my help, I can drop you at quite a few places, such as our encampment in the truck cemetery or our warehouse in Jupiter. It’ll cost ya, though!</text>
 	</string>
 
 	<string id="travel_guid_dv_bandit_list_0">
 		<text>Remind me which paths you take.</text>
 	</string>
 	<string id="travel_guid_dv_bandit_list_1">
-		<text>The Garbage; twenty-five hundred, the truck cemetery; twenty-five hundred, the Cordon; four thousand, and Jupiter, eight thousand. All our territory, ha-ha!</text>
+		<text>The Garbage, twenty-five hundred; the truck cemetery, twenty-five hundred; the Cordon, four thousand; and Jupiter, eight thousand. All that territory’s ours, ha-ha!</text>
 	</string>
 
 
@@ -3164,7 +3164,7 @@
 		<text>Who are you?</text>
 	</string>
 	<string id="meet_guid_jup_1">
-		<text>Nice to meet you, bro. Name’s Garry, and I’m a guide. Usually roam around the centre of the Zone. I can take you to the Bar, Pripyat and its outskirts, the Red Forest, Zaton, and the Jupiter Underground.</text>
+		<text>Nice to meet you, mate. Name’s Garry, and I’m a guide. Usually roam around the centre of the Zone. I can take you to the Bar, Pripyat and its outskirts, the Red Forest, Zaton, and the Jupiter Underground.</text>
 	</string>
 
 	<string id="meet_guid_jup_list_0">
@@ -3212,7 +3212,7 @@
 		<text>Hey, why are you standing there?</text>
 	</string>
 	<string id="meet_guid_marsh_csky_1">
-		<text>Well, there’s no time for me to sit around; gotta be aware of the surrounding area, considering I’m the local guide. If you’ve got the money, there are a few places in the Swamps I can guide you to: the observation post, the water pump station, or the machine yard. I can also take a route to the rookie village in the Cordon. If you’ve gone completely bonkers, Agroprom is another option, and if you’re in a good mood, there’s also the Bar!</text>
+		<text>Well, there’s no time for me to sit around! Gotta be aware of the surrounding area, considering I’m the local guide. If you’ve got the money, there are a few places in the Swamps I can guide you to: the observation post, the water pump station, or the machine yard. I can also take you on a trip to the rookie village in the Cordon. If you’ve gone completely bonkers, Agroprom is another option, and if you’re in a good mood, there’s also the Bar!</text>
 	</string>
 
 	<string id="meet_guid_marsh_csky_list_0">
@@ -3253,7 +3253,7 @@
 		<text>To which places may I travel to, brother?</text>
 	</string>
 	<string id="meet_guid_red_forest_mon_1">
-		<text>I cannot escort you personally, but our brothers may show you where to go, for a fee. We’ve got positions set up in the Red Forest, Jupiter and Pripyat. We would be glad to assist you at any time.</text>
+		<text>I cannot escort you personally, but our brothers may show you where to go for a fee. We’ve got positions set up in the Red Forest, Jupiter, and Pripyat. We would be glad to assist you at any time.</text>
 	</string>
 
 	<string id="meet_guid_red_forest_mon_list_0">
@@ -3291,7 +3291,7 @@
 		<text>Go on.</text>
 	</string>
 	<string id="meet_povar_army_3">
-		<text>Well, I know that getting ammo around here is rough, especially when Sakharov doesn’t even sell any. I can hook you up with some stuff, but only Soviet-era shite, unfortunately. I’ve also got a few outfits; everything I’ve managed to steal is mine. What do you say about trading with me for a few bottles of Cossacks? For five bottles, I can offer you six mags of 9x18, or three mags of 5.45. For ten bottles, I can share six mags of 5.45, two mags of 7.62, or five packs of 12x70 buckshot rounds. For fifteen bottles and seven thousand roubles, I can get you five box mags for the PKP, and for twenty bottles, I’ll fetch you an entire Berill suit from the bins. Don’t think I’m a scoundrel… It’s not that bad, the lion’s share goes to the guys. They’ve left me their equipment in a stash. I’ll leave any goods between the hangars outside the bunker.</text>
+		<text>Well, I know that getting ammo around here is rough, especially when Sakharov doesn’t even sell any. I can hook you up with some stuff, but only Soviet-era shite, unfortunately. I’ve also got a few outfits; everything I’ve managed to steal is mine. What do you say about trading with me for a few bottles of Cossacks? For five bottles, I can offer you six mags of 9x18, or three mags of 5.45. For ten bottles, I can share six mags of 5.45, two mags of 7.62, or five packs of 12x70 buckshot rounds. For fifteen bottles and seven thousand roubles, I can get you five box mags for the PKP, and for twenty bottles, I’ll fetch you an entire Berill suit from the bins… Don’t think I’m a scoundrel. It’s not that bad, and the lion’s share goes to the guys. They’ve left me their equipment in a stash. I’ll leave any goods between the hangars outside the bunker.</text>
 	</string>
 	<string id="meet_povar_army_4">
 		<text>I’ll consider it. Thank you.</text>
@@ -3364,14 +3364,14 @@
 		<text>Greetings. What do you do?</text>
 	</string>
 	<string id="meet_zaton_killer_guide_station_1">
-		<text>I could ask you a reasonable question in return: ‘What’s your damn business’? But that’s not what you wanna hear, is it? I work as a trader and a guide, and I know routes to our head base in the Dead City, along with our main outpost in Zaton.</text>
+		<text>I could ask you a reasonable question in return: ‘What’s your bloody business?’ But that’s not what you wanna hear, is it? I work as a trader and guide, and I know routes to our head base in the Dead City, along with our main outpost in the Red Forest.</text>
 	</string>
 
 	<string id="meet_zaton_killer_guide_station_list_0">
 		<text>Could you remind me where your routes lead?</text>
 	</string>
 	<string id="meet_zaton_killer_guide_station_list_1">
-		<text>Two routes, pal. Dead City for eight grand, and the Red Forest for two and a half.</text>
+		<text>Two routes, pal. The Dead City for eight grand, and the Red Forest for two and a half.</text>
 	</string>
 
 
@@ -3415,7 +3415,7 @@
 		<text>We’ve got another problem. There are dogs who have settled down at the grocery store, and that’s no good for us. They’ve been barking at us nonstop, and that draws unwanted attention. I’d appreciate it if you could clear them out from that place.</text>
 	</string>
 	<string id="merc_pri_a16_tesak_mlr_task_3_finish">
-		<text>Thank you, great work. Here’s some money for your trouble.</text>
+		<text>Great work. Here’s some money for your trouble.</text>
 	</string>
 
 
@@ -3470,7 +3470,7 @@
 		<text>Hey, what’s up?</text>
 	</string>
 	<string id="mil_freedom_guid_meet_1">
-		<text>Nothing much, just lazing around. I’m Leshiy, local guide and scout.</text>
+		<text>Nothing much, just lazing around. I’m Leshiy, the local guide and scout.</text>
 	</string>
 	<string id="mil_freedom_guid_meet_2">
 		<text>And how’s the local intelligence? I presume you’ve visited many places?</text>
@@ -3570,7 +3570,7 @@
 		<text>Oh, fighter, hello! There’s a delicate matter for us to handle. Do you know that village on the way to Rostok that Dutyers have been squatting in for years? No? Basically, I had an idea of how to discourage them from coming there once and for all: we need to flaunt our tactics to intimidate them, make them think twice about coming back. Some fresh forces just arrived there, I really don’t know why they are there, but if we defeat them with half their number, imagine how much pressure it’ll put on them! Well, are you interested?</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_6_finish">
-		<text>Outstanding! Good work, fighter: take this rifle. Don’t look upset, it’s a good shooter and while it certainly isn’t fit for, say, the open spaces of the army warehouses, it should come in useful at some point and time… he-he.</text>
+		<text>Outstanding work, fighter! Take this rifle. Don’t look upset; it’s a good shooter, and while it certainly isn’t fit for, say, the open spaces of the army warehouses, it should come in useful at some point and time… he-he.</text>
 	</string>
 
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_name">
@@ -3580,13 +3580,13 @@
 		<text>Miklukha has complained that the level of technical support of the group leaves much to be desired. They require four Veles detectors.</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_about">
-		<text>Oh, you’re just in time; my men rarely drop by to work, but alas, I can’t blame them for that. If you don’t know, back in the old days with Lukash, Cook and the other cockeyed personalities, our level of material security was negligible; and now, under the new leadership, even less than that. I want to bring back the tradition of gathering artefacts to fit people’s needs, but we possess only a couple of Veles-class detectors, and one of them is broken. I need four of these detectors, I’ll pay five grand for each. Well, are you in?</text>
+		<text>Oh, you’re just in time; my men rarely drop by to work, but, alas, I can’t blame them for that. If you don’t know, back in the old days with Lukash, Cook, and the other cockeyed personalities, our level of material security was negligible, and now, under the new leadership, even less than that. I want to bring back the tradition of gathering artefacts to fit people’s needs, but we possess only a couple of Veles-class detectors, one of which is broken. I need four of these detectors, and I’ll pay five grand for each. You in?</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_fetch_about">
-		<text>Oh, you’re just in time; my men rarely drop by to work, but alas, I can’t blame them for that. If you don’t know, back in the old days with Lukash, Cook and the other cockeyed personalities, our level of material security was negligible; and now, under the new leadership, even less than that. I want to bring back the tradition of gathering artefacts to fit people’s needs, but we possess only a couple of Veles-class detectors, and one of them is broken. I need four of these detectors, I’ll pay five grand for each. Well, are you in?</text>
+		<text>Oh, you’re just in time; my men rarely drop by to work, but, alas, I can’t blame them for that. If you don’t know, back in the old days with Lukash, Cook, and the other cockeyed personalities, our level of material security was negligible, and now, under the new leadership, even less than that. I want to bring back the tradition of gathering artefacts to fit people’s needs, but we possess only a couple of Veles-class detectors, one of which is broken. I need four of these detectors, and I’ll pay five grand for each. You in?</text>
 	</string>
 	<string id="mil_smart_terrain_7_7_freedom_leader_stalker_task_7_fetch_finish">
-		<text>Thank you, take your money.</text>
+		<text>Thank you. Take your money.</text>
 	</string>
 
 
@@ -3823,7 +3823,7 @@
 		<text>PDA of a dead stalker</text>
 	</string>
 	<string id="pole_factory_doc_4_desc">
-		<text>The battery is dead, although a note hidden inside the battery compartment reads: ‘Stalker, if you are reading this, it’s best that you leave this place for good. If you came hoping to profit, you should know that there’s truly nothing here… although, by the time of discovering this PDA, you probably understand everything already. I don’t know if we’re going to survive this night… Everything’s so disgusting and terrifying. My mind feels like it’s open, as if something’s reading my thoughts and scoffing at me. I’m exhausted… My thoughts are blurring together… I think I’ll end this entry here.’</text>
+		<text>The battery has been depleted, although a note hidden inside the battery compartment reads: ‘Stalker, if you are reading this, it’s best that you leave this place for good. If you came hoping to profit, you should know that there’s truly nothing here… although, by the time of discovering this PDA, you probably understand everything already. I don’t know if we’re going to survive this night… Everything’s so disgusting and terrifying. My mind feels like it’s open, as if something’s reading my thoughts and scoffing at me. I’m exhausted… My thoughts are blurring together… I think I’ll end this entry here.’</text>
 	</string>
 
 
@@ -3864,7 +3864,7 @@
 		<text>Zombies are entering Pripyat from the Radar. You need to clear them away.</text>
 	</string>
 	<string id="pri_monolith_teacher_mlr_task_3_about">
-		<text>Zombies are coming in from the Radar. Last we heard they were approaching from the South side of the city. We must clear the area of their pestilence. Are you willing to go?</text>
+		<text>Zombies are coming in from the Radar. Last we heard, they were approaching from the south side of the city. We must clear the area of their pestilence. Are you willing to go?</text>
 	</string>
 	<string id="pri_monolith_teacher_mlr_task_3_finish">
 		<text>Well done. Here is your reward.</text>
@@ -3878,7 +3878,7 @@
 		<text>Is there something in that room?</text>
 	</string>
 	<string id="request_to_no_go_nimble_bar_1">
-		<text>Not something, someone. That guy in there is a veteran, and he can get anyone any kind of equipment, even unique stuff. He isn’t accepting any visitors, though; gotta make sure you’re trusted for that. Gonna need a name around here.</text>
+		<text>Not something, someone. That guy in there is a veteran, and he can get anyone any kind of equipment. Even unique stuff. He isn’t accepting any visitors, though; gotta make sure you’re trusted for that. Gonna need a name around here.</text>
 	</string>
 
 	<string id="request_to_no_go_nimble_bar_1_0">
@@ -3892,16 +3892,16 @@
 		<text>Is there something in that room?</text>
 	</string>
 	<string id="request_to_no_go_nimble_bar_2_1">
-		<text>Not something, someone. That guy in there is a veteran, and he can get anyone any kind of equipment; even unique stuff. If you want to see him, go ahead. I trust you. You can tell Garik you need to pass. Just head straight and then right down the corridor. His name is Nimble.</text>
+		<text>Not something, someone. That guy in there is a veteran, and he can get anyone any kind of equipment. Even unique stuff. If you want to see him, go ahead. I trust you. You can tell Garik you need to pass. Just head straight and then right down the corridor. His name is Nimble.</text>
 	</string>
 
 
 
 	<string id="request_to_no_trade_dialog_0">
-		<text>Can I buy extra equipment?</text>
+		<text>Is there any extra equipment for sale?</text>
 	</string>
 	<string id="request_to_no_trade_dialog_1">
-		<text>That’s certainly possible, but nobody right now will want to sell you anything extra. You’ll have to gain some trust and experience, and after that you can buy equipment wholesale.</text>
+		<text>Certainly, but nobody right now will want to sell you any extra supplies. You’ll have to gain some trust and experience, and after that, you can buy equipment wholesale.</text>
 	</string>
 
 	<string id="request_to_no_trade_dialog_monolith_0">
@@ -3933,7 +3933,7 @@
 		<text>Yep. But you gotta help me with something, first. There’s no way to survive around here without a weapon. I used to have a good shotgun; grabbed it before I came here, but I went to the local substation not far from here, and there was a strange anomaly there… I got careless and got zapped! Fortunately, I wasn’t hurt, but I freaked out and threw the weapon, then ran away here. Laugh all you want, but when you escape death that narrowly… So, will you bring it to me? That’s… if you want to help me with something else afterwards.</text>
 	</string>
 	<string id="rookie_pole_task_1_dlg_4">
-		<text>Alright, I’ll go get your shotgun.</text>
+		<text>Alright. I’ll go get your shotgun.</text>
 	</string>
 	<string id="rookie_pole_task_1_dlg_5">
 		<text>Not now.</text>
@@ -4015,13 +4015,13 @@
 		<text>Got any thoughts?</text>
 	</string>
 	<string id="rookie_pole_task_2_questions_1">
-		<text>Let’s check out that PDA, there might be something useful on it. I don’t think they’ve touched it.</text>
+		<text>Let’s check out that PDA. There might be something useful on it. I don’t think they’ve touched it.</text>
 	</string>
 	<string id="rookie_pole_task_2_questions_2">
-		<text>I think we should check out the three-story administrative building in the middle of the complex, along with the workshops.</text>
+		<text>I think we should check out the three-story administrative building in the middle of the complex, in addition to the workshops.</text>
 	</string>
 	<string id="rookie_pole_task_2_questions_3">
-		<text>Right? Let’s scout it, maybe the stalkers left behind some traces while they were still kicking. I just don’t wanna stay around here for too long; got a bad feeling about this.</text>
+		<text>Right? Let’s scout it. Maybe the stalkers left behind some traces while they were still kicking. I just don’t wanna stay around here for too long. Got a bad feeling about this…</text>
 	</string>
 	<string id="rookie_pole_task_2_questions_4">
 		<text>None at the moment.</text>
@@ -4042,7 +4042,7 @@
 		<text>What else do you need help with?</text>
 	</string>
 	<string id="rookie_pole_task_3_dlg_1">
-		<text>A little while ago, some twat from the village came by and tried winding me up ’cos of my face. Could you pay him a little visit?</text>
+		<text>A little while ago, some twat from the village came by and tried winding me up ’cos of my looks. Could you pay him a little visit?</text>
 	</string>
 	<string id="rookie_pole_task_3_dlg_2">
 		<text>How am I going to take him out? If I’m spotted, I’m done for.</text>
@@ -4126,7 +4126,7 @@
 		<text>Man, can you gather some Duty scum patches for me? It’ll help me rest easier at night.</text>
 	</string>
 	<string id="simulation_task_19_fetch_finish">
-		<text>Maximum respect, bro! Hold on to this artefact.</text>
+		<text>Maximum respect, bruv! Hold on to this artefact.</text>
 	</string>
 
 	<string id="simulation_task_20_name">
@@ -4556,7 +4556,7 @@
 		<text>Non Stop energy drink</text>
 	</string>
 	<string id="st_energy_drink_nonstop_descr">
-		<text>An outstanding energy drink containing caffeine, taurine, and a powerful vitamin complex that relieves fatigue and adds strength.</text>
+		<text>An outstanding energy drink, containing caffeine, taurine, and a powerful vitamin complex that relieves fatigue and adds strength. The label reads: ‘This drink will instantly rejuvenate your mind and body.’</text>
 	</string>
 
 
@@ -4929,25 +4929,25 @@
 		<text>Congratulations! With a memory like that, you’ll be the next Strelok. Now listen carefully. I’m the big dog here, and you will know my name. I got here from Zaton some time ago along with my guys. We fucked the mutants out of the base and got it back up and running. Some sod set us up, pretended to be one of us and ratted me out. Had to get the hell out.</text>
 	</string>
 	<string id="sultan_st_2">
-		<text>These rooks don’t even know the rules, copping the made guys like that. Whatever that douchebag’s name was, I’m going to rip him a new one.</text>
+		<text>These rooks don’t even know the rules, copping the made guys like that. Whatever that twat’s name was, I’m gonna rip him a new one.</text>
 	</string>
 	<string id="sultan_st_3">
 		<text>His name was Sashenka or something, and stay out of his ass. Your prick can’t be any larger than my pinky, and his asshole’s a metal maze.</text>
 	</string>
 	<string id="sultan_st_4">
-		<text>Got it. Any tips on others in the Zone?</text>
+		<text>Got it. Any tips on other groups in the Zone?</text>
 	</string>
 	<string id="sultan_st_5">
-		<text>Simple. Don’t trust anybody but our guys with skulls on their sleeves. Pretty much everyone else is hostile, remember that. Just try to figure things out for yourself. If you feel something’s off, get your ass out of there.</text>
+		<text>Simple. Don’t trust anybody but our guys with skulls on their sleeves. Pretty much everyone else is hostile; remember that. Just try to figure things out for yourself. If you feel something’s off, get your arse out of there.</text>
 	</string>
 	<string id="sultan_st_6">
 		<text>Got it. Any safe places I can stay?</text>
 	</string>
 	<string id="sultan_st_7">
-		<text>No such thing as a safe place in the Zone, boy, but don’t let this advice go to waste. North of us is the truck cemetery, and our boys there control the old checkpoint and the entrance to the army warehouses. Try not to hang around the cemetery at night, and stay away from all the old vehicles. Radiation levels there are high enough to make your counter ring down to your balls, and that’s not even mentioning the creatures and anomalies. There’s the Garbage to the west; total chaos over there, and there’s a checkpoint to the north controlled by Duty. South of us is a forest called the Darkscape. Really wild place, you’ve got soldiers patrolling there from time to time and loners pissing about. Pretty big maze. Also, there are a few stalkers at the farm on the way to the Darkscape, so don’t fuck around. There’s a huge advantage in that forest: the road leads to the Cordon. You’ll easily find our guys at the vehicle station there.</text>
+		<text>No such thing as a safe place in the Zone, boy, but don’t let this advice go to waste. North of us is the truck cemetery, and our boys there control the old checkpoint and the entrance to the army warehouses. Try not to hang around the cemetery at night, and stay away from all the old vehicles. Radiation levels there are high enough to make your counter ring down to your goolies, and that’s not even mentioning the creatures and anomalies. There’s the Garbage to the west; total chaos over there, and there’s a checkpoint to the north controlled by Duty. South of us is a forest called the Darkscape. Really wild place. You’ve got soldiers patrolling there from time to time and loners pissing about. Pretty big maze. Also, there are a few stalkers at the farm on the way to the Darkscape, so don’t fuck around. There’s a huge advantage in that forest: the road leads to the Cordon. You’ll easily find our guys at the vehicle station there.</text>
 	</string>
 	<string id="sultan_st_8">
-		<text>That’s kind of scary.</text>
+		<text>Some scary information you’ve got.</text>
 	</string>
 	<string id="sultan_st_9">
 		<text>And what did you expect, lad? No sunshine and rainbows. This is the real life.</text>
@@ -5010,19 +5010,19 @@
 		<text>Any free info can you share about the surrounding area?</text>
 	</string>
 	<string id="talk_to_maps_1">
-		<text>Usually info is how I make a living, but since everything’s quiet anyway, I can give you a bit of insight.</text>
+		<text>Usually, info is how I make a living, but since everything’s quiet anyway, I can give you a bit of insight.</text>
 	</string>
 	<string id="talk_to_maps_2">
 		<text>I’m all ears.</text>
 	</string>
 	<string id="talk_to_maps_3">
-		<text>Well, you’re in Rostok. It’s completely safe for anyone on good terms with Duty. To the west lies the Wild Territory, former western part of the Rostok factory. Rumours advise against going there at night. The best kill zones are held by the mercs, so you’ll likely be getting shot from two sides. There are mutants in the lower lands, and it’s better to find and stay on high ground, or stay by the warehouses… although, the mercs have them covered. That’s all about the Wild Territory. To the north lie the army warehouses, held by Duty’s ‘best friend’, Freedom. There’s nothing particularly interesting going on there, but it’s the last shelter around for sane people. To the east is the truck cemetery: stock up on anti-radiation supplies and ammo if you’re going there. There are a lot of mutants and sometimes the radiation is way past what even we consider to be normal. To the south is the Garbage… Complete anarchy going on over there. You’ve got mutants and thugs, but you’ve also got a neat marketplace. That’s all for the roundabouts, need anything else?</text>
+		<text>Well, you’re in Rostok. It’s completely safe for anyone on good terms with Duty. To the west lies the Wild Territory, the former western part of the Rostok factory. Rumours advise against going there at night. The best kill zones are held by the mercs, so you’ll likely be getting shot from two sides. There are mutants in the lower lands, and it’s better to find and stay on high ground, or stay by the warehouses… although, the mercs have those covered. That’s all about the Wild Territory. To the north lie the army warehouses, held by Duty’s ‘best friend’, Freedom. There’s nothing particularly interesting going on there, but it’s the last shelter around for sane people. To the east is the truck cemetery; stock up on anti-radiation supplies and ammo if you’re going there. There are a lot of mutants and sometimes the radiation is way past what even we consider to be normal. To the south is the Garbage… Complete anarchy going on over there. You’ve got mutants and thugs, but you’ve also got a neat marketplace. That’s all for the roundabouts, need anything else?</text>
 	</string>
 	<string id="talk_to_maps_4">
 		<text>You mentioned something about a shelter for sane people?</text>
 	</string>
 	<string id="talk_to_maps_5">
-		<text>Well, north of the warehouses is the Radar, an eerie place held by the Monolith. If you’re heading there, best stock up on ammunition and supplies.</text>
+		<text>Well, north of the warehouses is the Radar, an eerie place held by the Monolith. If you’re heading there, best stock up on ammunition and supplies. Let’s just say that it’s not the friendliest place you’ll come across.</text>
 	</string>
 	<string id="talk_to_maps_6">
 		<text>Thanks for the info.</text>
@@ -5043,7 +5043,7 @@
 		<text>Have you found anything?</text>
 	</string>
 	<string id="talk_to_saving_rookie_dlg_4">
-		<text>You bet! I’ve stashed some loot in the attic, you can head up there and take it as a token of gratitude. Listen, if you don’t have anything important going on, I’ve got an offer for you.</text>
+		<text>You bet! I’ve stashed some loot in the attic. You can head up there and take it as a token of gratitude. Listen, if you don’t have anything important going on, I’ve got an offer for you.</text>
 	</string>
 
 
@@ -5067,7 +5067,7 @@
 		<text>You’re a guide, right?</text>
 	</string>
 	<string id="tesak_travel_first_dlg_1">
-		<text>That is the case; I know a couple of paths from here thanks to a stalker. They say one of our squads wanted to get rid of him, but fortunately, he ain’t mad at us for that. And, the sewer network here is quite well developed. My list goes as follows: CNPP, Pripyat, Yanov in Jupiter, the Radar, the Pripyat Underground, and Zaton, through Garry.</text>
+		<text>That is the case; I know a couple of paths from here thanks to a stalker. They say one of our squads wanted to get rid of him, but fortunately, he ain’t mad at us for that. And, the sewer network here is quite well developed. My list goes as follows: the CNPP, Pripyat, Yanov in Jupiter, the Radar, the Pripyat underground, and Zaton, through Garry.</text>
 	</string>
 
 
@@ -5139,7 +5139,7 @@
 		<text>To the Garbage. %c[255,238,153,26][700 RU]</text>
 	</string>
 	<string id="travel_guid_bar_4">
-		<text>To the Army Warehouses. %c[255,238,153,26][1000 RU]</text>
+		<text>To the army warehouses. %c[255,238,153,26][1000 RU]</text>
 	</string>
 	<string id="travel_guid_bar_5">
 		<text>To Yantar. %c[255,238,153,26][3500 RU]</text>
@@ -5436,7 +5436,7 @@
 		<text>Was just sittin’ around, chillin’ like villains, when I realised what we were missing. That’s right, even better tools! Anyways, ’sup with you? Wanna help find some?</text>
 	</string>
 	<string id="trucks_cemetery_bandit_mechanic_task_3_fetch_finish">
-		<text>Well, stone the crows, you actually fockin’ did it! Thanks, mate. You’re the best. Biggest discount goes to you. Enjoy it!</text>
+		<text>Well, stone the crows! You actually fockin’ did it! Thanks, mate; you’re the best. Biggest discount goes to you. Enjoy it!</text>
 	</string>
 
 
@@ -5547,7 +5547,7 @@
 		<text>What is the C-Consciousness?</text>
 	</string>
 	<string id="wings_soldier_mon_mlr_2_talk_5">
-		<text>You really haven’t heard about them? Some might dismiss them as a myth, but I know for sure that they’re a group of expert scientists who somehow came into the noosphere. I managed to visit their laboratory in the north of the Zone, and let me tell you, they’ve got some fine technology: holograms, computers, other advanced equipment… It’s difficult to believe that it’s the result of combining modern Ukrainian inventions with old Soviet technology. And, you know, I’d rather be around those who inspire a bit of confidence rather than some messed-up Dutyers.</text>
+		<text>You really haven’t heard about them? Some might dismiss them as a myth, but I know for sure that they’re a group of expert scientists who somehow came into the noosphere. I managed to visit their laboratory in the north of the Zone, and let me tell you, they’ve got some fine technology: holograms, computers, other advanced equipment… It’s difficult to believe that it’s the result of combining modern Ukrainian inventions with old Soviet technology. And, you know, I’d rather be around those who inspire a bit of confidence, rather than some messed-up Dutyers.</text>
 	</string>
 
 	<string id="wings_soldier_mon_mlr_3_talk_0">
@@ -5747,21 +5747,21 @@
 		<text>Sultan wants you to shake the huckster in the Garbage.</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_3_about">
-		<text>Alright, let’s get one thing done. Even though those buggers at the flea market won’t accept our protection, you have to show them that they’re gonna be in need our services. You never know what can happen in life, right? Pay immediately and fucking take it. There they have a couple of devils on the lookout, I don’t think there’s gonna be any trouble for you. And listen here: I’m gonna send my guys to hunt you down if it turns out that you keep even a single piss-soaked penny for yourself; they’ll make sure your mangled corpse will be found in a ditch by the side of the road. Capisce?</text>
+		<text>Alright, let’s get one thing done. Even though those buggers at the flea market won’t accept our protection, you have to show them that they’re gonna be in need our services. You never know what can happen in life, right? Pay immediately and fucking take it. There they have a couple of devils on the lookout, I don’t think there’s gonna be any trouble for you. And listen here: I’m gonna send my guys to hunt you down if it turns out that you keep even a single piss-soaked penny for yourself; they’ll make sure your mangled corpse will be found in a ditch by the side of the road. Everything clear?</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_3_finish">
 		<text>That’s all for the common cash fund, and here’s your hard earned score.</text>
 	</string>
 
 	<string id="zat_b7_bandit_boss_sultan_task_3_trader_day_0">
-		<text>Hand over your shite right now; artefacts, goods, everything!</text>
+		<text>Stump up yer shite right now: artefacts, goods, everything!</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_3_trader_day_1">
 		<text>Here. I don’t have any artefacts.</text>
 	</string>
 
 	<string id="zat_b7_bandit_boss_sultan_task_3_trader_night_0">
-		<text>Hand over your shite right now; artefacts, goods, everything!</text>
+		<text>Stump up yer shite right now: artefacts, goods, everything!</text>
 	</string>
 	<string id="zat_b7_bandit_boss_sultan_task_3_trader_night_1">
 		<text>Take what I have. Just don’t shoot.</text>

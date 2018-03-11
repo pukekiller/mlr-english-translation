@@ -965,12 +965,12 @@
 			</phrase>
 			<phrase id="2">
 				<text>bandit_barman_dar_mlr_start_dlg_2</text>
+				<action>dialogs_mlr.give_vodka_from_bandit_barman_dar_mlr</action>
 				<next>3</next>
 			</phrase>
 			<phrase id="3">
 				<text>bandit_barman_dar_mlr_start_dlg_3</text>
 				<give_info>bandit_barman_dar_mlr_start_dlg</give_info>
-				<action>dialogs_mlr.give_vodka_from_bandit_barman_dar_mlr</action>
 			</phrase>
 		</phrase_list>
 	</dialog>
@@ -3131,16 +3131,16 @@
 				<next>8</next>
 			</phrase>
 			<phrase id="2">
-				<precondition>dialogs_mlr.have_duty_patch_20</precondition>
-				<text>ashot_price_for_pathes_duty1_2</text>
-				<action>dialogs_mlr.take_duty_patch_20</action>
-				<action>dialogs_mlr.give_ammo_nato_from_ashot_mlr</action>
-			</phrase>
-			<phrase id="3">
 				<precondition>dialogs_mlr.have_duty_patch_15</precondition>
-				<text>ashot_price_for_pathes_duty1_3</text>
+				<text>ashot_price_for_pathes_duty1_2</text>
 				<action>dialogs_mlr.take_duty_patch_15</action>
 				<action>dialogs_mlr.give_svd_ammo_from_ashot_mlr</action>
+			</phrase>
+			<phrase id="3">
+				<precondition>dialogs_mlr.have_duty_patch_20</precondition>
+				<text>ashot_price_for_pathes_duty1_3</text>
+				<action>dialogs_mlr.take_duty_patch_20</action>
+				<action>dialogs_mlr.give_ammo_nato_from_ashot_mlr</action>
 			</phrase>
 			<phrase id="4">
 				<precondition>dialogs_mlr.have_duty_patch_50</precondition>
@@ -5983,7 +5983,7 @@
 		</phrase_list>
 	</dialog>
 
-	<!-- Сопровождение -->
+	<!-- пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ -->
 	<!-- Companions -->
 
 	<dialog id="ecolog_companion_task_mlr_1_dialog">

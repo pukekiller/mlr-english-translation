@@ -4,11 +4,11 @@
 		<text>What now?</text>
 	</string>
 	<string id="totaliz_pre_1">
-		<text>I see you've earned quite a reputation in the arena, which now means you can make bets and watch fights! On par with all the big loan sharks, consider this as my present to you for being a great fighter. The bets won't be much for you, starting from one grand and going to five, and your prize will depend on the number of participants, winners and losers. To put it briefly, you can earn from forty per cent of your bet up to three times as much as you've given.</text>
+		<text>I see you’ve earned quite a reputation in the arena, which now means you can make bets and watch fights! On par with all the big loan sharks, consider this as my present to you for being a great fighter. The bets won’t be much for you, starting from one grand and going to five, and your prize will depend on the number of participants, winners, and losers. To put it briefly, you can earn from forty per cent of your bet up to three times as much as you’ve given.</text>
 	</string>
 
 	<string id="totaliz_begin_0">
-		<text>I'd like to watch a battle.</text>
+		<text>I’d like to watch a battle.</text>
 	</string>
 	<string id="totaliz_begin_1">
 		<text>Choose what you want to see.</text>
@@ -206,370 +206,370 @@
 			<text>Five thousand.</text>
 		</string>
 		<string id="totaliz_begin_58">
-			<text>I don't have that much money.</text>
+			<text>I don’t have that much money.</text>
 		</string>
 
 	<string id="totaliz_begin_20">
 		<text>Not interested.</text>
 	</string>
 	<string id="totaliz_begin_5">
-		<text>I've changed my mind.</text>
+		<text>I’ve changed my mind.</text>
 	</string>
 
 	<string id="total_reward_dialog_1000_0">
 		<text>You got the money?</text>
 	</string>
 	<string id="total_reward_dialog_1000_1">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_2">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_3">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_4">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_5">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_6">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_7">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_8">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_9">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_10">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_11">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_12">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_13">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_14">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_15">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_16">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_17">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_18">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_19">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_20">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_21">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_22">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_1000_23">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_24">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_25">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_26">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_27">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_28">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_29">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_30">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_31">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_32">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_33">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_34">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_35">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_36">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_37">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_1000_38">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 
 	<string id="total_reward_dialog_2500_0">
 		<text>What about the money?</text>
 	</string>
 	<string id="total_reward_dialog_2500_1">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_2">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_3">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_4">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_5">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_6">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_7">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_8">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_9">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_10">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_11">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_12">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_13">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_14">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_15">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_16">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_17">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_18">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_19">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_20">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_21">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_22">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_2500_23">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_24">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_25">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_26">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_27">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_28">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_29">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_30">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_31">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_32">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_33">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_34">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_35">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_36">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_37">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 	<string id="total_reward_dialog_2500_38">
-		<text>Nothing, you've lost.</text>
+		<text>Nothing. You’ve lost.</text>
 	</string>
 
 	<string id="total_reward_dialog_5000_0">
 		<text>What about the money?</text>
 	</string>
 	<string id="total_reward_dialog_5000_1">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_2">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_3">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_4">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_5">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_6">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_7">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_8">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_9">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_10">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_11">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_12">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_13">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_14">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_1">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_15">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_16">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_17">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_18">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_19">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_20">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_21">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_22">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_23">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_24">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_25">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_26">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_27">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_28">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_29">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_30">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_31">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_32">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_33">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_34">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_35">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_36">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_37">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 	<string id="total_reward_dialog_5000_38">
-		<text>Here's your prize.</text>
+		<text>Here’s your prize.</text>
 	</string>
 </string_table>

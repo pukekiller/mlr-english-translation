@@ -164,7 +164,7 @@ function dm_repair_not_done(a,b)
 
 		-- TODO: replace with translatable strings
 		local text = {}
-		for i=1,9 do 
+		for i=1,9 do
 			table.insert(text,"st_inventory_upgrade_reply_"..i)
 		end
 
@@ -407,7 +407,7 @@ function prereq_functor_a( param3, section )
 		local cash = actor:money()
 		-- Если бабла не хватает, то заносим в список соответствующую строку
 		if (cash<price) then
-			str = str.."\\n - "..game.translate_string("st_upgr_enough_money").."\\n   • "..price-cash.." RU"
+			str = str.."\\n - "..game.translate_string("st_upgr_enough_money").."\\n   - "..price-cash.." RU"
 		end
 		-- Читаем материалы, необходимые для установки
 		local required_materials = read_string_from_section(section, "required_materials")
@@ -436,7 +436,7 @@ function prereq_functor_a( param3, section )
 					local required_battery_charge_count = count - calculate_actor_battery_charge_count(1)
 					required_battery_charge_count = " ("..game.translate_string("st_up_charge").." x"..required_battery_charge_count..")"
 					required_material_name = read_string_from_section(required_materials[i], "inv_name")
-					required_material_name_list = required_material_name_list.."   • "..game.translate_string(required_material_name)..required_battery_charge_count
+					required_material_name_list = required_material_name_list.."   - "..game.translate_string(required_material_name)..required_battery_charge_count
 					if i~=materials_n then
 						required_material_name_list = required_material_name_list.."\\n"
 					end
@@ -444,7 +444,7 @@ function prereq_functor_a( param3, section )
 					local required_battery_charge_count = count - calculate_actor_battery_charge_count(2)
 					required_battery_charge_count = " ("..game.translate_string("st_up_charge").." x"..required_battery_charge_count..")"
 					required_material_name = read_string_from_section(required_materials[i], "inv_name")
-					required_material_name_list = required_material_name_list.."   • "..game.translate_string(required_material_name)..required_battery_charge_count
+					required_material_name_list = required_material_name_list.."   - "..game.translate_string(required_material_name)..required_battery_charge_count
 					if i~=materials_n then
 						required_material_name_list = required_material_name_list.."\\n"
 					end
@@ -452,7 +452,7 @@ function prereq_functor_a( param3, section )
 					local required_battery_charge_count = count - calculate_actor_battery_charge_count(3)
 					required_battery_charge_count = " ("..game.translate_string("st_up_length").." x"..required_battery_charge_count.." "..game.translate_string("st_up_meter")..")"
 					required_material_name = read_string_from_section(required_materials[i], "inv_name")
-					required_material_name_list = required_material_name_list.."   • "..game.translate_string(required_material_name)..required_battery_charge_count
+					required_material_name_list = required_material_name_list.."   - "..game.translate_string(required_material_name)..required_battery_charge_count
 					if i~=materials_n then
 						required_material_name_list = required_material_name_list.."\\n"
 					end
@@ -467,7 +467,7 @@ function prereq_functor_a( param3, section )
 						required_material_count = ""
 					end
 					-- Заносим в список недостающих материалов имя текущего материала и недостающее количество
-					required_material_name_list = required_material_name_list.."   • "..game.translate_string(required_material_name)..required_material_count
+					required_material_name_list = required_material_name_list.."   - "..game.translate_string(required_material_name)..required_material_count
 					-- Если позиция материала в списке не замыкающая, то ставим в строку разделитель
 					if i~=materials_n then
 						required_material_name_list = required_material_name_list.."\\n"
@@ -572,7 +572,7 @@ function property_functor_d(param1, name)
 	local prorerty_name = char_ini:r_string(name, "name")
 	-- Преобразуем строку имени в человеческий вид
 	local t_prorerty_name = game.translate_string(prorerty_name)
-	-- Распарсируем входящую строку с именами используемых секций 
+	-- Распарсируем входящую строку с именами используемых секций
 	local section_table = utils.parse_names(param1)
 	-- Считаем количество секций
 	local section_table_n = #section_table
@@ -670,21 +670,21 @@ function question_repair_item( item_name, item_condition, can, mechanic ) --( st
 end
 
 function effect_upgrade_item(item,upgrade_section) -- Alundaio: called from engine (UIInventoryUpgradeWnd.cpp)
-	if (axr_main.config:r_value("mm_options","enable_mechanic_feature",1,false) ~= true) then 
+	if (axr_main.config:r_value("mm_options","enable_mechanic_feature",1,false) ~= true) then
 		return
 	end
-	
+
 	local victim = victim_id and (db.storage[victim_id] and db.storage[victim_id].object or level.object_by_id(victim_id))
 	if (victim) then
 		lend_item_for_repair(item,victim:section(),1500)
 	end
-end 
+end
 
 function effect_repair_item( item_name, item_condition)
 	local price = how_much_repair( item_name, item_condition )
 	db.actor:give_money(-price)
 
-	if (axr_main.config:r_value("mm_options","enable_mechanic_feature",1,false) ~= true) then 
+	if (axr_main.config:r_value("mm_options","enable_mechanic_feature",1,false) ~= true) then
 		return
 	end
 
