@@ -232,7 +232,7 @@
 		<text>Zoom -</text>
 	</string>
 	<string id="st_ui_pda_legend_mechanic">
-		<text>Mechanic</text>
+		<text>Technician</text>
 	</string>
 	<string id="st_ui_pda_legend_medic">
 		<text>Medic</text>
@@ -318,7 +318,7 @@
     <string id="pda_show_enemy">
         <text>Display enemies</text>
     </string>
-
+	
     <string id="st_pda_mode_on">
         <text>On</text>
     </string>
@@ -342,7 +342,7 @@
     </string>
     <string id="st_pda_mode_disabled">
         <text>Disabled</text>
-    </string>
+    </string>	
     <string id="st_pda_distance_state_far">
         <text>Distance keep far</text>
     </string>
@@ -417,7 +417,7 @@
 		<text>Contacts</text>
 	</string>
 	<string id="pda_btn_contacts_hint">
-		<text>Show contacts</text>
+		<text>Show nearby contacts</text>
 	</string>
 	<string id="pda_show_known_contacts">
 		<text>Known contacts</text>
@@ -425,7 +425,7 @@
     <string id="pda_msg_all">
         <text>All</text>
     </string>
-
+	
 	<string id="st_mm_pda_statistics">
 		<text>Statistics</text>
 	</string>
@@ -447,7 +447,7 @@
 	<string id="st_mm_pda_level_travel">
 		<text>Level travel</text>
 	</string>
-
+	
 	<string id="st_mm_pda_dismissable">
 		<text>Dismissable</text>
 	</string>
