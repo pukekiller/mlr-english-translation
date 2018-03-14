@@ -217,7 +217,7 @@
 		<text>%c[255,160,160,160]Anonymous\n%c[default]shit pack of dogs coming at us sending coordinates n</text>
 	</string>
 	<string id="zone_news_main_spam_73">
-		<text>%c[255,160,160,160]Anonymous\n%c[default]You shitheads want a taste of a heat-seeking missile? Who taught you to fire a RPG?</text>
+		<text>%c[255,160,160,160]Anonymous\n%c[default]You shitheads want a taste of a heat-seeking missile? Who taught you to fire an RPG?</text>
 	</string>
 	<string id="zone_news_main_spam_74">
 		<text>%c[255,160,160,160]Anonymous\n%c[default]Bollocks, who emptied my stash?\n \n%c[255,160,160,160]Anonymous\n%c[default]Hahaha</text>
@@ -244,7 +244,7 @@
 		<text>%c[255,160,160,160]Anonymous\n%c[default]Hemul, head over to the Bar. Got some work for you!</text>
 	</string>
 	<string id="zone_news_main_spam_82">
-		<text>%c[255,160,160,160]Anonymous\n%c[default]Rumour has it that there's a controller dwelling inside X-16, and maybe not even one. A few experienced stalkers ventured there yesterday and haven't returned since.</text>
+		<text>%c[255,160,160,160]Anonymous\n%c[default]Rumour has it that there's a controller dwelling inside X-16, and there might even be more than one. A few experienced stalkers ventured there yesterday and haven't returned since.</text>
 	</string>
 	<string id="zone_news_main_spam_83">
 		<text>%c[255,160,160,160]Anonymous\n%c[default]who are those berks near the farm in merc gear? I ain't even thinking of goin near there!.</text>
