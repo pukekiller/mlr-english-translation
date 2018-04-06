@@ -264,13 +264,13 @@
 		<text>I have a few patches.</text>
 	</string>
 	<string id="ashot_price_for_pathes_duty1_1">
-		<text>Oh, great! Take your pick: fifty 7.62 rounds for fifteen patches, two hundred and ten 5.56 rounds for twenty patches, twenty M209 underbarrel grenades for fifty patches, a scientific Freedom suit for fifty patches, a Freedom exoskeleton for sixty-five patches, or a specially crafted SVD for a hundred patches!</text>
+		<text>Oh, great! Take your pick: two hundred and ten 5.56 rounds for twenty patches, fifty 7.62 rounds for fifteen patches, twenty M209 underbarrel grenades for fifty patches, a scientific Freedom suit for fifty patches, a Freedom exoskeleton for sixty-five patches, or a specially crafted SVD for a hundred patches!</text>
 	</string>
 	<string id="ashot_price_for_pathes_duty1_2">
-		<text>Fifty 7.62 rounds.</text>
+		<text>Two hundred and ten rounds of 5.56.</text>
 	</string>
 	<string id="ashot_price_for_pathes_duty1_3">
-		<text>Two hundred and ten rounds of 5.56.</text>
+		<text>Fifty 7.62 rounds.</text>
 	</string>
 	<string id="ashot_price_for_pathes_duty1_4">
 		<text>Twenty M209 grenades should be good.</text>
@@ -1285,7 +1285,7 @@
 			<text>Things happen. What’s your name?</text>
 		</string>
 		<string id="esc_factory_smart_terrain_10_bandit_mechanic_first_meet_9">
-			<text>I go by Baltic… Like, “Baltic Porter,” the same beer that got me locked up in the first place. Some thief made fun of me for my story, and it stuck with me. The nickname has always bothered me, but I’ve managed to keep my dignity.</text>
+			<text>I go by Baltic… Like, “Baltic Porter”: the same beer that got me locked up in the first place. Some thief made fun of me for my story, and it stuck with me. The nickname’s always bothered me, but I’ve managed to keep my dignity.</text>
 		</string>
 
 	<string id="esc_factory_smart_terrain_10_bandit_mechanic_first_meet_5">
@@ -1707,7 +1707,7 @@
 		<text>A group of bandits have settled near Duty’s post and need to be taken out.</text>
 	</string>
 	<string id="gar_smart_terrain_5_4_main_dolg_soldier_task_1_about">
-		<text>If you’ve got the guts, the parking lot needs to be cleared out of a few local bandits. Those freaks are batshit crazy, setting up camp next to our post. We would take care of them, but I don’t have the extra people. Are you in?</text>
+		<text>If you’ve got the guts, the parking lot needs to be cleared out of a few local bandits. Those freaks are batshit crazy, setting up camp next to our post and all. We would take care of them, but I don’t have the extra people. Are you in?</text>
 	</string>
 	<string id="gar_smart_terrain_5_4_main_dolg_soldier_task_1_finish">
 		<text>That’s a relief. Here’s your reward.</text>
@@ -2795,7 +2795,7 @@
 		<text>Are you part of Wings? What are we doing here?</text>
 	</string>
 	<string id="main_monolith_mlr_task_4_dlg_1_2">
-		<text>That we are… or more precisely, what is left of them. I’m Griffin, and the other guys go by Sparrow and Pegasus. The guy with the SVD is Wind. So, listen up: at one time, there were a lot of men in our unit. Our might was something for all the heretics to fear… that was, until some stalker sabotaged the local ‘brainwashing facility’. The ensuing firefight had to be witnessed to be believed: Duty, Freedom, the loners, and the military, assaulting us all at once. Our unit was thrashed, and not even our best members survived the battle. But still: even now, nobody has managed to take control of this area. I don’t know what happened here, but the area’s completely infested by walking corpses and all kinds of nasty creatures.</text>
+		<text>That we are… or more precisely, what is left of them. I’m Griffin, and the other guys go by Sparrow and Pegasus. The guy with the SVD is Wind. So, listen up: at one time, there were a lot of men in our unit. Our might was something for all the heretics to fear… that was, until some stalker sabotaged the local “brainwashing facility.” The ensuing firefight had to be witnessed to be believed: Duty, Freedom, the loners, and the military, assaulting us all at once. Our unit was thrashed, and not even our best members survived the battle. But still: even now, nobody has managed to take control of this area. I don’t know what happened here, but the area’s completely infested by walking corpses and all kinds of nasty creatures.</text>
 	</string>
 	<string id="main_monolith_mlr_task_4_dlg_1_3">
 		<text>So, what is our mission?</text>
@@ -3448,7 +3448,7 @@
 		<text>Go back to Ganja</text>
 	</string>
 	<string id="mil_freedom_barman_mlr_task_1_text">
-		<text>Ganja asked you to climb to the roof of the water tower in order to download some “entertainment data” for Freedom.</text>
+		<text>Ganja has asked you to climb to the roof of the water tower in order to download some “entertainment data” for Freedom.</text>
 	</string>
 	<string id="mil_freedom_barman_mlr_task_1_about">
 		<text>Oh, dude, glad you asked… Listen, as you know, we’ve got an internet network around these parts, but its range is freaking terrible. Usually, we have someone climb the water tower in the bloodsucker village and download all the good stuff for the guys, ’cause the speed there is pretty great. Just this time, could you be the one going up there? I’ve already opened the right program on this laptop, you just have to download the stuff for us. Will you help?</text>
